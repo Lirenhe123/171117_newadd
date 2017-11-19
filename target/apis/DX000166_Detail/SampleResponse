@@ -1,0 +1,215 @@
+
+ 
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="x-ua-compatible" content="ie=7" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>哈尔滨铁路局物资采购商务平台公告页面</title>
+<base href="http://wz.harb.95306.cn:80/"/>
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3"/>
+<meta http-equiv="description" content="哈尔滨铁路局物资采购商务平台"/>
+
+<link rel="stylesheet" rev="stylesheet" href="css/n0503/main.css" type="text/css" media="all" />
+<link rel="stylesheet" rev="stylesheet" href="css/n0503/register_public.css" type="text/css" media="all"/>
+
+<link rel="stylesheet" rev="stylesheet" href="css/n0503/main_orange.css" type="text/css" media="all"/>
+<link rel="stylesheet" rev="stylesheet" href="css/n0503/register_orange.css" type="text/css" media="all"/>
+
+<style type='text/css'>
+@media print {
+ .NoPrint { display: none; }
+}
+</style>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+	var fixTime = (1501486364295-(new Date()).getTime());
+	var mainDate=new Date();
+	updateTime(fixTime);
+	setInterval("updateTime();",1000);
+	$(document).ready(function(){
+		 $(".noticeBox").height($(".divAbs").outerHeight()+$(".topTlt").outerHeight()+40);
+	});
+	function updateTime(){
+		mainDate.setTime((new Date().getTime())+fixTime);
+		var str=mainDate.getFullYear()+'年 '+(mainDate.getMonth()+1)+'月'+mainDate.getDate()+'日'+'&nbsp;&nbsp;星期'+'日一二三四五六'.charAt(new Date().getDay())+'&nbsp;&nbsp;'+mainDate.getHours()+'时'+mainDate.getMinutes()+'分';
+		$("#jnkc").html(str);
+		}
+	
+	function downLoad(i){
+		
+		var pattrn=/^[0-9]{1}(4|5)$/g;
+  		document.form1.fileID.value=$('#fileID'+i).val();
+  		document.form1.action="/downloadfile.do?flag=1";
+	  	document.form1.submit();
+  	}
+	
+	
+  	//查看可售包件
+  	function readSell(projID){
+  		
+  		if("未登录,不允许参与该项目"!="ok"){
+  			alert("未登录,不允许参与该项目");
+  			return;
+  		}
+  		if(''==''){
+  		 	if(''=='3'){
+  				var url = "loadMenu.do?modelNo=3";
+  				window.location.href="http://wz.harb.95306.cn:80/"+url;
+  			}else{
+  				var url = "/pack/buy.do?rbt=cls&projId="+projID;
+				var win = "top=0,left=0,width=1044,height=650,toolbar=0,menubar=0,location=0,directories=0,scrollbars=1,status=1,resizable=1";
+				window.open(url,"readSell",win);
+  			}
+  		}else{
+  			var url = "/sealed/supplier/toapply.do?id="+projID;
+			var win = "top=0,left=0,width=1044,height=650,toolbar=0,menubar=0,location=0,directories=0,scrollbars=1,status=1,resizable=1";
+			window.open(url,"sealedApply",win);
+  		}
+  	}
+  	$(document).ready(function(){
+  		
+		$("#partake").click(function(){
+			readSell('OB002017072804302419');
+		});
+		$("#colse_btn").click(function(){
+			top.window.close();
+		});	
+		$("#print_btn").click(function(){
+			preview();
+		});		
+		
+	});
+	
+  	function preview(){
+  		
+  		$("#colse_btn").hide();
+  		$("#print_btn").hide();
+  		$("#partake").hide();
+  		
+  		if($.browser.msie&&$.browser.version=="6.0"){
+  			$(".noticeBox").css("width","100%");
+  			$(".noticeBox *").css("font-size","12px");
+  			$(".noticeBox *").css("line-height","20px");
+  			
+  		}
+  		var arr = $("img").get();
+  		var n = arr.length;
+  		for(i=1;i<n;i++){
+  		 if(arr[i].width>700)
+			arr[i].style.width="100%";
+  		}
+  		$("table").css("width","98%").css("margin","10px auto");
+  		
+  		
+  		
+  		var bdhtml=window.document.body.innerHTML;
+  		var sprintstr="<!--startprint-->";
+  		var eprintstr="<!--endprint-->";
+  		var prnhtml=bdhtml.substring(bdhtml.indexOf(sprintstr)+17);
+  		prnhtml=prnhtml.substring(0,prnhtml.indexOf(eprintstr))+location.href;
+  		window.document.body.innerHTML=prnhtml;
+  		window.print();
+  	}
+  	$(function(){
+  		$("a[name^='docFile']").click(function(){
+			var id=$(this).attr('name').substring(7,100); 
+			var win = "top=0,left=0,width=1044,height=650,toolbar=0,menubar=0,location=0,directories=0,scrollbars=1,status=1,resizable=1";
+  			var url = "notification/bidDocDownload.do?method=openBidDocDownload&documentId="+id;
+  			window.open(url,"",win);
+  		});
+ 	});
+</script>
+<style type="text/css">
+b{font-size: inherit;color: black;}
+</style>
+</head>
+  
+<body>
+<form name="form1" method="post">
+<input type="hidden" name="id" value="OB002017072804302418"/><!-- 公告主键ID -->
+<input type="hidden" name="fileID"  id="fileID"/>
+    <!--============ login ===============-->
+<div class="loginInfoDiv">
+	<div class="timePosition" id="jnkc"></div>
+	<div class="guide_PolicyPosition">
+		<a href="webGuide.do" target="_blank">网页向导</a>&nbsp;|&nbsp;&nbsp;
+		<a href="#">政策法规</a>
+	</div>
+</div>
+<!--============ flash ===============-->
+<div class="logoFlashInfoDiv">	
+	<img src="image/main_public/logo_default.png" alt="logo" />
+	<EMBED pluginspage="http://www.macromedia.com/go/getflashplayer" src="image/main_public/logo_hrb.swf" width="500px" height="54px" type="application/x-shockwave-flash" wmode="transparent" quality="high"></EMBED>
+</div>
+<!--============ menu ===============-->
+<div class="navcontainer">
+	<div class="globalnav">
+		<ul>
+			<li class="mouseDownSubMenubg" ><a href="/index.jsp" target="_self">首页</a></li>
+			
+			<li class="septallineStyle"></li>
+			<li><a href="webGuide.do" target="_blank">用户指南</a></li>
+		</ul>
+	</div>	
+</div>
+<div class="frameStyle">
+<div class="registerRegionFrameTop"></div>
+<div class="registerRegionFrameMid">
+<!--startprint-->
+<div class="noticeBox">
+	<div class="topTlt">
+	<p class="title">关于哈尔滨铁路局物资采供所维修计划车轮购置情况的二次澄清说明</p>
+	<p class="subhead"><span class="black">时间：</span><span class="red">2017-07-28 11:10:10</span><span class="black"> 发布：</span><span class="black">哈尔滨铁路局物资处 </span></p>
+	<input id="colse_btn" type="button" value="关闭" class="btnSize" />
+	<input id="print_btn" type="button" value="打印" class="btnSize" />
+	</div>
+	<div class="divAbs">
+		<p>各投标人：现对2017年7月24日发布的《哈尔滨铁路局采供所维修计划车轮购置情况的澄清说明》（招标编号HTYDWS2017-061）的规格型号进行二次更正：原公告规格型号为HDZD型ZL-B，JV33-10A，现重新修改为HDZD型ZL-B，JV33-10A，或HDSA型，CL60, SYSZ67-00-00-00。澄清日期7月28日至8月1日止。投标截止日期为8月7日止。特此澄清。</p><p>&nbsp; 哈尔滨铁路局运输代理中心&nbsp; 哈尔滨铁路项目管理有限公司&nbsp; 二〇一七年七月二十八日</p>
+		 
+	    
+	     
+	    <input type="hidden" name="flagForward" value="1"/>
+	    		<div class="clear"></div>
+	    		<p> <span class="bold">附　　件：</span>
+	    		
+		  		
+	    		
+						
+							
+						
+		  		 
+		  		
+		  		<span class="download">请登录查看附件</span>
+		  		
+	    		</p>
+	    
+    
+ 
+	
+		
+	
+
+</div>
+</div>
+<div style="width:100%;height:20px;"></div>
+<div id="relatedLinkDiv"  class="relatedLinkDiv">
+	
+	<div class="title">相关公告:无</div>
+	<ul>
+		
+	</ul>
+</div>
+</div>
+<!--endprint-->
+<div class="registerRegionFramebtm"></div>
+
+	<div class="bottomFrame">
+		<a href="">关于我们</a>　｜　<a href="">网站声明</a>　｜　<a href="">网站地图</a>　｜　<a href="">联系我们</a>　｜　<a href="">网站帮助</a>
+	</div>
+</div>
+</form>
+ </body>
+</html>
