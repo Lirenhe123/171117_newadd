@@ -73,7 +73,6 @@ public class QX_02183_Detail extends TxtRspHandler {
 				titleAndContent_clone.prepend(title_html_str);
 				//prepend 会加入换行符/n
 				response.content="<div>"+titleAndContent_clone.outerHtml().trim().replaceAll("[\n]", "")+"</div>";
-				return response;
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

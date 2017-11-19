@@ -122,8 +122,8 @@ System.out.println(date_html);
 							.replaceAll("(.*)/(\\d+)(.*)", "$2");
 				}
 				response.pageCount = page;
-System.out.println("asdalkdsflk"+response.pageCount);
-*/
+System.out.println("asdalkdsflk"+response.pageCount);*/
+
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
