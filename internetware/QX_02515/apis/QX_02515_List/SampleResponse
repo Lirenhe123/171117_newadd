@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>采购信息 - 洮北区政府采购网</title>
+<meta name="keywords" content="洮北区政府采购网">
+<meta name="description" content="洮北区政府采购网">
+<link href="/statics/xx/css/css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/statics/xx/js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="/statics/xx/js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+
+<div class="top">
+<div class="wrap1">
+<div class="logo"><a href="/"><img src="/statics/xx/images/logo.png"></a></div>
+<div class="top-h">
+<a href="javascript:void(0);" onclick="SetHome(this,'/');">设为首页</a>
+<a href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)">加人收藏</a>
+<a href="http://caigou.bc0436.net.cn/admin.php">管理登陆</a>
+<a href="http://caigou.bc0436.net.cn/html/lxwm/">联系我们</a>
+</div>
+</div>
+</div>
+<script src="/statics/hy/js/public.js" type="text/javascript"></script>
+<div class="dh">
+<div class="dh1">
+	<ul id="nav" class="nav clearfix">
+			<li class="nLi ">
+				<h3><a href="/">网站首页</a></h3>
+			</li>
+				
+<li class="nLi ">
+			
+					<h3><a  href="http://caigou.bc0436.net.cn/html/gsgk/" >机构介绍</a></h3>
+					<ul class="sub">
+					  		
+	<li><a  href="http://caigou.bc0436.net.cn/html/gsgk/gzz/">工作职责</a></li>
+	  		
+	<li><a  href="http://caigou.bc0436.net.cn/html/gsgk/gzl/">工作流程</a></li>
+	  	     					
+					</ul>
+			</li>
+					
+<li class="nLi ">
+			
+					<h3><a  href="http://caigou.bc0436.net.cn/html/zcfg/" >政策法规</a></h3>
+					<ul class="sub">
+					  	     					
+					</ul>
+			</li>
+					
+<li class="nLi on">
+			
+					<h3><a  href="http://caigou.bc0436.net.cn/html/cgxx/" >采购信息</a></h3>
+					<ul class="sub">
+					  		
+	<li><a  href="http://caigou.bc0436.net.cn/html/cgxx/gkzb/">公开招标</a></li>
+	  		
+	<li><a  href="http://caigou.bc0436.net.cn/html/cgxx/yqzb/">邀请招标</a></li>
+	  		
+	<li><a  href="http://caigou.bc0436.net.cn/html/cgxx/dyly/">单一来源</a></li>
+	  		
+	<li><a  href="http://caigou.bc0436.net.cn/html/cgxx/jzxtp/">竞争性谈判</a></li>
+	  		
+	<li><a  href="http://caigou.bc0436.net.cn/html/cgxx/xjcg/">询价采购</a></li>
+	  	     					
+					</ul>
+			</li>
+					
+<li class="nLi ">
+			
+					<h3><a  href="http://caigou.bc0436.net.cn/html/down/" >资料下载</a></h3>
+					<ul class="sub">
+					  	     					
+					</ul>
+			</li>
+					
+<li class="nLi ">
+			
+					<h3><a  href="http://caigou.bc0436.net.cn/html/xxgg/" >信息公告</a></h3>
+					<ul class="sub">
+					  		
+	<li><a  href="http://caigou.bc0436.net.cn/html/xxgg/zhongbiaogongshi/">中标公示</a></li>
+	  		
+	<li><a  href="http://caigou.bc0436.net.cn/html/xxgg/hetonggongshi/">合同公示</a></li>
+	  	     					
+					</ul>
+			</li>
+					
+<li class="nLi ">
+			
+					<h3><a  href="http://caigou.bc0436.net.cn/html/xygh/" >协议供货</a></h3>
+					<ul class="sub">
+					  	     					
+					</ul>
+			</li>
+				     		
+		
+		
+		
+		</ul>
+		
+
+</div>
+</div>
+		<script id="jsID" type="text/javascript">
+		jQuery("#nav").slide({ type:"menu", titCell:".nLi", targetCell:".sub",effect:"slideDown",returnDefault:true});
+		</script>
+<div class="clear"></div>
+
+
+
+<div class="wrap-xx">
+<div class="wrap">
+
+<div class="sidebar">
+    <div class="sb_nav fl">
+   <h3 class='sbNavTitle'>采购信息</h3>
+			<div class="sbNavList" id="sidebar" >
+				
+			<dl class="list-none navnow">
+<dt><a  href="http://caigou.bc0436.net.cn/html/cgxx/gkzb/" ><span>公开招标</span></a></dt></dl>
+				
+			<dl class="list-none navnow">
+<dt><a  href="http://caigou.bc0436.net.cn/html/cgxx/yqzb/" ><span>邀请招标</span></a></dt></dl>
+				
+			<dl class="list-none navnow">
+<dt><a  href="http://caigou.bc0436.net.cn/html/cgxx/dyly/" ><span>单一来源</span></a></dt></dl>
+				
+			<dl class="list-none navnow">
+<dt><a  href="http://caigou.bc0436.net.cn/html/cgxx/jzxtp/" ><span>竞争性谈判</span></a></dt></dl>
+				
+			<dl class="list-none navnow">
+<dt><a  href="http://caigou.bc0436.net.cn/html/cgxx/xjcg/" ><span>询价采购</span></a></dt></dl>
+			
+			<div class="clear">
+			</div>
+			</div>
+
+		
+		<ul>
+<li><a href="/"><img src="/statics/xx/images/r1.jpg"></a></li>
+<li><a href="/"><img src="/statics/xx/images/r2.jpg"></a></li>
+<li><a href="/"><img src="/statics/xx/images/r3.jpg"></a></li>
+<li><a href="/"><img src="/statics/xx/images/r4.jpg"></a></li>
+
+</ul>
+
+    </div>
+	
+		<div class="list-R-tou">您现在的位置：<a href="/">首页</a> >><a href="http://caigou.bc0436.net.cn/html/cgxx/">采购信息</a> > </div>
+    <div class="sb_box fr">
+
+
+		<h3 class="sb_boxTitle">采购信息</h3>
+
+		<div class="clear"></div>
+
+        <div class="active" id="newslist">
+			<ul class='list-none'>
+				<li class='list '><span>[2017-11-15]</span><a href="http://caigou.bc0436.net.cn/html/2017/2017xjcg_1115/1541.html" title='2017询价公告：洮北区就业局多功能高拍仪、电脑采购项目' target='_self'>2017询价公告：洮北区就业局多功能高拍仪、电脑采购项目&nbsp;&nbsp;</a></li>
+			<li class='list '><span>[2017-11-15]</span><a href="http://caigou.bc0436.net.cn/html/2017/2017xjcg_1115/1540.html" title='2017询价公告：洮北区就业局金保工程业务专网采购项目' target='_self'>2017询价公告：洮北区就业局金保工程业务专网采购项目&nbsp;&nbsp;</a></li>
+			<li class='list '><span>[2017-11-08]</span><a href="http://caigou.bc0436.net.cn/html/2017/2017gkzb_1108/1537.html" title='2017公开招标：洮北区公路建设办公室县级公路建设勘察设计项目' target='_self'>2017公开招标：洮北区公路建设办公室县级公路建设勘察设计项目&nbsp;&nbsp;</a></li>
+			<li class='list '><span>[2017-11-02]</span><a href="http://caigou.bc0436.net.cn/html/2017/2017xjcg_1102/1524.html" title='2017询价公告：新农合管理中心复印机采购项目' target='_self'>2017询价公告：新农合管理中心复印机采购项目&nbsp;&nbsp;</a></li>
+			<li class='list '><span>[2017-11-01]</span><a href="http://caigou.bc0436.net.cn/html/2017/2017xjcg_1101/1522.html" title='2017询价公告：洮北区文体局文化活动中心设备' target='_self'>2017询价公告：洮北区文体局文化活动中心设备&nbsp;&nbsp;</a></li>
+			<li class='list '><span>[2017-10-30]</span><a href="http://caigou.bc0436.net.cn/html/2017/2017xjcg_1030/1519.html" title='2017询价公告：白城市洮北区保民农场地源热泵采购项目(第二次)' target='_self'>2017询价公告：白城市洮北区保民农场地源热泵采购项目(第二次)&nbsp;&nbsp;</a></li>
+			<li class='list '><span>[2017-10-30]</span><a href="http://caigou.bc0436.net.cn/html/2017/2017xjcg_1030/1518.html" title='2017询价公告：洮北区环境卫生管理处融雪剂采购项目(第二次)' target='_self'>2017询价公告：洮北区环境卫生管理处融雪剂采购项目(第二次)&nbsp;&nbsp;</a></li>
+			<li class='list '><span>[2017-10-23]</span><a href="http://caigou.bc0436.net.cn/html/2017/2017xjcg_1023/1517.html" title='2017询价公告：洮北区环境卫生管理处融雪剂采购项目' target='_self'>2017询价公告：洮北区环境卫生管理处融雪剂采购项目&nbsp;&nbsp;</a></li>
+			<li class='list '><span>[2017-10-23]</span><a href="http://caigou.bc0436.net.cn/html/2017/2017xjcg_1023/1516.html" title='2017询价公告：白城市洮北区保民农场地源热泵采购项目' target='_self'>2017询价公告：白城市洮北区保民农场地源热泵采购项目&nbsp;&nbsp;</a></li>
+			<li class='list '><span>[2017-10-20]</span><a href="http://caigou.bc0436.net.cn/html/2017/2017gkzb_1020/1511.html" title='2017公开招标：洮北区基建审核中心对百万以上结算审核评审社会中介机构项目' target='_self'>2017公开招标：洮北区基建审核中心对百万以上结算审核评审社会中介机构项目&nbsp;&nbsp;</a></li>
+			<li class='list '><span>[2017-10-20]</span><a href="http://caigou.bc0436.net.cn/html/2017/2017gkzb_1020/1510.html" title='2017公开招标：白城市医院脊柱内窥镜系统采购项目' target='_self'>2017公开招标：白城市医院脊柱内窥镜系统采购项目&nbsp;&nbsp;</a></li>
+			<li class='list '><span>[2017-10-17]</span><a href="http://caigou.bc0436.net.cn/html/2017/2017xjcg_1017/1509.html" title='2017询价公告：白城市医院麻醉呼吸回路消毒机采购项目询价公告' target='_self'>2017询价公告：白城市医院麻醉呼吸回路消毒机采购项目询价公告&nbsp;&nbsp;</a></li>
+			<li class='list '><span>[2017-10-11]</span><a href="http://caigou.bc0436.net.cn/html/2017/jzxtp_1011/1502.html" title='2017竞争性谈判公告：林海社会福利中心安装630KVA箱变项目' target='_self'>2017竞争性谈判公告：林海社会福利中心安装630KVA箱变项目&nbsp;&nbsp;</a></li>
+			<li class='list '><span>[2017-10-10]</span><a href="http://caigou.bc0436.net.cn/html/2017/jzxtp_1010/1501.html" title='2017竞争性谈判公告：洮北区平台镇西五村酿酒设备采购项目竞争性谈判信息公告' target='_self'>2017竞争性谈判公告：洮北区平台镇西五村酿酒设备采购项目竞争性谈判信息公告&nbsp;&nbsp;</a></li>
+			<li class='list '><span>[2017-09-29]</span><a href="http://caigou.bc0436.net.cn/html/2017/2017xjcg_0929/1500.html" title='2017询价公告：校外教育指导中心教学器材采购项目(第二次)' target='_self'>2017询价公告：校外教育指导中心教学器材采购项目(第二次)&nbsp;&nbsp;</a></li>
+					</ul>
+	 <div class="page">
+<a class="a1">1178条</a> <a href="/html/cgxx/index.html" class="a1">上一页</a> <span>1</span> <a href="/html/cgxx/2.html">2</a> <a href="/html/cgxx/3.html">3</a> <a href="/html/cgxx/4.html">4</a> <a href="/html/cgxx/5.html">5</a> <a href="/html/cgxx/6.html">6</a> <a href="/html/cgxx/7.html">7</a> <a href="/html/cgxx/8.html">8</a> <a href="/html/cgxx/9.html">9</a> <a href="/html/cgxx/10.html">10</a> ..<a href="/html/cgxx/79.html">79</a> <a href="/html/cgxx/2.html" class="a1">下一页</a></div>  
+</div>
+
+		</div>
+
+    </div>
+
+
+
+
+</div>
+</div>
+
+
+<div class="clear"></div>
+<div class="foot">
+<div class="foot1">
+
+
+<div class="foot2">
+白城市洮北区人民政府主办 白城市洮北区人民政府办公室承办     吉ICP备12003559号-1</br>
+地址：白城市洮北区和平里西街79号 邮编：100011 电话传真：64281673 邮箱：bjmztyxh320@126.com
+</div>
+
+</div>
+</div>
+</body>
+</html>
