@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>伊春区政府网站 </title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: 宋体;
+	font-size: 14px;
+	color: #333333;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #f7fdfd;
+}
+.sy_bj3 {
+	background-image: url(../images/sy_26.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.zi_top {
+	color: #999999;
+	font-family: "宋体";
+	font-size: 12px;
+}
+.zi_top2 {
+	color: #ff9933;
+	font-family: "宋体";
+	font-size: 12px;
+}
+.zi_top3 {
+	color: #d80a0a;
+	font-family: "宋体";
+	font-size: 12px;
+}
+.zjy_1 {
+	font-family: "宋体";
+	font-size: 20px;
+	font-weight: bold;
+}
+.zjy_2 {
+	line-height: 24px;
+
+
+
+}
+.zjy_3 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #333333;
+	line-height: 24px;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style>
+
+<style type="text/css">
+.content-width {MARGIN: auto;WIDTH: 600px;}
+.content-width img{MAX-WIDTH: 100%!important;HEIGHT: auto!important;width:expression(this.width > 600 ? "600px" : this.width)!important;}
+
+</style>
+
+</head>
+
+<body>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="26" background="/images/top_1.jpg"><table width="978" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="180" class="zi_top">伊春市伊春区政府欢迎您！</td>
+        <td width="174" valign="middle" class="zi_top2"><SCRIPT language=JavaScript>
+              
+					var noon;
+					var time=new Date(); 
+					var hour=time.getHours();
+					var minute=time.getMinutes();
+					var today=new Date; 
+					var week=new Array(7);
+					week[0]='天';
+					week[1]='一';
+					week[2]='二';
+					week[3]='三';
+					week[4]='四';
+                    week[5]='五';
+					week[6]='六';
+					if (hour<5) noon='凌晨'; 
+					if (hour>4 & hour<8) noon='早晨';
+					if (hour>7 & hour<16) noon='上午';
+					if (hour==12) noon='中午'; 
+					if (hour>12 & hour<19) noon='下午';
+					if (hour>18 & hour<23) noon='晚上'; 
+					if (hour>22) noon='深夜';
+              if (hour>12) hour=hour-12;
+			  if (hour<10) hour='0'+hour;
+			  if (minute<10) minute='0'+minute;
+			  document.write('今日'+today.getYear()+'年'+(today.getMonth()+1)+'月'+today.getDate()+'日 星期'+week[today.getDay()]+' ');
+					</SCRIPT>
+        天气          </td>
+        <td width="374" valign="middle" class="zi_top2"><iframe src="http://m.weather.com.cn/m/pn2/weather.htm?id=101050801T " width="180" marginwidth="0" height="18" marginheight="0" allowtransparency="true" scrolling="No" frameborder="0" hspace="0" vspace="0" class="zi_top2"></iframe></td>
+        <td width="35" align="center"><img src="/images/top_2.jpg" width="20" height="18" /></td>
+        <td width="36" class="zi_top3">区委</td>
+        <td width="35" align="center"><img src="/images/top_3.jpg" alt="" width="20" height="18" /></td>
+        <td width="45" class="zi_top3">区人大</td>
+        <td width="35" align="center"><img src="/images/top_4.jpg" alt="" width="20" height="18" /></td>
+        <td width="64" class="zi_top3">区政协</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="44" background="/images/dh_1.jpg"><table width="992" border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="86" height="44" align="center" background="/images/dh_2.jpg"><a href="/" target="_parent"/><img src="/images/dh_wzsy.jpg" width="66" height="20" border="0" /></td>
+        <td width="86" align="center" background="/images/dh_2.jpg"><a href="/zjycq/bdgk/" target="_parent"/><img src="/images/dh_bdgk.jpg" alt="" width="66" height="20" border="0" /></td>
+        <td width="86" align="center" background="/images/dh_2.jpg"><a href="/ycqxw/wzxw/" target="_parent"/><img src="/images/dh_xwzx.jpg" alt="" width="66" height="20" border="0" /></td>
+        <td width="86" align="center" background="/images/dh_2.jpg"><a href="/zwgk/" target="_parent"/><img src="/images/dh_zwgk.jpg" alt="" width="66" height="20" border="0" /></td>
+        <td width="86" align="center" background="/images/dh_2.jpg"><a href="/zwfw/" target="_parent"/><img src="/images/dh_fwdt.jpg" alt="" width="66" height="20" border="0" /></td>
+        <td width="86" align="center" background="/images/dh_2.jpg"><a href="/zmhd/" target="_parent"/><img src="/images/dh_zmhd.jpg" alt="" width="66" height="20" border="0" /></td>
+        <td width="86" align="center" background="/images/dh_2.jpg"><a href="/pfzx/pfdt/" target="_parent"/><img src="/images/dh_zfwj.jpg" alt="" width="66" height="20" border="0" /></td>
+        <td width="86" align="center" background="/images/dh_2.jpg"><a href="/zsyz/tzhj/" target="_parent"/><img src="/images/dh_zsyz.jpg" alt="" width="66" height="20" border="0" /></td>
+        <td width="304" align="center" valign="bottom" background="/images/dh_3.jpg"><table width="264" border="0" align="right" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="71"><img src="/images/dh_5.jpg" width="64" height="20" /></td>
+            <td><script type="text/javascript">
+       function localSearch(){
+               var keyword= document.f.keywords.value;
+               if(keyword==""){
+               alert("请输入查询关键字");
+               return;
+               }
+               document.f.submit();
+       }
+          </script>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td>
+				<iframe src="/app/doclist/test1.html" height="44" scrolling="no" frameborder= "0" width="193" align:top;></iframe>
+
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="290"><img src="/images/zjy_1.jpg" width="1000" height="290" /></td>
+  </tr>
+</table>
+
+
+
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top" background="/images/zjy_2.jpg"><table width="971" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-bottom:14px;">
+      <tr>
+        <td height="1031" valign="top" bgcolor="#FFFFFF"><table width="832" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="25"><img src="/images/bdgk_6.jpg" width="25" height="34" /></td>
+            <td width="779" bgcolor="#d8efff"><table width="515" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="50"><img src="/images/bdgk_8.jpg" alt="" width="39" height="34" /></td>
+                <td width="465" class="zi_bdgk1">当前位置:  <a href='/' target='_self' class=''><font color=''>首页</font></a> ><a href='/zwgk/' target='_self' class=''><font color=''>政务公开</font></a> ><a href='/zwgk/zhengfcgou/' target='_self' class=''><font color=''>政府采购</font></a></td>
+              </tr>
+            </table></td>
+            <td width="28" align="right"><img src="/images/bdgk_7.jpg" width="28" height="34" /></td>
+          </tr>
+          <tr>
+            <td height="979" colspan="3" valign="top" class="sy_bk3"><table width="796" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="50" align="center" class="zjy_1"> 伊春区核算中心采购铁架的公告</td>
+              </tr>
+              <tr>
+                <td height="34" align="center" class="zi_top3">发布时间:2017-09-04 来源: </td>
+              </tr>
+              <tr>
+                <td align="center"><img src="/images/zjy_3.jpg" width="796" height="1" /></td>
+              </tr>
+              <tr>
+                <td><p> <span class="zjy_2">
+                    <div class="content-width">  <P class=MsoNormal style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; LINE-HEIGHT: 25pt" align=left><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">采购编号：伊区</SPAN><SPAN style="FONT-SIZE: 14pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: black">XJCG2017047</SPAN></P>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; LINE-HEIGHT: 25pt" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">1. </SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">采购条件</SPAN></B></P>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; LINE-HEIGHT: 25pt; TEXT-INDENT: 24pt" align=left><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">伊春区政府采购中心受伊春区核算中心</SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">委托，现对该项目进行询价采购。</SPAN></P>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; LINE-HEIGHT: 25pt" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">2. </SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">项目概况与采购内容</SPAN></B></P>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; LINE-HEIGHT: 25pt; TEXT-INDENT: 24pt" align=left><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">采购人：伊春区核算中心</SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">。项目名称：铁架</SPAN></P>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; LINE-HEIGHT: 25pt; TEXT-INDENT: 24pt" align=left><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">采购</SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">内容：<U>见功能参数</U></SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">。质量要求：</SPAN><U><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">按行业标准合格</SPAN></U><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">。</SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">计划交货期限：</SPAN><U><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">签订合同之日起<SPAN>5</SPAN>日内</SPAN></U><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">。计划金额：<U>7235</U></SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">货地点：</SPAN><FONT style="FONT-SIZE: 12pt"><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">伊春区核算中心</SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">。</SPAN></FONT></P>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; LINE-HEIGHT: 25pt; TEXT-INDENT: 24pt" align=left><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">设备功能参数：</SPAN></P>
+<TABLE class=MsoNormalTable style="WIDTH: 243pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: 4.65pt" cellSpacing=0 cellPadding=0 width=324 border=0>
+<TBODY>
+<TR style="HEIGHT: 57pt">
+<TD style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 57pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 80pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" width=107 noWrap>
+<P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">商品名称</SPAN></P></TD>
+<TD style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 57pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 109pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" width=145 noWrap>
+<P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">规格型号及参数</SPAN></P></TD>
+<TD style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 57pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 54pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" width=72 noWrap>
+<P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">数量</SPAN></P></TD></TR>
+<TR style="HEIGHT: 24.75pt">
+<TD style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 24.75pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 80pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" width=107 noWrap>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">&nbsp;&nbsp; 铁架</SPAN></P></TD>
+<TD style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 24.75pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 109pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" width=145>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><SPAN style="FONT-SIZE: 9pt; FONT-FAMILY: 宋体"></SPAN>&nbsp;</P></TD>
+<TD style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 24.75pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 54pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" width=72 noWrap>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">&nbsp;&nbsp; </SPAN></P></TD></TR></TBODY></TABLE>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; LINE-HEIGHT: 25pt" align=left>&nbsp;</P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">3. </SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">供应商资格要求</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">3.1</SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">具备《政府采购法》第二十二条之规定的基本条件。</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">（一）具有独立承担民事责任的能力；</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">（二）具有良好的商业信誉和健全的财务会计制度；</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">（三）具有履行合同所必需的设备和专业技术能力；</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">（四）有依法缴纳税收和社会保障资金的良好记录；</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">（五）参加政府采购活动前三年内，在经营活动中没有重大违法记录；</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">（六）法律、行政法规规定的其他条件。</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">3.2</SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">供货企业必须具备资质的合格供应商。</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">3.3</SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">投标企业需提供的财务状况证明：会计师事务所出具的<SPAN>2016</SPAN>年度财务审计报告。</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">3.4</SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">本项目不接受联合体投标。</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">4. </SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">询价文件的获取</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">4.1</SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">凡符合资格要求的供应商，请于<SPAN>2017</SPAN>年 9月1日至<SPAN>2017</SPAN>年 9月7日（法定公休日、法定节假日除外）每日上午<SPAN> 8</SPAN>：</SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">00</SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333"> </SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">时至<SPAN>11</SPAN>：<SPAN>00 </SPAN>时，下午<SPAN>2</SPAN>：<SPAN>30 </SPAN>时至<SPAN>4</SPAN>：<SPAN>00 </SPAN>时（北京时间，下同）到伊春区政府采购中心领取报价文件，逾期不予受理。</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">4.2</SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">报名时应提交的资料（原件及复印件）：（营业执照副本、税务登记证、企业代码证、银行基本账户开户许可证、资质证明、法人身份证、受委托人身份证及授权书、会计师事务所出具的<SPAN>2016</SPAN>年度财务审计报告）及复印件壹份（须加盖公章），即可参与报价。</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">5. </SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">报价文件的递交</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">5.1</SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">递交报价文件截止时间为<SPAN>2017</SPAN>年9月7日下午<SPAN> 4 </SPAN>时<SPAN> 00</SPAN>分，递交地点为伊春区政府<SPAN>103</SPAN>室。</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">5.2</SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">逾期送达的或者未送达指定地点的报价文件，招标人不予受理。</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">6. </SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">询价时间及地点</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">询价时间<SPAN>: 2017</SPAN>年 8月30日下午<SPAN> 4 </SPAN>时</SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">00</SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">分。</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">询价地点：伊春区政府<SPAN>103</SPAN>室。</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">7. </SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">发布公告的媒介</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">本次询价公告在伊春区政府网上公布。</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">8. </SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">联系方式</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">采 购 人：</SPAN></B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">伊春区核算中心</SPAN></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><FONT style="FONT-SIZE: 12pt"><B><SPAN style="FONT-FAMILY: 宋体">联</SPAN>&nbsp; </B><B><SPAN style="FONT-FAMILY: 宋体">系</SPAN>&nbsp; </B><B><SPAN style="FONT-FAMILY: 宋体">人：张永萍</SPAN></B></FONT></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">代理机构：伊春区政府采购中心</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">联 系 人：张云</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">电话及传真：<SPAN>0458-3603571 </SPAN></SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></SPAN></B><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333">伊春区政府采购中心</SPAN></B><B></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: left" align=left><B><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: #333333"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>2017<SPAN><SPAN>年9</SPAN></SPAN><SPAN><SPAN>月4</SPAN></SPAN><SPAN><SPAN>日</SPAN></SPAN></SPAN></B></P> </div>
+	<P><!--附件：-->  </P>
+				</span><br />
+                  </p></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td colspan="3"><img src="/images/zjy_4.jpg" width="833" height="14" /></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<style type="text/css">
+<!--
+.STYLE2 {color: #000000}
+-->
+</style>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td height="22" colspan="3" valign="bottom"><img src="/images/sy_81.jpg" alt="" width="1000" height="12" /></td>
+  </tr>
+  <tr>
+    <td width="314" height="110" align="center" valign="top" background="/images/sy_82.jpg"><span class="STYLE2">报警岗亭</span> <br/>
+    <a href="http://60.11.20.50/alertwebyc/alarm/pre_alarm.jsp" target="_blank"><img src="/images/policegt.gif" width="60" height="80" border="0"></a></td>
+    <td width="380" align="center" background="/images/sy_82.jpg" class="zi_sy4">版权所有:伊春区人民政府<br />
+      地址:黑龙江省伊春市伊春区 电话:0458-3602345 邮编:153000 <br />
+    黑ICP备09098245号 </td>
+    <td width="306" align="center" valign="top" background="/images/sy_82.jpg" class="zi_sy4">警警&nbsp&nbsp察察<br>
+	<a href="http://60.11.20.50/alertwebyc/alarm/pre_alarm.jsp" target="_blank"><img src="/images/longlong.gif" width="60" height="80" border="0"></a><a href="http://60.11.20.50/alertwebyc/alarm/pre_alarm.jsp" target="_blank"><img src="/images/jiangjiang.gif" width="60" height="80" border="0"></a></td>
+  </tr>
+</table>
+</body>
+</html>

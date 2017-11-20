@@ -1,0 +1,576 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>伊春区政府网站 </title>
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+a:link {
+	color: #06649c;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #06649c;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style></head>
+
+<body>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="26" background="/images/top_1.jpg"><table width="978" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="273" class="zi_top">伊春市伊春区政府欢迎您！</td>
+        <td width="306" valign="middle" class="zi_top2"><SCRIPT language=JavaScript>
+              
+					var noon;
+					var time=new Date(); 
+					var hour=time.getHours();
+					var minute=time.getMinutes();
+					var today=new Date; 
+					var week=new Array(7);
+					week[0]='天';
+					week[1]='一';
+					week[2]='二';
+					week[3]='三';
+					week[4]='四';
+                    week[5]='五';
+					week[6]='六';
+					if (hour<5) noon='凌晨'; 
+					if (hour>4 & hour<8) noon='早晨';
+					if (hour>7 & hour<16) noon='上午';
+					if (hour==12) noon='中午'; 
+					if (hour>12 & hour<19) noon='下午';
+					if (hour>18 & hour<23) noon='晚上'; 
+					if (hour>22) noon='深夜';
+              if (hour>12) hour=hour-12;
+			  if (hour<10) hour='0'+hour;
+			  if (minute<10) minute='0'+minute;
+			  document.write('今日'+today.getYear()+'年'+(today.getMonth()+1)+'月'+today.getDate()+'日 星期'+week[today.getDay()]+' ');
+					</SCRIPT>
+        天气          </td>
+        <!--<td width="374" valign="middle" class="zi_top2"><iframe src="http://m.weather.com.cn/m/pn2/weather.htm?id=101050801T " width="180" marginwidth="0" height="18" marginheight="0" allowtransparency="true" scrolling="No" frameborder="0" hspace="0" vspace="0" class="zi_top2"></iframe></td>-->
+        <td width="49" align="center"><img src="/images/top_2.jpg" width="20" height="18" /></td>
+        <td width="58" class="zi_top3">区委</td>
+        <td width="56" align="center"><img src="/images/top_3.jpg" alt="" width="20" height="18" /></td>
+        <td width="72" class="zi_top3">区人大</td>
+        <td width="56" align="center"><img src="/images/top_4.jpg" alt="" width="20" height="18" /></td>
+        <td width="108" class="zi_top3">区政协</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="44" background="/images/dh_1.jpg"><table width="992" border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="86" height="44" align="center" background="/images/dh_2.jpg"><a href="/"/><img src="/images/dh_wzsy.jpg" width="66" height="20" border="0" /></td>
+        <td width="86" align="center" background="/images/dh_2.jpg"><a href="/zjycq/bdgk/"/><img src="/images/dh_bdgk.jpg" alt="" width="66" height="20" border="0" /></td>
+        <td width="86" align="center" background="/images/dh_2.jpg"><a href="/ycqxw/wzxw/"/><img src="/images/dh_xwzx.jpg" alt="" width="66" height="20" border="0" /></td>
+        <td width="86" align="center" background="/images/dh_2.jpg"><a href="/zwgk/"/><img src="/images/dh_zwgk.jpg" alt="" width="66" height="20" border="0" /></td>
+        <td width="86" align="center" background="/images/dh_2.jpg"><a href="/zwfw/fwgr/hunyin/"/><img src="/images/dh_fwdt.jpg" alt="" width="66" height="20" border="0" /></td>
+        <td width="86" align="center" background="/images/dh_2.jpg"><a href="http://www.ycycq.gov.cn/app/askOnLine/getAskList-qzxx.jsp"/><img src="/images/dh_zmhd.jpg" alt="" width="66" height="20" border="0" /></td>
+        <td width="86" align="center" background="/images/dh_2.jpg"><a href="/pfzx/pfdt/"/><img src="/images/dh_zfwj.jpg" alt="" width="66" height="20" border="0" /></td>
+        <td width="86" align="center" background="/images/dh_2.jpg"><a href="/zsyz/zcfg/"/><img src="/images/dh_zsyz.jpg" alt="" width="66" height="20" border="0" /></td>
+		<!--<td width="86" align="center" background="/images/dh_2.jpg"><a href="http://www.ycycq.gov.cn:8081" target="_blank"/><img src="/images/dh_ycfc.jpg" alt="" width="66" height="20" border="0" /></td>-->
+        <td width="218" align="center" background="/images/dh_3.jpg"><table width="264" border="0" align="right" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="71"><img src="/images/dh_5.jpg" width="64" height="20" /></td>
+            <td><script type="text/javascript">
+       function localSearch(){
+               var keyword= document.f.keywords.value;
+               if(keyword==""){
+               alert("请输入查询关键字");
+               return;
+               }
+			   document.f.keywords.value = keyword;
+               document.f.submit();
+       }
+          </script>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td>
+				<iframe src="/app/doclist/test1.html" height="44" scrolling="no" frameborder= "0" width="193" align:top;></iframe>
+
+				</td>
+              </tr>
+            </table></td>
+            <!--<td width="133" class="dh_bj"><label>
+              <input name="textfield" type="text" id="textfield" size="15" border="0" />
+            </label></td>
+            <td width="60"><img src="/images/dh_4.jpg" width="38" height="36" hspace="6" border="0" /></td>-->
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>
+	
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="1000" height="290">
+
+       <param name="movie" value="/css/yc.swf" />
+
+       <param name="wmode" value="transparent" />
+
+       <param name="quality" value="high" />
+
+       <embed src="/swf/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="1000" height="290"></embed>
+
+      </object>
+	
+	</td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td><table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="251" height="751" valign="top" class="bdgk_bj1"><table width="240" border="0" cellpadding="0" cellspacing="0" background="/images/bg_6.jpg" style="margin-top:15px;">
+          <tr>
+            <td height="18" background="/images/bg_3.jpg"> </td>
+          </tr>
+          <tr>
+            <td valign="top" class="bg_bj"><table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="center"><img src="/images/bg_5.jpg" width="140" height="37" /></td>
+                </tr>
+              </table>
+                <table width="204" border="0" align="right" cellpadding="0" cellspacing="0" style="margin-right:10px;">
+                  <tr>
+                    <td width="16" height="26"><img src="/images/sy_27.jpg" width="12" height="11" /></td>
+                    <td width="85"><a href="/zwgk/zzjg/" class="hei"/>组织机构</td>
+                    <td width="16"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td width="87"><a href="/zwgk/zhengfcgou/" class="hei"/>政府采购</td>
+                    
+                   
+                  </tr>
+                  <tr>
+                    <td height="26"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/tzgg/" class="hei"/>通知公告</td>
+                    
+                     <td width="16"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td width="87"><a href="/zwgk/zdxm/" class="hei"/>重大项目</td>
+                  </tr>
+                  <tr>
+                    <td height="26"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/zfcg/" class="hei"/>政务信息</td>
+                    <td><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/yjgl/" class="hei"/>应急管理</td>
+                  </tr>
+                  <tr>
+                    <td height="26"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/ghjh/" class="hei"/>规划计划</td>
+                    <td><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/jdjc/" class="hei"/>监督检查</td>
+                  </tr>
+                  <tr>
+                    <td height="27"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/zfjg/" class="hei"/>执法结果</td>
+                    <td><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/cxjs/" class="hei"/>城乡建设</td>
+                  </tr>
+                  <tr>
+                    <td height="26"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/rsxx/" class="hei"/>人事信息</td>
+                    <td><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/shgy/" class="hei"/>社会公益</td>
+                  </tr>
+                  <tr>
+                    <td height="26"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/zcfg/" class="hei"/>政策法规</td>
+                   <td><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/tjsj/" class="hei"/>统计数据</td>
+                  </tr>
+                  <tr>
+                    <td height="26"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/xzsf/" class="hei"/>行政收费</td>
+					 <td><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/jzjz/" class="hei"/>捐赠救助</td>
+                    
+                  </tr>
+                  <tr>
+                    <td height="26"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/lmss/" class="hei"/>利民实事</td>
+					<td height="26"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/fwcqjzy/" class="hei"/>房屋拆迁及征用</td>
+                  </tr>
+                  <tr>
+                    <td height="26"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/czsz/" class="hei"/>预决算公开</td>
+                    
+                    <td height="26"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                    <td><a href="/zwgk/zfwj/" class="hei"/>政府文件</td>
+					
+                  </tr>
+                 <tr>
+			<td height="24"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                            <td ><a href="/zwgk/gzbg/" target="_blank" class="hei"/>信息公开年度报告</td>
+                            <td ><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                            <td><a href="/zwgk/zdly/" target="_blank" class="hei"/>重点领域</td>
+                         </tr>
+                          <tr>
+			   <td height="24"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                            <td ><a href="/zwgk/zwgkml/" target="_blank" class="hei"/>政务公开目录</td>
+                           <td height="24"><img src="/images/sy_27.jpg" alt="" width="12" height="11" /></td>
+                            <td ><a href="/zwgk/zcjd/" target="_blank" class="hei"/>政策解读</td>
+
+                         </tr>				  
+
+              </table></td>
+          </tr>
+          <tr>
+            <td><img src="/images/bg_7.jpg" width="240" height="20" /></td>
+          </tr>
+        </table>
+<table width="171" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:16px;">
+            <tr>
+              <td height="53" valign="top"><a href="/app/askOnLine/newAskOnLine-qzxx.jsp" target="_blank"/><img src="/images/01.jpg" width="171" height="44" border="0" /></td>
+            </tr>
+            <tr>
+              <td height="53" valign="top"><a href="/app/askOnLine/newAskOnLine-jbxx.jsp" target="_blank"/><img src="/images/bdgk_2.jpg" alt="" width="171" height="44" border="0" /></td>
+            </tr>
+            <tr>
+              <td height="53" valign="top"><a href="/app/survey/getSurveyList.jsp" target="_blank"/><img src="/images/02.jpg" alt="" width="171" height="44" border="0" /></td>
+            </tr>
+            <tr>
+              <td height="53" valign="top"><a href="/app/askOnLine/newAskOnLine-zczx.jsp" target="_blank"/><img src="/images/03.jpg" alt="" width="171" height="44" border="0" /></td>
+            </tr>
+            <tr>
+              <td height="53" valign="top"><a href="/zwgkpt/zfxxgkzn/" target="_blank"/><img src="/images/04.jpg" alt="" width="171" height="44" border="0" /></td>
+            </tr>
+          </table>
+</td>
+        <td width="749" valign="top"><table width="718" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:18px;">
+          <tr>
+            <td width="25"><img src="/images/wz_2.jpg" width="25" height="34" /></td>
+            <td width="665" bgcolor="#d8efff"><table width="515" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="50"><img src="/images/bdgk_8.jpg" width="39" height="34" /></td>
+                <td width="465" class="zi_bdgk1">当前位置: <a href='/' target='_self' class=''><font color=''>首页</font></a> ><a href='/zwgk/' target='_self' class=''><font color=''>政务公开</font></a> ><a href='/zwgk/zhengfcgou/' target='_self' class=''><font color=''>政府采购</font></a></td>
+              </tr>
+            </table></td>
+            <td width="28" align="right"><img src="/images/wz_3.jpg" width="28" height="34" /></td>
+          </tr>
+          <tr>
+            <td height="658" colspan="3" valign="top" bgcolor="#faffff" class="sy_bk3"><table width="697" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:15px;">
+			
+			
+			
+			
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/09/8363.html" title="伊春区核算中心采购铁架的公告" target="_blank" class="hei">伊春区核算中心采购铁架的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-09-04</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/09/8360.html" title="伊春区发改委采购打印机的公告" target="_blank" class="hei">伊春区发改委采购打印机的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-09-04</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/09/8359.html" title="伊春区红升社区采购乒乓球台的公告" target="_blank" class="hei">伊春区红升社区采购乒乓球台的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-09-04</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/09/8356.html" title="伊春区关工委采购手机的公告" target="_blank" class="hei">伊春区关工委采购手机的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-09-04</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/09/8353.html" title="伊春区机关服务中心采购移动音响的公告" target="_blank" class="hei">伊春区机关服务中心采购移动音响的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-09-04</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/09/8339.html" title="伊春区机关服务中心采购机关院内库房建设的公告" target="_blank" class="hei">伊春区机关服务中心采购机关院内库房建设的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-09-04</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/09/8341.html" title="伊春区循环园区采购周转箱的公告" target="_blank" class="hei">伊春区循环园区采购周转箱的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-09-04</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/09/8342.html" title="伊春区循环园区采购三轮机动车的公告" target="_blank" class="hei">伊春区循环园区采购三轮机动车的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-09-04</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/09/8343.html" title="伊春区农业局采购防汛设备的公告" target="_blank" class="hei">伊春区农业局采购防汛设备的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-09-04</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/09/8344.html" title="伊春区发改委采购宣传展板的公告" target="_blank" class="hei">伊春区发改委采购宣传展板的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-09-04</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/09/8345.html" title="伊春区旭日社区采购电子屏的公告" target="_blank" class="hei">伊春区旭日社区采购电子屏的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-09-04</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/09/8346.html" title="伊春区旭日社区采购电子屏的公告" target="_blank" class="hei">伊春区旭日社区采购电子屏的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-09-04</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/06/8045.html" title="伊春区科协采购电脑、打印机的公告" target="_blank" class="hei">伊春区科协采购电脑、打印机的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-06-30</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/06/8044.html" title="伊春区新闻中心采购照相机的公告" target="_blank" class="hei">伊春区新闻中心采购照相机的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-06-30</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/06/8043.html" title="伊春区林都社区采购垃圾箱的公告" target="_blank" class="hei">伊春区林都社区采购垃圾箱的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-06-30</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/06/8042.html" title="伊春区扶林社区采购垃圾箱的公告" target="_blank" class="hei">伊春区扶林社区采购垃圾箱的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-06-30</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/06/8041.html" title="伊春区北郡社区采购垃圾箱的公告" target="_blank" class="hei">伊春区北郡社区采购垃圾箱的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-06-30</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+                      <tr>
+                        <td width="581" height="30" class="zi_wz1"><a href="/zwgk/zhengfcgou/2017/06/8040.html" title="伊春区朝阳社区采购垃圾箱的公告" target="_blank" class="hei">伊春区朝阳社区采购垃圾箱的公告 </a> </td>
+                        <td width="116" align="center" class="zi_wz1">2017-06-30</td>
+                      </tr>
+					   <tr>
+                <td colspan="2"><img src="/images/wz_1.jpg" width="697" height="1" /></td>
+                </tr>
+             
+             
+              
+               
+            </table>
+              <table width="690" border="0" align="right" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td height="50" align="center"><script language="javascript">
+
+ function showListPage(recordCount, pageCount, pageNow){
+
+        if(pageCount<1) 
+
+               pageCount =0;
+
+        if(pageNow<1)  
+
+               pageNow = 0;
+
+        str = '共 <B>'+recordCount+'</B> 条记录，当前 <B>'+pageNow+'/'+pageCount+'</B> 页';
+
+
+
+
+        if(pageNow<=1)
+
+               str += " 首页 ";
+
+        else
+
+               str += " <A href='index.html'><font color='black'>首页</font></A> ";
+
+
+
+
+        if(pageNow==2)
+
+               str += " <A href='index.html'><font color='black'>上一页</font></A> ";        
+
+        else if(pageNow<=1)
+
+               str += " 上一页 ";
+
+        else
+
+               str += " <A href='index_"+(pageNow-1)+".html'><font color='black'>上一页</font></A> ";
+
+
+
+
+        if(pageNow>=pageCount)
+
+               str += " 下一页 ";
+
+        else
+
+               str += " <A href='index_"+(pageNow+1)+".html'><font color='black'>下一页</font></A> ";
+
+
+
+
+        if(pageNow>=pageCount)
+
+               str += " 尾页 ";
+
+        else
+
+               str += " <A href='index_"+pageCount+".html'><font color='black'>尾页</font></A> ";
+
+
+
+
+        return str;
+
+}
+
+
+
+
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE="JavaScript">document.write(showListPage(141, 8,2));</SCRIPT>
+ 跳转到　<input type="text" id="nowPage" style="width:20px;" />  <a href="#none" onclick="gotonum()"  ><b>GO</b></a>
+
+<script type="text/javascript">
+
+
+
+       function gotonum(){
+
+               var Nowpage=document.getElementById("nowPage").value;
+
+                       if(checkNum(Nowpage)){
+
+                               if(Nowpage<=1){
+
+                                       window.location = "index.html";
+
+                               }
+
+                               else if(Nowpage>8){
+
+                                       Nowpage = 8;
+
+                                       window.location="index_"+Nowpage+".html";
+
+                               }
+
+                               else{
+
+                                       window.location="index_"+Nowpage+".html";
+
+                               }
+
+               
+
+                       }
+
+                       else{
+
+                                       window.location="index.html";
+
+                       }                                
+
+       
+
+       }
+
+   function checkNum(str){ 
+
+                       //如果为空，则通过校验 
+
+               if(str == "") 
+
+                       return true; 
+
+               if(/^(\-?)(\d+)$/.test(str)) 
+
+                  return true; 
+
+               else 
+
+                  return false; 
+
+        } 
+
+</script>
+
+</td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr>
+            <td colspan="3"><img src="/images/wz_4.jpg" width="718" height="14" /></td>
+            </tr>
+        </table></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+<style type="text/css">
+<!--
+.STYLE2 {color: #000000}
+-->
+</style>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td height="22" colspan="3" valign="bottom"><img src="/images/sy_81.jpg" alt="" width="1000" height="12" /></td>
+  </tr>
+  <tr>
+    <td width="314" height="110" align="center" valign="top" background="/images/sy_82.jpg"><span class="STYLE2">报警岗亭</span> <br/>
+    <a href="http://60.11.20.50/alertwebyc/alarm/pre_alarm.jsp" target="_blank"><img src="/images/policegt.gif" width="60" height="80" border="0"></a></td>
+    <td width="380" align="center" background="/images/sy_82.jpg" class="zi_sy4">版权所有:伊春区人民政府<br />
+      地址:黑龙江省伊春市伊春区 电话:0458-3602345 邮编:153000 <br />
+    黑ICP备09098245号 </td>
+    <td width="306" align="center" valign="top" background="/images/sy_82.jpg" class="zi_sy4">警警&nbsp&nbsp察察<br>
+	<a href="http://60.11.20.50/alertwebyc/alarm/pre_alarm.jsp" target="_blank"><img src="/images/longlong.gif" width="60" height="80" border="0"></a><a href="http://60.11.20.50/alertwebyc/alarm/pre_alarm.jsp" target="_blank"><img src="/images/jiangjiang.gif" width="60" height="80" border="0"></a></td>
+  </tr>
+</table>
+</body>
+</html>

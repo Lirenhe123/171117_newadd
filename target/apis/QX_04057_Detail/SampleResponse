@@ -1,0 +1,456 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0069)http://czh.bjfsh.gov.cn/news/newslist/NewsList.asp -->
+<HTML><HEAD><META content="IE=7.0000" http-equiv="X-UA-Compatible">
+<TITLE>房山区财政局</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<STYLE type=text/css></STYLE>
+<LINK rel=stylesheet type=text/css href="../../css/17_css.css"><LINK 
+rel=stylesheet type=text/css href="../../css/12_common.css">
+<SCRIPT language=JavaScript type=text/JavaScript>
+
+
+<!--
+
+
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+			</SCRIPT>
+
+<STYLE type=text/css>.STYLE2 {
+	FONT-SIZE: 14px
+}
+BODY {
+	BACKGROUND-COLOR: #ffffff
+}
+.STYLE6 {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+</STYLE>
+
+<SCRIPT type=text/JavaScript>
+
+
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript>
+
+
+function doZoom(size){
+	document.getElementById('zoom').style.fontSize=size+'px';
+	document.getElementById('titlezoom').style.fontSize=size+'px';
+}
+
+function checkValid(){
+    var url = window.location.href;
+    //document.form1.title.value="";//建立摸板的时候写入名称
+    document.form1.url.value=url;
+    document.form1.submit();
+ }
+</SCRIPT>
+
+<META name=GENERATOR content="MSHTML 11.00.9600.18231"></HEAD>
+<BODY>
+<!--<DIV id=floatWindow style="POSITION: absolute"><A 
+href="http://czh.bjfsh.gov.cn/xxjl/index.asp?ClassID=19" target=_blank><IMG 
+border=0 src="../../images/ddqzlx.jpg" width=214 height=61> </A></DIV>-->
+<SCRIPT src="../../js/pf.js">
+
+
+</SCRIPT>
+
+<STYLE type=text/css>.btnOFF {
+	CURSOR: pointer; FONT-SIZE: 12px; BORDER-TOP: 1px outset; HEIGHT: 18px; BORDER-RIGHT: 1px outset; WIDTH: 180px; BORDER-BOTTOM: 1px outset; PADDING-BOTTOM: 3px; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-LEFT: 3px; BORDER-LEFT: 1px outset; PADDING-RIGHT: 3px; BACKGROUND-COLOR: #ffffff; text-valign: middle
+}
+.btnON {
+	CURSOR: hand; FONT-SIZE: 12px; BORDER-TOP: 1px inset; HEIGHT: 18px; BORDER-RIGHT: 1px inset; WIDTH: 180px; BORDER-BOTTOM: 1px inset; COLOR: red; PADDING-BOTTOM: 3px; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-LEFT: 3px; BORDER-LEFT: 1px inset; PADDING-RIGHT: 3px; BACKGROUND-COLOR: #ffffff; text-valign: middle
+}
+.ab1 {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; COLOR: #666666
+}
+</STYLE>
+
+<STYLE type=text/css>SELECT {
+	WIDTH: 130px
+}
+</STYLE>
+<LINK rel=stylesheet type=text/css href="../../css/css.css">
+<SCRIPT language=JavaScript type=text/JavaScript>
+
+
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+
+<STYLE type=text/css>A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none; COLOR: #ff0000
+}
+A:hover {
+	TEXT-DECORATION: none
+}
+A:active {
+	TEXT-DECORATION: none
+}
+BODY {
+	BACKGROUND-COLOR: #ffffff
+}
+.STYLE9 {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold; COLOR: #e80000
+}
+.STYLE10 {
+	FONT-SIZE: 12px; FONT-WEIGHT: bold; COLOR: #045ca4
+}
+</STYLE>
+
+<STYLE type=text/css>.btnOFF {
+	CURSOR: pointer; FONT-SIZE: 12px; BORDER-TOP: 1px outset; HEIGHT: 18px; BORDER-RIGHT: 1px outset; WIDTH: 180px; BORDER-BOTTOM: 1px outset; PADDING-BOTTOM: 3px; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-LEFT: 3px; BORDER-LEFT: 1px outset; PADDING-RIGHT: 3px; BACKGROUND-COLOR: #ffffff; text-valign: middle
+}
+.btnON {
+	CURSOR: hand; FONT-SIZE: 12px; BORDER-TOP: 1px inset; HEIGHT: 18px; BORDER-RIGHT: 1px inset; WIDTH: 180px; BORDER-BOTTOM: 1px inset; COLOR: red; PADDING-BOTTOM: 3px; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-LEFT: 3px; BORDER-LEFT: 1px inset; PADDING-RIGHT: 3px; BACKGROUND-COLOR: #ffffff; text-valign: middle
+}
+.ab1 {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; COLOR: #666666
+}
+</STYLE>
+
+<SCRIPT language=JavaScript type=text/JavaScript>
+<!--
+
+
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</SCRIPT>
+
+<STYLE type=text/css>A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none; COLOR: #ff0000
+}
+A:hover {
+	TEXT-DECORATION: none
+}
+A:active {
+	TEXT-DECORATION: none
+}
+BODY {
+	BACKGROUND-COLOR: #ffffff
+}
+.STYLE8 {
+	FONT-SIZE: 14px; COLOR: #ffffff
+}
+</STYLE>
+
+
+<!--body onLoad="MM_preload../images('../../images/t1.jpg','../../images/t2.jpg','../../images/t3.jpg','../../images/t4.jpg','../../images/t5.jpg','../../images/t6.jpg','../../images/t7.jpg','../../images/t8.jpg')"-->
+<TABLE cellSpacing=0 cellPadding=0 width=1000 align=center border=0>
+  <TBODY>
+ 
+<TABLE cellSpacing=0 cellPadding=0 width=1000 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#c9e5f3><IMG src="../../images/spxt.gif" width=1 height=5></TD></TR>
+  <TR>
+    <TD>
+      <OBJECT 
+      codeBase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" 
+      classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000 width=995 height=162><PARAM NAME="movie" VALUE="../../images/fs.swf"><PARAM NAME="quality" VALUE="high">
+                        <embed src="../../images/fs.swf" width="998" height="162" 
+      hspace="0" vspace="0" quality="high" 
+      pluginspage="http://www.macromedia.com/go/getflashplayer" 
+      type="application/x-shockwave-flash"></embed>    </OBJECT></TD></TR>
+  <TR>
+    <TD width=1000>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD width=5><IMG src="../../images/fstop2.jpg" width=5 height=35></TD>
+          <TD vAlign=middle background=../../images/fstop4.jpg width=992 
+          align=center><A href="../../index.htm" 
+            target=_top><SPAN class=STYLE8>首 页</SPAN></A><SPAN 
+            class=STYLE8>|</SPAN><A 
+            href="../../jgxx/jbxx/index.htm" target=_top><SPAN 
+            class=STYLE8> 机构信息</SPAN></A><SPAN class=STYLE8>|</SPAN><A 
+            href="../../zwgk/ksfb/index.htm" target=_top><SPAN 
+            class=STYLE8> 政务公开</SPAN></A><SPAN class=STYLE8>|</SPAN><A 
+            href="../../czdt/index.htm" target=_top><SPAN 
+            class=STYLE8> 财政动态</SPAN></A><SPAN class=STYLE8>|</SPAN><A 
+            href="../../dflz/index.htm" target=_top></A><A 
+            href="../../dflz/index.htm" target=_top><SPAN 
+            class=STYLE8> 党风廉政</SPAN></A><SPAN class=STYLE8>|</SPAN><A 
+            href="../../ssxw/index.htm" target=_top></A><A 
+            href="../../ssxw/index.htm" target=_top><SPAN 
+            class=STYLE8> 时事新闻</SPAN></A><SPAN class=STYLE8>|</SPAN><A 
+            href="../../xxjl/index.htm" target=_top><SPAN 
+            class=STYLE8> 学习交流</SPAN></A>
+
+
+
+<SPAN class=STYLE8>|</SPAN><A 
+            href="../../ckgg/index.htm" target=_top><SPAN 
+            class=STYLE8> 财会公告</SPAN></A>
+
+
+
+<SPAN class=STYLE8>|</SPAN><A 
+            href="../../xxcj/index.htm" target=_top><SPAN 
+            class=STYLE8> 学习创建</SPAN></A><SPAN class=STYLE8>|</SPAN><A 
+            href="../../xzzq/index.htm" target=_top><SPAN 
+            class=STYLE8> 下载专区</SPAN></A><SPAN class=STYLE8>|</SPAN><A 
+            href="http://czh.bjfsh.gov.cn/cms/modules/createOnlineLeaveMessage.jsp?typeID=16" target=_top><SPAN 
+            class=STYLE8> 留言咨询</SPAN></A><SPAN class=STYLE8>|</SPAN><A 
+            href="../../lxwm/index.htm" target=_top><SPAN 
+            class=STYLE8> 联系我们</SPAN></A></TD>
+          <TD width=5 align=right><IMG src="../../images/fstop3.jpg" width=5 
+            height=35></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>  <TR>
+    <TD><IMG src="../../images/spxt.gif" width=1 height=5></TD></TR></TBODY></TABLE>
+<TABLE height=2 cellSpacing=0 cellPadding=0 width=1000 align=center 
+bgColor=#9baab5 border=0>
+  <TBODY>
+  <TR>
+    <TD></TD></TR></TBODY></TABLE><MAP name=Map><AREA 
+  href="http://www.beijing.gov.cn/" shape=rect target=_blank 
+coords=40,13,113,92></MAP>
+<TABLE cellSpacing=0 cellPadding=0 width=1000 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD height=39 width=22><IMG src="../../images/11_ysqgkxx_02.gif" width=22 
+      height=39></TD>
+    <TD height=39 background=../../images/11_ysqgkxx_04.gif>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD width="3%"><IMG src="../../images/13_k-1.gif" width=23 height=23></TD>
+          <TD class=gray1 width="97%"><SPAN class=gray1><STRONG 
+            class=gray1>您现在的位置</STRONG>：</SPAN></TD></TR></TBODY></TABLE></TD>
+    <TD width=24>
+      <DIV align=right><IMG src="../../images/11_ysqgkxx_06.gif" width=24 
+      height=39></DIV></TD></TR>
+  <TR>
+    <TD height=603 background=../../images/11_ysqgkxx_03.gif>&nbsp;</TD>
+    <TD>
+      <TABLE height=450 cellSpacing=0 cellPadding=0 width="100%" align=center 
+      border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top align=center>
+            <TABLE height=8 cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD></TD></TR></TBODY></TABLE>
+            <TABLE height=350 cellSpacing=1 cellPadding=0 width=879 border=0>
+              <TBODY>
+              <TR>
+                <TD vAlign=top align=center>
+                  <TABLE id=tb1 height="100%" cellSpacing=0 cellPadding=0 
+                  width=830 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=blue2 height=60 vAlign=middle 
+                        align=center><STRONG><FONT 
+                        id=titlezoom>房山区京津风沙治理二期工程2017年项目小流域综合治理工程更正公告</FONT></STRONG></TD></TR>
+                    <TR>
+                      <TD height=15 vAlign=top align=center>
+                        <TABLE height=1 cellSpacing=0 cellPadding=0 width="100%" 
+                        bgColor=#cccccc border=0>
+                          <TBODY>
+                          <TR>
+                            <TD></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD vAlign=top><!--tian-->
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD></TD></TR>
+                          <TR>
+                            <TD class=hui2 align=center>【&nbsp;背景颜色：&nbsp; <A 
+                              onmousedown="tb1.style.backgroundColor='FAFBE6';set_color('FAFBE6')" 
+                              href="http://czh.bjfsh.gov.cn/news/newslist/NewsList.asp?ClassID=43&amp;ID=3954#"><IMG 
+                              border=0 alt=杏仁黄 src="../../images/color1.gif" 
+                              width=10 height=10></A>&nbsp; <A 
+                              onmousedown="tb1.style.backgroundColor='FDE6E0';set_color('FDE6E0')" 
+                              href="http://czh.bjfsh.gov.cn/news/newslist/NewsList.asp?ClassID=43&amp;ID=3954#"><IMG 
+                              border=0 alt=胭脂红 src="../../images/color3.gif" 
+                              width=10 height=10></A>&nbsp; <A 
+                              onmousedown="tb1.style.backgroundColor='F3FFE1';set_color('F3FFE1')" 
+                              href="http://czh.bjfsh.gov.cn/news/newslist/NewsList.asp?ClassID=43&amp;ID=3954#"><IMG 
+                              border=0 alt=芥末绿 src="../../images/color4.gif" 
+                              width=10 height=10></A>&nbsp; <A 
+                              onmousedown="tb1.style.backgroundColor='DAFAFE';set_color('DAFAFE')" 
+                              href="http://czh.bjfsh.gov.cn/news/newslist/NewsList.asp?ClassID=43&amp;ID=3954#"><IMG 
+                              border=0 alt=天蓝 src="../../images/color5.gif" width=10 
+                              height=10></A>&nbsp; <A 
+                              onmousedown="tb1.style.backgroundColor='E9EBFE';set_color('E9EBFE')" 
+                              href="http://czh.bjfsh.gov.cn/news/newslist/NewsList.asp?ClassID=43&amp;ID=3954#"><IMG 
+                              border=0 alt=雪青 src="../../images/color6.gif" width=10 
+                              height=10></A>&nbsp; <A 
+                              onmousedown="tb1.style.backgroundColor='EAEAEF';set_color('EAEAEF')" 
+                              href="http://czh.bjfsh.gov.cn/news/newslist/NewsList.asp?ClassID=43&amp;ID=3954#"><IMG 
+                              border=0 alt=灰 src="../../images/color7.gif" width=10 
+                              height=10></A>&nbsp; <A 
+                              onmousedown="tb1.style.backgroundColor='FFFFFF';set_color('FFFFFF')" 
+                              href="http://czh.bjfsh.gov.cn/news/newslist/NewsList.asp?ClassID=43&amp;ID=3954#"><IMG 
+                              border=0 alt=银河白(默认色) src="../../images/color8.gif" 
+                              width=10 height=10></A>&nbsp; <A 
+                              onmousedown="tb1.style.backgroundColor='FFF2E2';set_color('FFF2E2')" 
+                              href="http://czh.bjfsh.gov.cn/news/newslist/NewsList.asp?ClassID=43&amp;ID=3954#"><IMG 
+                              border=0 alt=秋叶褐 src="../../images/color2.gif" 
+                              width=10 height=10></A>&nbsp; 
+】</TD></TR></TBODY></TABLE><!--tian-->
+                        <TABLE cellSpacing=10 cellPadding=0 width="99%" 
+                        align=center border=0>
+                          <TBODY>
+                          <TR>
+                            <TD class=hui14 align=left><FONT id=zoom 
+                              class=lan14>
+                              <P align=center>日期：2017/08/15 </P>
+                              <P align=center>
+                              
+							  <p>　　<strong><span style="font-family:新宋体"><span style="font-size:medium">房山区京津风沙治理二期工程2017年项目小流域综合治理工程更正公告</span></span></strong></p>
+
+<p>　　<br />
+<span style="font-size:medium"><span style="font-family:新宋体">项目名称:</span>房山区京津风沙治理二期工程2017</span>年项目小流域综合治理工程</p>
+
+<p>　　<span style="font-family:新宋体"><span style="font-size:medium">项目编号:TCCX-2017PWX1038<a name="_GoBack"></a></span></span></p>
+
+<p>　　</p>
+
+<p>　　<span style="font-family:新宋体"><span style="font-size:medium">招标人：北京市房山区蒲洼乡人民政府</span></span></p>
+
+<p>　　<span style="font-family:新宋体"><span style="font-size:medium">招标人地址：北京市房山区蒲洼乡蒲洼村</span></span></p>
+
+<p>　　<span style="font-family:新宋体"><span style="font-size:medium">招标人联系方式：卢先生010-61371611</span></span></p>
+
+<p>　　</p>
+
+<p>　　<span style="font-family:新宋体"><span style="font-size:medium">代理机构名称：北京天诚晨兴商务服务有限公司</span></span></p>
+
+<p>　　<span style="font-family:新宋体"><span style="font-size:medium">代理机构地址：北京市房山区西潞南大街18号院内西楼一层&nbsp;</span></span></p>
+
+<p>　　<span style="font-family:新宋体"><span style="font-size:medium">代理机构联系方式：张女士&nbsp; 010-69351968</span></span></p>
+
+<p>　　</p>
+
+<p>　　<span style="font-family:新宋体"><span style="font-size:medium">发公告日期：2017年07月26日</span></span></p>
+
+<p>　　<span style="font-family:新宋体"><span style="font-size:medium">更正公告日期：2017年08月15日</span></span></p>
+
+<p>　　<span style="font-family:新宋体"><span style="font-size:medium">更正内容：投标文件递交截止时间：2017年08月16日上午09:00（北京时间） </span></span></p>
+
+<p>　　<span style="font-size:medium"><span style="font-family:新宋体">开标日期：2017年08月16日上午09:00</span>（北京时间）</span></p>
+
+<p>　　</p>
+
+<p>　　<span style="font-family:新宋体"><span style="font-size:medium">现更正为：投标文件递交截止时间：2017年08月23日下午14:00（北京时间） </span></span></p>
+
+<p>　　<span style="font-size:medium"><span style="font-family:新宋体">开标日期：2017年08月23日下午14:00</span>（北京时间）</span></p>
+
+<p>　　</p>
+
+<p>　　<span style="font-family:新宋体"><span style="font-size:medium">其他内容不变！</span></span></p>
+
+<p>　　</p>
+
+<p>　　<span style="font-family:新宋体"><span style="font-size:medium">项目联系人：张女士</span></span></p>
+
+<p>　　<span style="font-family:新宋体"><span style="font-size:medium">联系电话：010-69351968</span></span></p>
+
+<p>　　</p>
+
+<p>　　<span style="font-family:新宋体"><span style="font-size:medium">北京天诚晨兴商务服务有限公司</span></span></p>
+
+<p>　　<span style="font-size:medium"><span style="font-family:新宋体">2017</span><span style="font-family:新宋体">年08</span>月15</span>日</p>
+ 
+							                                <P>&nbsp;</P>
+                              <P></P></FONT></TD></TR></TBODY></TABLE>
+                        <TABLE cellSpacing=10 cellPadding=0 width="99%" 
+                        align=center border=0>
+                          <TBODY>
+                          <TR>
+                            <TD class=hui2 align=center>
+                              <FORM method=post name=form1 
+                              action=/cz/article/saveArticle.jsp>【 字体显示： <A 
+                              class=gray3 href="javascript:doZoom(16)">大</A> <A 
+                              class=gray3 href="javascript:doZoom(14)">中</A> <A 
+                              class=gray3 href="javascript:doZoom(12)">小</A> 】 【 
+                              <A class=gray3 
+                              href="javascript:window.print()">打印</A> 】 【 <A 
+                              class=gray3 
+                              href="javascript:window.close()">关闭窗口</A> 】 
+                            </FORM></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+    <TD height=603 background=../../images/11_ysqgjxx_03.gif>&nbsp;</TD></TR>
+  <TR>
+    <TD><IMG src="../../images/11_ysqgkxx_09.gif" width=22 height=19></TD>
+    <TD height=19 background=images/11_ysqgkxx_11.gif>&nbsp;</TD>
+    <TD><IMG src="../../images/11_ysqgkxx_13.gif" width=24 
+height=19></TD></TR></TBODY></TABLE>
+<TABLE height=3 cellSpacing=0 cellPadding=0 width=1000 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=1000 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD><IFRAME height=78 marginHeight=0 src="../../images/wzdb.htm" frameBorder=0 
+      width=1002 name=wzdb marginWidth=0 
+scrolling=no></IFRAME></TD></TR></TBODY></TABLE>
+</body></html>

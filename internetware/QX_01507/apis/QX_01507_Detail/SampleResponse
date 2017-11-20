@@ -1,0 +1,198 @@
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>北京市顺义区政府采购网</title>
+<link type="text/css" href="css/style.css" rel="stylesheet" />
+<script type="text/javascript"> 
+// 设置为主页 
+function SetHome(obj,vrl){ 
+try{ 
+obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl); 
+} 
+catch(e){ 
+if(window.netscape) { 
+try { 
+netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); 
+} 
+catch (e) { 
+alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。"); 
+} 
+var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch); 
+prefs.setCharPref('browser.startup.homepage',vrl); 
+}else{ 
+alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。"); 
+} 
+} 
+} 
+// 加入收藏 兼容360和IE6 
+function shoucang(sTitle,sURL) 
+{ 
+try 
+{ 
+window.external.addFavorite(sURL, sTitle); 
+} 
+catch (e) 
+{ 
+try 
+{ 
+window.sidebar.addPanel(sTitle, sURL, ""); 
+} 
+catch (e) 
+{ 
+alert("加入收藏失败，请使用Ctrl+D进行添加"); 
+} 
+} 
+} 
+</script>
+<!--页签js -->
+<script>
+function setTab(name,cursel,n){
+for(i=1;i<=n;i++){  var menu=document.getElementById(name+i);  var con=document.getElementById("con_"+name+"_"+i);  menu.className=i==cursel?"hover":"";  con.style.display=i==cursel?"block":"none";}}</script>
+</head>
+<body>
+<div id="all">
+  
+<!--div class="logo_top">
+    <div class="logo_top_hy">欢迎您登录北京市顺义区政府采购网！<span class="logo_top_jrwm"><a href="#">加入收藏</a> │ <a href="#">联系我们</a></span></div>
+  </div-->
+  <div class="logo">
+    <div class="sywc"><a href="http://www.bjshy.gov.cn/" target="_blank"><img src="images/顺义网城.png" alt="顺义网城" border="0" /></a></div>
+    <div class="sdzc"><a href="http://www.beijing.gov.cn"  target="_blank"><img src="images/首都之窗.png" alt="首都之窗" border="0" /></a></div>
+  </div>
+  <div class="dh">
+    <!--导航开始-->
+    <div class="Navigation_ll">
+      <ul>
+        <li class="mainlevel" style="width:80px; text-align:center;"><a href="index.jsp">首页</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=001">信息公开</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=011">信息公告</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=003">通知通告</a></li>
+        <li class="mainlevel"><a href="xieyicaigou.jsp">协议采购</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=012">政策法规</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=006">标书下载</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=007">CA认证</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=008">文件下载</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=009">软件下载</a></li>
+      </ul>
+    </div>
+    <!--导航结束-->
+  </div>
+
+  <div class="logo_bottom"><div class="logo_bottom_date">
+    <script language=JavaScript>  
+				today=new Date();  
+				function initArray(){  
+					this.length=initArray.arguments.length;//传递参数给当前函数的参数个数   
+					for(var i=0;i<this.length;i++)  
+						this[i+1]=initArray.arguments[i];    
+					}  
+				var d=new initArray("星期日","星期一","星期二","星期三","星期四","星期五","星期六");  
+				var year = (today.getYear()<1900?(1900+today.getYear()):today.getYear());
+				document.write("今天是",year,"年",today.getMonth()+1,"月",today.getDate(),"日 ",d[today.getDay()+1]);   
+			</script>
+    </div> <div class="logo_bottom_gdxw">
+
+
+
+
+
+
+
+
+
+
+
+
+		<MARQUEE direction=left onmouseout=this.start() onmouseover=this.stop() scrollAmount=1 scrollDelay=5 width="485"">
+			<font style="color:#ff0000;">滚动新闻：</font><a href="level3.jsp?id=405" target=_blank>关于更新北京市顺义区2015-2017办公设备协议供货服务商名单的通知</a>&nbsp;&nbsp;<a href="level2.jsp?caid=014">更多…</a>
+		</MARQUEE>
+
+
+
+</div>
+    <div class="logo_bottom_ss">
+		
+
+
+<script Language="JavaScript">
+function search()
+{
+   if(document.SearchForm.keys.value=='') {
+		alert('搜索关键字不能为空!!!');
+		document.SearchForm.keys.focus();
+		return;
+	}
+	document.SearchForm.submit();
+}
+</script>
+<table width="100%" border="0" align="left" cellpadding="0" cellspacing="0" height="14">
+<form name="SearchForm" method="POST" action="website/SearchAction.do" >
+	<input type=hidden name="actionType" value="query"/>
+   <tr>
+	<td  style="background-image:url(../../images/66_09s_01.jpg);"><input name="keys" type="text" class="search_input" border="0" style="width:184px; margin-left:4px; border-bottom:0px; border-left:0px; border-right:0px; border-top:0px;line-height:21px;font-size:15px; height:21px;"></td>
+	<td align="left"><img src="images/66_09s_02.jpg" height="23" width="60" border="0" onClick="javascript:search()"></td>
+  </tr>                                  
+ </form>
+</table>
+
+	</div>
+  </div>
+  <div id="center">
+	
+	<div class="level2center_right">
+	<div style=" font-size:14px; padding-left:17px; padding-top:16px;"><a href=".">首页</a>&nbsp;>&nbsp;<a href="level2.jsp?caid=011">信息公告</a>&nbsp;>&nbsp;<a href="level2.jsp?caid=011-002">招标公告</a>&nbsp;</div>
+    <div style="padding-top:40px;padding-bottom:10px;">
+	 
+
+
+
+
+
+
+
+
+<script language="JavaScript"> 
+	document.title = "2018年民政对象两节慰问品招标公告"; 
+</script>
+
+
+
+
+<TABLE width="90%" height="450" border=0  cellPadding=0  cellSpacing=0  align="center" style="margin-top:20px;">
+	<TR  valign="top">
+		<TD>
+		
+
+
+		
+
+
+		<br />
+		<div style=" width:100%; height:auto; text-align:left;"><style>/* Generator: eWebEditor */p.MsoNormal {margin:0pt;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-family:'Times New Roman';font-size:10.5000pt;}p.MsoHeader {margin:0pt;margin-bottom:.0001pt;border-bottom:0.7500pt solid windowtext;padding:0pt 0pt 1pt 0pt ;layout-grid-mode:char;text-align:center;font-family:'Times New Roman';font-size:9.0000pt;}p.NewStyle16 {margin-top:5.0000pt;margin-bottom:5.0000pt;text-align:left;line-height:180%;font-family:Verdana,ˎ̥;font-size:11.5000pt;}span.msoIns {text-decoration:underline;text-underline:single;color:blue;}span.msoDel {text-decoration:line-through;color:red;}table.MsoNormalTable {font-family:'Times New Roman';font-size:10.0000pt;}div.Section0 {page:Section0;}</style><p class="MsoNormal" style="text-align: center; line-height: 150%; margin-right: 49.45pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 15pt; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt; font-weight: bold;">&nbsp;</span><span style="line-height: 150%; font-family: 宋体; font-size: 15pt; font-weight: bold;">&nbsp;&nbsp;201</span><span style="line-height: 150%; font-family: 宋体; font-size: 15pt; font-weight: bold;">8</span><span style="line-height: 150%; font-family: 宋体; font-size: 15pt; font-weight: bold;">年民政对象两节慰问品招标公告</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: 24pt; margin-left: 21pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt; text-decoration: underline; text-underline: single;">北京金诚立信造价咨询有限公司</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">受</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">“</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt; text-decoration: underline; text-underline: single;">北京市顺义区民政局</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">”</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">的委托，对</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">“</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt; text-decoration: underline; text-underline: single;">201</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt; text-decoration: underline; text-underline: single;">8</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt; text-decoration: underline; text-underline: single;">年民政对象两节慰问品（Jclxzb-201</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt; text-decoration: underline; text-underline: single;">7</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt; text-decoration: underline; text-underline: single;">-</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt; text-decoration: underline; text-underline: single;">249</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt; text-decoration: underline; text-underline: single;">）</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">”项目</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">采用国内公开招标方式进行采购</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">，</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">欢迎合格的投标人参加投标。</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: -21pt; margin-left: 35.2pt;"><!--[if !supportLists]--><span style="font-family: 宋体; font-size: 12pt;"><span>1.<span>&nbsp;</span></span></span><!--[endif]--><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">采购人名称：</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">北京市顺义区民政局</span></p><p class="MsoNormal" style="line-height: 150%; margin-left: 35.2pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">采购人</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">地址：</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">北京</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">市顺义区</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">石园</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">北区</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">东</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">侧</span></p><p class="MsoNormal" style="line-height: 150%; margin-left: 35.2pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">联系人</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">：</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">李</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">先生</span></p><p class="MsoNormal" style="line-height: 150%; margin-left: 35.2pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">联系电话</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">：</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">010</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">-69424201</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: -21pt; margin-left: 35.2pt;"><!--[if !supportLists]--><span style="font-family: 宋体; font-size: 12pt;"><span>2.<span>&nbsp;</span></span></span><!--[endif]--><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">采购代理机构全称：</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">北京金诚立信造价咨询有限公司</span></p><p class="MsoNormal" style="line-height: 150%; margin-left: 21pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">&nbsp;&nbsp;&nbsp;</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">采购代理机构地址：</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">北京市顺义区仓上街2号AMB大厦B座</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">11</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">层</span></p><p class="MsoNormal" style="line-height: 150%; margin-left: 21pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">&nbsp;&nbsp;&nbsp;项目</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">联系人:</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">吕先生</span></p><p class="MsoNormal" style="line-height: 150%; margin-left: 21pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">&nbsp;&nbsp;&nbsp;联系</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">电话:</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">010-89457607&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">传真:</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">010-89441567</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: -21pt; margin-left: 35.2pt;"><!--[if !supportLists]--><span style="font-family: 宋体; font-size: 12pt;"><span>3.<span>&nbsp;</span></span></span><!--[endif]--><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">采购内容、采购用途及简要技术要求</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">：</span></p><p class="MsoNormal" style="line-height: 150%; margin-left: 39pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">3.1采购内容：</span></p><table align="center" class="MsoNormalTable" style="width: 356.05pt; margin-left: 4.65pt; border-collapse: collapse;"><tbody><tr style="height: 21.95pt;"><td width="87" valign="center" style="padding: 0pt 0.75pt; border: 0.5pt solid windowtext; width: 65.6pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="font-family: 宋体; font-size: 12pt;">分包号</span></p></td><td width="236" valign="center" style="border-width: 0.5pt 0.5pt 0.5pt medium; border-style: solid solid solid none; border-color: windowtext windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 177.2pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="font-family: 宋体; font-size: 12pt;">货物名称</span></p></td><td width="151" valign="center" style="border-width: 0.5pt 0.5pt 0.5pt medium; border-style: solid solid solid none; border-color: windowtext windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 113.25pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="font-family: 宋体; font-size: 12pt;">数量</span></p></td></tr><tr style="height: 24.8pt;"><td width="87" valign="center" style="border-width: medium 0.5pt 0.5pt; border-style: none solid solid; border-color: currentColor windowtext windowtext; padding: 0pt 0.75pt; width: 65.6pt;" rowspan="3"><p class="MsoNormal" style="text-align: center; text-indent: 26.05pt; margin-left: 0pt; vertical-align: middle;"><span style="font-family: 宋体; font-size: 12pt;">第一包</span></p></td><td width="236" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 177.2pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="font-family: 宋体; font-size: 12pt;">大米</span></p></td><td width="151" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 113.25pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="font-family: 宋体; font-size: 12pt;">16628</span><span style="font-family: 宋体; font-size: 12pt;">袋</span></p></td></tr><tr style="height: 24.8pt;"><td width="236" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 177.2pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 12pt;">面</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 12pt;">粉</span></p></td><td width="151" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 113.25pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="font-family: 宋体; font-size: 12pt;">16628</span><span style="font-family: 宋体; font-size: 12pt;">袋</span></p></td></tr><tr style="height: 24.8pt;"><td width="236" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 177.2pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="font-family: 宋体; font-size: 12pt;">杂粮</span></p></td><td width="151" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 113.25pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="font-family: 宋体; font-size: 12pt;">107盒</span></p></td></tr><tr style="height: 24.8pt;"><td width="87" valign="center" style="border-width: medium 0.5pt 0.5pt; border-style: none solid solid; border-color: currentColor windowtext windowtext; padding: 0pt 0.75pt; width: 65.6pt;" rowspan="3"><p class="MsoNormal" style="text-align: center; text-indent: 26.05pt; margin-left: 0pt; vertical-align: middle;"><span style="font-family: 宋体; font-size: 12pt;">第</span><span style="font-family: 宋体; font-size: 12pt;">二包</span></p></td><td width="236" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 177.2pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 12pt;">食</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 12pt;">用油</span></p></td><td width="151" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 113.25pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="font-family: 宋体; font-size: 12pt;">22628桶</span></p></td></tr><tr style="height: 24.8pt;"><td width="236" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 177.2pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 12pt;">香</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 12pt;">油</span></p></td><td width="151" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 113.25pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="font-family: 宋体; font-size: 12pt;">16628盒</span></p></td></tr><tr style="height: 24.8pt;"><td width="236" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 177.2pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 12pt;">饮料</span></p></td><td width="151" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 113.25pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="font-family: 宋体; font-size: 12pt;">2500箱</span></p></td></tr><tr style="height: 24.8pt;"><td width="87" valign="center" style="border-width: medium 0.5pt 0.5pt; border-style: none solid solid; border-color: currentColor windowtext windowtext; padding: 0pt 0.75pt; width: 65.6pt;"><p class="MsoNormal" style="text-align: center; text-indent: 26.05pt; margin-left: 0pt; vertical-align: middle;"><span style="font-family: 宋体; font-size: 12pt;">第三包</span></p></td><td width="236" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 177.2pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 12pt;">白条猪</span></p></td><td width="151" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0pt 0.75pt; width: 113.25pt;"><p class="MsoNormal" style="text-align: center; vertical-align: middle;"><span style="font-family: 宋体; font-size: 12pt;">280头</span></p></td></tr></tbody></table><p class="MsoNormal" style="line-height: 150%; margin-left: 39pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">3.2采购用途：&nbsp;详见招标文件</span></p><p class="MsoNormal" style="line-height: 150%; margin-left: 39pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">3.3简要技术要求：</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">必须达到现行中华人民共和国及北京市、行业的有关法规、规范的要求及相关文件要求的质量标准。</span></p><p class="NewStyle16" style="text-indent: -48pt; margin-top: 0pt; margin-bottom: 0pt; margin-left: 65.95pt;"><span style="font-family: 宋体; font-size: 12pt;">&nbsp;&nbsp;&nbsp;&nbsp;3.4招标货物总预算：</span><span style="font-family: 宋体; font-size: 12pt;">410</span><span style="font-family: 宋体; font-size: 12pt;">万元。</span></p><p class="NewStyle16" style="margin-top: 0pt; margin-bottom: 0pt;"><span style="font-family: 宋体; font-size: 12pt;">&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;</span><span style="font-family: 宋体; font-size: 12pt;">合格投标人的资格条件：</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: -18pt; margin-top: 12pt; margin-left: 60pt;"><!--[if !supportLists]--><span style="font-family: 宋体; font-size: 12pt;"><span>4．<span>&nbsp;</span></span></span><!--[endif]--><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">1</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">在中华人民共和国境内注册，能够独立承担民事责任，有</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">服务和</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">供应能力的本国供应商</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">。</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: -18pt; margin-left: 60pt;"><!--[if !supportLists]--><span style="font-family: 宋体; font-size: 12pt;"><span>4．<span>&nbsp;</span></span></span><!--[endif]--><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">2</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">满足《中华人民共和国政府采购法》第二十二条规定的所有条件</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">。</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: -18pt; margin-left: 60pt;"><!--[if !supportLists]--><span style="font-family: 宋体; font-size: 12pt;"><span>4．<span>&nbsp;</span></span></span><!--[endif]--><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">3</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">在中华人民共和国境内合法注册的，</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">营业执照经营范围应包含与本项目相关的内容。&nbsp;</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">&nbsp;</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: -24pt; margin-left: 66pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">4.4投标人需提供投标截止日期起前3个月内检察机关出具的公司近三年没有行贿犯罪记录的行贿犯罪档案查询结果证明。</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: -18pt; margin-left: 60pt;"><!--[if !supportLists]--><span style="font-family: 宋体; font-size: 12pt;"><span>4．<span>&nbsp;</span></span></span><!--[endif]--><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">5</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">遵守国家有关法律、法规、规章和北京市政府采购有关的规章，具有良好的商业信誉和健全的财务会计制度。在法律上和财务上独立、合法运作并独立于采购人和采购代理机构之外</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">。</span></p><p class="MsoNormal" style="line-height: 150%; margin-left: 42pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">4．6</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">投标人必须向采购代理机构购买招标文件并登记备案，未向采购代理机构购买招标文件并登记备案的潜在投标人均无资格参加本次投标。</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: 24pt; margin-left: 17.95pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">4．7本项目不接受联合体参加。</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: 6pt; margin-left: 17.95pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">5.&nbsp;购买招标文件时需携带资料：</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: 36pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">&nbsp;5.1有效的</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">法人营业执照</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">正副本原件</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">及复印件</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">加盖单位公章；</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: -30pt; margin-left: 65.9pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">&nbsp;5.2组织机构代码证副本、</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">税务登记证书</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">副本原件及</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">复印件</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">加盖单位公章（</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">提交“三证合一”新版营业执照的可不提供</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">）；</span></p><p class="MsoNormal" style="line-height: 150%; margin-left: 35.9pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">&nbsp;5.3</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">法定代表人授权书</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">原件及法定代表人身份证复印件（法人签字并加盖单位公章）；</span></p><p class="MsoNormal" style="line-height: 150%; margin-left: 35.9pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">&nbsp;5.4&nbsp;被授权人的身份证原件及</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">复印件</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">并加盖公章；</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: -24pt; margin-left: 59.9pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">&nbsp;5.5</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">社会保障资金缴纳记录（</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">仅限报名前连续3个月内的有效票据凭证复印件并加盖本单位公章</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">）</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">；</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: -24pt; margin-left: 59.9pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">&nbsp;5.6依法缴纳税收的有效证明材料（仅限报名前连续3个月内依法缴纳税收的记录或税务局出具免税证明复印件并加盖本单位公章&nbsp;）</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: 18pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">6.报名及</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">招标文件发售时间：</span><span style="color: rgb(255, 0, 0); line-height: 150%; font-family: 宋体; font-size: 12pt;">&nbsp;</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">201</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">7</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">年</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">11</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">月</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">20</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">日起至201</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">7</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">年</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">11</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">月</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">24</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">日止(</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">节假日休息)，每天上午9:00-11：30，下午13：30-16:00(北京时间)</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">。</span><span style="line-height: 150%; font-family: Verdana,ˎ̥; font-size: 12pt;">本</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">项目</span><span style="line-height: 150%; font-family: Verdana,ˎ̥; font-size: 12pt;">招标仅接受现场报名，不接受网上和其它方式的报名。</span></p><p class="MsoNormal" style="line-height: 150%; margin-left: 18pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">7.</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">招标文件发售地点：</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">北京市顺义区仓上街2号AMB大厦B座</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">11</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">层招</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">标部。</span></p><p class="MsoNormal" style="line-height: 150%; margin-left: 18pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">8.</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">招标文件售价：每</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">套</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">人民币</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">500</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">元</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">。招标文件</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">售后不退</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">。</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: 18pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">9.</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">投标时间：</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">201</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">7</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">&nbsp;年</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">12</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">月</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">12</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">日上午08：00—09：00&nbsp;</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">（北京时间）。</span></p><p class="MsoNormal" style="line-height: 150%; margin-left: 17.95pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">10.</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">投标截止、开标时间：</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">201</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">7</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">年</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">12</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">月</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">12</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">日上午9：00整</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">（北京时间），逾期收到或不符合规定的投标文件恕不接受。</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: 18pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">11.投标和开标</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">地点</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">：</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">北京市顺义区仓上街2号AMB大厦B座</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">11</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">层开</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">标室</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">（如有变动另行通知）</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">。</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: 18pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">12.</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">评标方法和标准</span><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">：综合评分法。</span></p><p class="MsoNormal" style="line-height: 150%; text-indent: 72pt; margin-right: 24pt;"><span style="line-height: 150%; font-family: 宋体; font-size: 12pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;北京金诚立信造价咨询有限公司</span></p>an&gt;</div>
+		</TD>
+	</TR>
+</TABLE>
+
+
+
+	</div>
+	</div>
+	</div>
+
+  <div style="clear:both;"></div>
+   
+<div id="bottom">
+      <div class="bottom_wz"> Copyright 1999 - 2015 BeijingShunyi, All rights reserved　　京IPC备05007181　　北京市顺义区财政局版权所有<br />
+        网络110报警服务　　技术支持：普巴软件有限公司 </div>
+    </div>
+</div>
+
+</body>
+</html>

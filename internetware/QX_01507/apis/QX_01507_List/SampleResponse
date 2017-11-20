@@ -1,0 +1,552 @@
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>北京市顺义区政府采购网</title>
+<link type="text/css" href="css/style.css" rel="stylesheet" />
+<script type="text/javascript"> 
+// 设置为主页 
+function SetHome(obj,vrl){ 
+try{ 
+obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl); 
+} 
+catch(e){ 
+if(window.netscape) { 
+try { 
+netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); 
+} 
+catch (e) { 
+alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。"); 
+} 
+var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch); 
+prefs.setCharPref('browser.startup.homepage',vrl); 
+}else{ 
+alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。"); 
+} 
+} 
+} 
+// 加入收藏 兼容360和IE6 
+function shoucang(sTitle,sURL) 
+{ 
+try 
+{ 
+window.external.addFavorite(sURL, sTitle); 
+} 
+catch (e) 
+{ 
+try 
+{ 
+window.sidebar.addPanel(sTitle, sURL, ""); 
+} 
+catch (e) 
+{ 
+alert("加入收藏失败，请使用Ctrl+D进行添加"); 
+} 
+} 
+} 
+</script>
+<!--页签js -->
+<script>
+function setTab(name,cursel,n){
+for(i=1;i<=n;i++){  var menu=document.getElementById(name+i);  var con=document.getElementById("con_"+name+"_"+i);  menu.className=i==cursel?"hover":"";  con.style.display=i==cursel?"block":"none";}}</script>
+</head>
+<body>
+
+<div id="all">
+  
+<!--div class="logo_top">
+    <div class="logo_top_hy">欢迎您登录北京市顺义区政府采购网！<span class="logo_top_jrwm"><a href="#">加入收藏</a> │ <a href="#">联系我们</a></span></div>
+  </div-->
+  <div class="logo">
+    <div class="sywc"><a href="http://www.bjshy.gov.cn/" target="_blank"><img src="images/顺义网城.png" alt="顺义网城" border="0" /></a></div>
+    <div class="sdzc"><a href="http://www.beijing.gov.cn"  target="_blank"><img src="images/首都之窗.png" alt="首都之窗" border="0" /></a></div>
+  </div>
+  <div class="dh">
+    <!--导航开始-->
+    <div class="Navigation_ll">
+      <ul>
+        <li class="mainlevel" style="width:80px; text-align:center;"><a href="index.jsp">首页</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=001">信息公开</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=011">信息公告</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=003">通知通告</a></li>
+        <li class="mainlevel"><a href="xieyicaigou.jsp">协议采购</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=012">政策法规</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=006">标书下载</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=007">CA认证</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=008">文件下载</a></li>
+        <li class="mainlevel"><a href="level2.jsp?caid=009">软件下载</a></li>
+      </ul>
+    </div>
+    <!--导航结束-->
+  </div>
+
+  <div class="logo_bottom"><div class="logo_bottom_date">
+    <script language=JavaScript>  
+				today=new Date();  
+				function initArray(){  
+					this.length=initArray.arguments.length;//传递参数给当前函数的参数个数   
+					for(var i=0;i<this.length;i++)  
+						this[i+1]=initArray.arguments[i];    
+					}  
+				var d=new initArray("星期日","星期一","星期二","星期三","星期四","星期五","星期六");  
+				var year = (today.getYear()<1900?(1900+today.getYear()):today.getYear());
+				document.write("今天是",year,"年",today.getMonth()+1,"月",today.getDate(),"日 ",d[today.getDay()+1]);   
+			</script>
+    </div> <div class="logo_bottom_gdxw">
+
+
+
+
+
+
+
+
+
+
+
+
+		<MARQUEE direction=left onmouseout=this.start() onmouseover=this.stop() scrollAmount=1 scrollDelay=5 width="485"">
+			<font style="color:#ff0000;">滚动新闻：</font><a href="level3.jsp?id=405" target=_blank>关于更新北京市顺义区2015-2017办公设备协议供货服务商名单的通知</a>&nbsp;&nbsp;<a href="level2.jsp?caid=014">更多…</a>
+		</MARQUEE>
+
+
+
+</div>
+    <div class="logo_bottom_ss">
+		
+
+
+<script Language="JavaScript">
+function search()
+{
+   if(document.SearchForm.keys.value=='') {
+		alert('搜索关键字不能为空!!!');
+		document.SearchForm.keys.focus();
+		return;
+	}
+	document.SearchForm.submit();
+}
+</script>
+<table width="100%" border="0" align="left" cellpadding="0" cellspacing="0" height="14">
+<form name="SearchForm" method="POST" action="website/SearchAction.do" >
+	<input type=hidden name="actionType" value="query"/>
+   <tr>
+	<td  style="background-image:url(../../images/66_09s_01.jpg);"><input name="keys" type="text" class="search_input" border="0" style="width:184px; margin-left:4px; border-bottom:0px; border-left:0px; border-right:0px; border-top:0px;line-height:21px;font-size:15px; height:21px;"></td>
+	<td align="left"><img src="images/66_09s_02.jpg" height="23" width="60" border="0" onClick="javascript:search()"></td>
+  </tr>                                  
+ </form>
+</table>
+
+	</div>
+  </div>
+  <div id="center">
+    
+<div class="center_box1_dl">
+        <div><img src="images/user_login.jpg" width="260" height="45" border="0" alt="系统登录" /></div>
+        <div class="login_ico">
+          <div>
+            <table width="100%" height="90" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="center" width="120"><a href="login_1.jsp"><img src="images/cgzx.jpg" border="0" alt="采购中心登录" /></a></td>
+                <td align="center"><a href="login_2.jsp"><img src="images/cgb.jpg" border="0" alt="采购办登录" /></a></td>
+              </tr>
+              <tr>
+                <td class="login_txt" align="center">采购中心登录</td>
+                <td class="login_txt" align="center">采购办登录</td>
+              </tr>
+            </table>
+          </div>
+          <div>
+            <table width="100%" height="90" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="center" width="120"><a href="login_3.jsp"><img src="images/gys.jpg" alt="供应商登录" width="58" height="56" /></a></td>
+                <td align="center"><a href="login_4.jsp"><img src="images/cdw.jpg" alt="采购单位登录" width="58" height="56" /></a></td>
+              </tr>
+              <tr>
+                <td class="login_txt" align="center">供应商登录</td>
+                <td class="login_txt" align="center">采购单位登录</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+
+	
+	<div class="level2center_right">
+	  <div style=" font-size:14px; padding-left:17px; padding-top:16px;"><a href=".">首页</a>&nbsp;>&nbsp;<a href="level2.jsp?caid=011">信息公告</a>&nbsp;>&nbsp;<a href="level2.jsp?caid=011-002">招标公告</a>&nbsp;</div>
+	  <div style="padding-top:40px;padding-bottom:10px;">
+        
+
+
+
+
+
+
+
+
+
+<script Language="JavaScript" src="/script/common.js"> </script>
+<script Language="JavaScript">
+function submitForm(act,param)
+{
+	currentPage     = parseInt(form1.currentPageNo.value);
+	maxRecNoPerPage = parseInt(form1.maxRecNoPerPage.value);
+	recCount        = parseInt(form1.recordNumber.value);
+
+	if(act == "prev") { 
+		currentPage = currentPage - 1;
+		if(currentPage < 1 ) {
+			alert("无法跳转到该页面，页号出界！");
+			return;
+		}else{
+			form1.currentPageNo.value = currentPage;
+		}
+	}
+	if(act == "next"){	
+		if ((currentPage * maxRecNoPerPage )>= recCount){
+			alert("无法跳转到该页面，页号出界！");
+			return;
+		}else{
+			currentPage = currentPage + 1 ;
+			form1.currentPageNo.value = currentPage;
+		}
+	}
+	if (act == "goto") {
+		form1.currentPageNo.value = form1.toPage.value;
+	}
+	window.location="/level2.jsp?caid=011-002&topage=" + form1.currentPageNo.value;
+}
+</script>
+  
+ 
+  
+
+
+<script Language="JavaScript">
+	
+	document.title = "北京市顺义区政府采购网-招标公告";
+	
+</script>
+<link href="../../css/css.css" rel="stylesheet" type="text/css" />
+
+ <form name="form1" method="post" >
+	<input name="caid" type="hidden" value="011-002">
+	<input name="time" type="hidden" value="">
+	<input name="keys" type="hidden" value="">
+	<input name="maxRecNoPerPage" type="hidden" value="20">
+	<input name="currentPageNo" type="hidden" value="1">
+	<input name="recordNumber" type="hidden" value="527">
+<table  width="700" height="450"  border="0" align="center" cellpadding="0" cellspacing="0" class="level2page_table">
+  <tr> 
+    <td height="100%" valign="top">
+	   <table width="96%"  border="0" align="center" cellpadding="0" cellspacing="0">
+          
+
+        <tr style="font-size:14px;"> 
+          <td  valign="top" align="left" background="">
+		 
+              <span class="level2_word"><a href="level3.jsp?id=1883" target=_blank style="font-size:14px;">·&nbsp;2018年民政对象两节慰问品招标公告</a>
+
+				</span><br/>
+  
+		   </td>
+
+          <td  valign="top" align="right" background="images/maindotline.gif" class="level2_word" nowrap  style="margin-top:20px;">
+		  <span id="newss">2017-11-20</span>
+		   </td>
+
+        </tr>
+
+        <tr style="font-size:14px;"> 
+          <td  valign="top" align="left" background="">
+		 
+              <span class="level2_word"><a href="level3.jsp?id=1882" target=_blank style="font-size:14px;">·&nbsp;北京市顺义区区级党政机关事业单位机动车辆定点保险项目招标公告</a>
+
+				</span><br/>
+  
+		   </td>
+
+          <td  valign="top" align="right" background="images/maindotline.gif" class="level2_word" nowrap  style="margin-top:20px;">
+		  <span id="newss">2017-11-20</span>
+		   </td>
+
+        </tr>
+
+        <tr style="font-size:14px;"> 
+          <td  valign="top" align="left" background="">
+		 
+              <span class="level2_word"><a href="level3.jsp?id=1873" target=_blank style="font-size:14px;">·&nbsp;北京市工商行政管理局顺义分局第三方机构抽查经费项目</a>
+
+				</span><br/>
+  
+		   </td>
+
+          <td  valign="top" align="right" background="images/maindotline.gif" class="level2_word" nowrap  style="margin-top:20px;">
+		  <span id="newss">2017-11-16</span>
+		   </td>
+
+        </tr>
+
+        <tr style="font-size:14px;"> 
+          <td  valign="top" align="left" background="">
+		 
+              <span class="level2_word"><a href="level3.jsp?id=1852" target=_blank style="font-size:14px;">·&nbsp;三区卡口建设工程智能卡口软件系统项目招标公告</a>
+
+				</span><br/>
+  
+		   </td>
+
+          <td  valign="top" align="right" background="images/maindotline.gif" class="level2_word" nowrap  style="margin-top:20px;">
+		  <span id="newss">2017-11-13</span>
+		   </td>
+
+        </tr>
+
+        <tr style="font-size:14px;"> 
+          <td  valign="top" align="left" background="">
+		 
+              <span class="level2_word"><a href="level3.jsp?id=1851" target=_blank style="font-size:14px;">·&nbsp;顺义区“两图合一”成果区级校核深化工作</a>
+
+				</span><br/>
+  
+		   </td>
+
+          <td  valign="top" align="right" background="images/maindotline.gif" class="level2_word" nowrap  style="margin-top:20px;">
+		  <span id="newss">2017-11-10</span>
+		   </td>
+
+        </tr>
+
+        <tr style="font-size:14px;"> 
+          <td  valign="top" align="left" background="">
+		 
+              <span class="level2_word"><a href="level3.jsp?id=1850" target=_blank style="font-size:14px;">·&nbsp;顺义区公安消防支队指挥中心大屏及通信指挥系统设备项目招标公告</a>
+
+				</span><br/>
+  
+		   </td>
+
+          <td  valign="top" align="right" background="images/maindotline.gif" class="level2_word" nowrap  style="margin-top:20px;">
+		  <span id="newss">2017-11-10</span>
+		   </td>
+
+        </tr>
+
+        <tr style="font-size:14px;"> 
+          <td  valign="top" align="left" background="">
+		 
+              <span class="level2_word"><a href="level3.jsp?id=1845" target=_blank style="font-size:14px;">·&nbsp;  治安志愿者冬季马甲采购项目招标公告</a>
+
+				</span><br/>
+  
+		   </td>
+
+          <td  valign="top" align="right" background="images/maindotline.gif" class="level2_word" nowrap  style="margin-top:20px;">
+		  <span id="newss">2017-11-10</span>
+		   </td>
+
+        </tr>
+
+        <tr style="font-size:14px;"> 
+          <td  valign="top" align="left" background="">
+		 
+              <span class="level2_word"><a href="level3.jsp?id=1837" target=_blank style="font-size:14px;">·&nbsp;北京市顺义区牛栏山第二幼儿园教学楼外墙粉刷工程 </a>
+
+				</span><br/>
+  
+		   </td>
+
+          <td  valign="top" align="right" background="images/maindotline.gif" class="level2_word" nowrap  style="margin-top:20px;">
+		  <span id="newss">2017-11-08</span>
+		   </td>
+
+        </tr>
+
+        <tr style="font-size:14px;"> 
+          <td  valign="top" align="left" background="">
+		 
+              <span class="level2_word"><a href="level3.jsp?id=1835" target=_blank style="font-size:14px;">·&nbsp;北京市顺义区高丽营第三幼儿园教学楼外墙粉刷工程（项目名称）</a>
+
+				</span><br/>
+  
+		   </td>
+
+          <td  valign="top" align="right" background="images/maindotline.gif" class="level2_word" nowrap  style="margin-top:20px;">
+		  <span id="newss">2017-11-08</span>
+		   </td>
+
+        </tr>
+
+        <tr style="font-size:14px;"> 
+          <td  valign="top" align="left" background="">
+		 
+              <span class="level2_word"><a href="level3.jsp?id=1833" target=_blank style="font-size:14px;">·&nbsp;顺义区教育委员会校园一键报警系统项目招标公告</a>
+
+				</span><br/>
+  
+		   </td>
+
+          <td  valign="top" align="right" background="images/maindotline.gif" class="level2_word" nowrap  style="margin-top:20px;">
+		  <span id="newss">2017-11-08</span>
+		   </td>
+
+        </tr>
+
+        <tr style="font-size:14px;"> 
+          <td  valign="top" align="left" background="">
+		 
+              <span class="level2_word"><a href="level3.jsp?id=1832" target=_blank style="font-size:14px;">·&nbsp;远程提讯系统及驻所办公联网配套设备采购项目F</a>
+
+				</span><br/>
+  
+		   </td>
+
+          <td  valign="top" align="right" background="images/maindotline.gif" class="level2_word" nowrap  style="margin-top:20px;">
+		  <span id="newss">2017-11-07</span>
+		   </td>
+
+        </tr>
+
+        <tr style="font-size:14px;"> 
+          <td  valign="top" align="left" background="">
+		 
+              <span class="level2_word"><a href="level3.jsp?id=1830" target=_blank style="font-size:14px;">·&nbsp;顺义区人民检察院购置远程提讯系统及驻所办公联网配套设备项目招标公告</a>
+
+				</span><br/>
+  
+		   </td>
+
+          <td  valign="top" align="right" background="images/maindotline.gif" class="level2_word" nowrap  style="margin-top:20px;">
+		  <span id="newss">2017-11-07</span>
+		   </td>
+
+        </tr>
+
+      </table></td>
+  </tr>
+  <tr height="26"> 
+    <td background="image/level2bottom000.gif" class="level2page_control" nowrap align="right" style="font-size:12px;">
+	第&nbsp;(1-12)/527&nbsp;条&nbsp;&nbsp;
+		<select name="select" id="toPage" onchange="submitForm('goto','');">
+			
+			<option value="1" selected>1 
+			
+			<option value="2">2 
+			
+			<option value="3">3 
+			
+			<option value="4">4 
+			
+			<option value="5">5 
+			
+			<option value="6">6 
+			
+			<option value="7">7 
+			
+			<option value="8">8 
+			
+			<option value="9">9 
+			
+			<option value="10">10 
+			
+			<option value="11">11 
+			
+			<option value="12">12 
+			
+			<option value="13">13 
+			
+			<option value="14">14 
+			
+			<option value="15">15 
+			
+			<option value="16">16 
+			
+			<option value="17">17 
+			
+			<option value="18">18 
+			
+			<option value="19">19 
+			
+			<option value="20">20 
+			
+			<option value="21">21 
+			
+			<option value="22">22 
+			
+			<option value="23">23 
+			
+			<option value="24">24 
+			
+			<option value="25">25 
+			
+			<option value="26">26 
+			
+			<option value="27">27 
+			
+			<option value="28">28 
+			
+			<option value="29">29 
+			
+			<option value="30">30 
+			
+			<option value="31">31 
+			
+			<option value="32">32 
+			
+			<option value="33">33 
+			
+			<option value="34">34 
+			
+			<option value="35">35 
+			
+			<option value="36">36 
+			
+			<option value="37">37 
+			
+			<option value="38">38 
+			
+			<option value="39">39 
+			
+			<option value="40">40 
+			
+			<option value="41">41 
+			
+			<option value="42">42 
+			
+			<option value="43">43 
+			
+			<option value="44">44 
+			
+		   </select> &nbsp;&nbsp;[<a href="#" onClick="javascript:submitForm('prev','');return false;">上一页</a>]&nbsp;[<a href="#" onClick="javascript:submitForm('next','');return false;">下一页</a>]
+	  </td>
+  </tr>
+</table>
+</form>
+
+<style type="text/css">
+.level2page_table td{ font-size:14px; font-family:"宋体"; line-height:30px;}
+.level2page_table a:hover{ font-size:14px; font-family:"宋体"; color:#006599; text-decoration:none;}
+.level2page_table a{ font-size:14px; font-family:"宋体"; color:#343434;}
+</style>
+
+	  </div>
+	</div>
+  </div>
+  <div style="clear:both;"></div>
+  
+<div id="bottom">
+      <div class="bottom_wz"> Copyright 1999 - 2015 BeijingShunyi, All rights reserved　　京IPC备05007181　　北京市顺义区财政局版权所有<br />
+        网络110报警服务　　技术支持：普巴软件有限公司 </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

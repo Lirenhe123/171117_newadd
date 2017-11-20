@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>交易公告  /  工程招标_辽中县公共资源交易网</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="/templets/default/style/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/templets/default/js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/jq_nav.js"></script>
+<script type="text/javascript" src="/templets/default/js/myApp.js"></script>
+<script type="text/javascript">
+//跳转下拉
+function MM_jumpMenu(targ,selObj,restore){ 
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//图片新闻
+$(function(){   
+	
+	$("#focuss_handle2 > li").setFocus({
+		focusWrap:"#focuss_wrap2",
+		focusBox:"#focuss_pics2", 
+		focusPics:"#focuss_pics2 > div", 
+		handlePrev:"#prev2", 
+		handleNext:"#next2", 
+		curClass:"on",
+		eventType:"click", 
+		eventSpeed:"normal",
+		eventTime:5000, scrollDirection:0, 
+		curNum:0 //标识当
+	});
+
+});
+</script>
+</head>
+<a name="top" id="top"></a>
+<body onload="time()">
+<div class="head">
+  <div class="heads">
+    <div id="localtime"></div>
+    <span style="float:right; width:430px;">
+    <form  name="formsearch" action="/plus/search.php">
+      <input type="hidden" name="kwtype" value="0" />
+      <input name="q" type="text" class="ssk" id="search-keyword" value="键入项目编号或名称" onfocus="if(this.value=='键入项目编号或名称'){this.value='';}"  onblur="if(this.value==''){this.value='键入项目编号或名称';}" />
+      <select name="searchtype" class="search-option" id="search-option" style="display:none;">
+        <option value="title" selected='1'>检索标题</option>
+        <option value="titlekeyword">智能模糊</option>
+      </select>
+      <input type="submit" class="ss" value="搜索"/>
+    </form>
+      <a href="/contact/youxiang/">专家路线</a> | <a href="/contact/dizhidianhua/">联系方式</a>  |  <a href="javascript:window.external.AddFavorite('http://lzzc.liaozhong.gov.cn','辽中县公共资源交易网')">加入收藏</a></span></div>
+</div>
+<script type="text/javascript">
+function showLocale(objD)
+{
+	var str,colorhead,colorfoot;
+	var yy = objD.getYear();
+	if(yy<1900) yy = yy+1900;
+	var MM = objD.getMonth()+1;
+	if(MM<10) MM = '0' + MM;
+	var dd = objD.getDate();
+	if(dd<10) dd = '0' + dd;
+	var hh = objD.getHours();
+	if(hh<10) hh = '0' + hh;
+	var mm = objD.getMinutes();
+	if(mm<10) mm = '0' + mm;
+	var ss = objD.getSeconds();
+	if(ss<10) ss = '0' + ss;
+	var ww = objD.getDay();
+	if  ( ww==0 )  colorhead="<font color=\"#666666\">";
+	if  ( ww > 0 && ww < 6 )  colorhead="<font color=\"#666666\">";
+	if  ( ww==6 )  colorhead="<font color=\"#666666\">";
+	if  (ww==0)  ww="星期日";
+	if  (ww==1)  ww="星期一";
+	if  (ww==2)  ww="星期二";
+	if  (ww==3)  ww="星期三";
+	if  (ww==4)  ww="星期四";
+	if  (ww==5)  ww="星期五";
+	if  (ww==6)  ww="星期六";
+	colorfoot="</font>"
+	str = colorhead + yy + "-" + MM + "-" + dd + " " + hh + ":" + mm + ":" + ss + "  " + ww + colorfoot;
+	return(str);
+}
+function tick()
+{
+	var today;
+	today = new Date();
+	document.getElementById("localtime").innerHTML = showLocale(today);
+	window.setTimeout("tick()", 1000);
+}
+tick();
+</script>
+<div class="header">
+  <div class="logo"> <a href="/"><img src="/templets/default/images/logo.png" /></a> </div>
+  <div class="top">
+    <div class="top_01"> <img src="/templets/default/images/logo2.png" /> </div>
+  </div>
+</div>
+<div class="nav">
+  <div class="nav_box">
+    <div class="div_a"> <a href="/" class="link_nav">首页</a> </div>
+    <div class="div_a"> <a href="/mechanism/supervise/" class="link_nav">机构设置</a> 
+      <ul>
+        <li><a href="/mechanism/supervise/">监管部门</a></li><li><a href="/mechanism/transaction/">交易中心</a></li>
+      </ul>
+    </div>
+    <div class="div_a"> <a href="/procedure/engineering/" class="link_nav">办事流程</a>
+      <ul>
+        <li><a href="/procedure/engineering/">工程招标</a></li><li><a href="/procedure/Purchase/">政府采购</a></li><li><a href="/procedure/chanquanjiaoyi/">产权交易</a></li><li><a href="/procedure/tudijiaoyi/">土地交易</a></li>
+      </ul>
+    </div>
+    <div class="div_a"> <a href="/policy/" class="link_nav">政策法规</a>
+      <ul>
+        <li><a href="/policy/guojiafagui/">国家法规</a></li><li><a href="/policy/shengjiguizhang/">省级规章</a></li><li><a href="/policy/shijiwenjian/">市级文件</a></li><li><a href="/policy/xianjiwenjian/">县级文件</a></li>
+      </ul>
+    </div>
+    <div class="div_a"> <a href="/dynamic/" class="link_nav">工作动态</a>
+      <ul>
+        <li><a href="/dynamic/zhongyaotongzhi/">重要通知</a></li><li><a href="/dynamic/gongzuodongtai/">工作动态</a></li><li><a href="/dynamic/ziliaoxiazai/">时代脉搏</a></li>
+      </ul>
+    </div>
+    <div class="div_a"> <a href="/Transaction_announcement/" class="link_nav_on">交易公告</a>
+      <ul>
+        <li><a href="/Transaction_announcement/gongchengzhaobiao/">工程招标</a></li><li><a href="/Transaction_announcement/zhengfucaigou/">政府采购</a></li><li><a href="/Transaction_announcement/chanquanjiaoyi/">产权交易</a></li><li><a href="/Transaction_announcement/tudijiaoyi/">土地交易</a></li>
+      </ul>
+    </div>
+    <div class="div_a"> <a href="/Successful_publicity/" class="link_nav">中标公示</a>
+      <ul>
+        <li><a href="/Successful_publicity/gongchengzhaobiao/">工程招标</a></li><li><a href="/Successful_publicity/zhengfucaigou/">政府采购</a></li><li><a href="/Successful_publicity/chanquanjiaoyi/">产权交易</a></li><li><a href="/Successful_publicity/tudijiaoyi/">土地交易</a></li>
+      </ul>
+    </div>
+    <div class="div_a"> <a href="/contact/dizhidianhua/" class="link_nav" style="width:128px;">联系方式</a> 
+      <ul>
+        <li><a href="/contact/tousujianyi/">投诉建议</a></li><li><a href="/contact/dizhidianhua/">地址电话</a></li><li><a href="/contact/youxiang/">专家路线</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="main">
+  <div class="main_box">
+    <div class="height10"></div>
+    <div class="block_05">
+
+      <div class="font_03"> 首页 > 交易公告  /  工程招标 </div>
+    </div>
+    <div class="height20"></div>
+    <div class="content">
+      <div class="content_left">
+        <div class="part_04"> 交易公告</div>
+        <ul class="menu">
+          <li><a href='/Transaction_announcement/gongchengzhaobiao/' class='link_01_on'>工程招标</a></li>
+          <li><a href='/Transaction_announcement/zhengfucaigou/' class='link_01'>政府采购</a></li>
+          
+          <li><a href='/Transaction_announcement/chanquanjiaoyi/' class='link_01'>产权交易</a></li>
+          
+          <li><a href='/Transaction_announcement/tudijiaoyi/' class='link_01'>土地交易</a></li>
+          
+        </ul>        <div class="part_05"> 更新要闻 </div>
+        <ul class="list_02"><li><a href="/Transaction_announcement/chanquanjiaoyi/2017/0921/1975.html">沈阳市辽中区11家机关事业单位房</a></li>
+<li><a href="/dynamic/zhongyaotongzhi/2016/0129/288.html">辽中县公共资源交易网改版通知</a></li>
+<li><a href="/Transaction_announcement/chanquanjiaoyi/2016/0809/831.html">辽中区茨榆坨镇西山村、太平村部</a></li>
+<li><a href="/dynamic/gongzuodongtai/2016/0426/494.html">学习《辽宁省党组织履行全面从严</a></li>
+<li><a href="/dynamic/zhongyaotongzhi/2016/0622/685.html">沈阳市辽中区公共资源交易管理办</a></li>
+<li><a href="/Transaction_announcement/gongchengzhaobiao/2016/0620/681.html">辽中区2016-2017年农村公路维修</a></li>
+<li><a href="/Successful_publicity/gongchengzhaobiao/2016/0525/587.html">辽中县茨榆坨初级中学教学楼、食</a></li>
+<li><a href="/Transaction_announcement/chanquanjiaoyi/2017/0323/1402.html">辽中区水利局团结水库鱼池、蒲河</a></li>
+<li><a href="/Successful_publicity/gongchengzhaobiao/2016/0122/161.html">辽中县新老城区路灯安装工程施工</a></li>
+<li><a href="/Transaction_announcement/zhengfucaigou/2017/0615/1666.html">LZ(Z)2017-0094-2017-2018年学校</a></li>
+
+        </ul>
+        <div class="clear"></div>
+        <div class="contact">
+          <div class="contact_a left"><a href="/contact/tousujianyi/">投诉建议</a></div>
+          <div class="contact_a right"> <a href="/contact/dizhidianhua/">地址电话</a></div>
+        </div>
+      </div>
+      <div class="content_right">
+        <div class="part_07">
+          <div class="left"> 工程招标 </div>
+          <div class="left line_01" style="width:660px;"> </div>
+        </div>
+        
+        <ul class="news_list">
+		<li><span>2017-10-10 16:43:55</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/1010/1997.html">2016年沈阳市辽中区农村饮水安全工程监理（三次公告）(网上报名)</a></li><li><span>2017-09-19 15:02:18</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0919/1959.html">2016年沈阳市辽中区农村饮水安全工程监理（三次公告）(网上报名)</a></li><li><span>2017-08-30 14:25:00</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0831/1908.html">沈阳市辽中区辽中中心敬老院更换塑胶地板、室内门、锅炉房彩钢瓦等工程施工(网 上报名)</a></li><li><span>2017-08-29 09:42:00</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0830/1883.html">辽中区职业中等专业学校校园广场等维修工程施工(网上报名)</a></li><li><span>2017-08-25 16:06:37</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0825/1882.html">辽中区北五路路灯安装工程施工(网上报名)</a></li><li><span>2017-08-25 16:02:22</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0825/1881.html">辽中区四等水准测量工程(网上报名)</a></li><li><span>2017-08-25 16:00:15</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0825/1880.html">沈阳骐业粮食储备有限公司围墙建设工程(二次公告)</a></li><li><span>2017-08-24 17:04:36</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0824/1878.html">肖寨门镇肖兰坨村村部新建工程(网上报名)</a></li><li><span>2017-08-23 09:12:00</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0824/1875.html">辽中区2017年新老城区基础设施建设项目—北四路东延长段道路排水工程监理(网上 报名)</a></li><li><span>2017-08-23 09:10:00</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0824/1874.html">辽中区2016年新老城区基础设施建设项目—北四路东延长段道路排水工程施工(网上 报名)</a></li><li><span>2017-08-23 09:09:00</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0824/1873.html">沈阳近海经济区供水工程(网上报名)</a></li><li><span>2017-08-22 15:30:44</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0822/1856.html">2017年辽中区宜居乡村建设道路工程（一标段）(网上报名)</a></li><li><span>2017-08-22 15:29:14</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0822/1855.html">2017年辽中区宜居乡村建设道路工程（一标段）(网上报名)</a></li><li><span>2017-08-21 16:21:41</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0821/1847.html">沈阳市辽中区殡仪馆车间改造工程(二次公告)</a></li><li><span>2017-08-17 16:29:10</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0817/1843.html">辽中区2017年农村公路维修改造工程（第1、2标段）施工</a></li><li><span>2017-08-17 16:18:27</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0817/1842.html">辽中区2017年农村公路维修改造工程（第1、2标段）监理(网上报名)</a></li><li><span>2017-08-17 16:18:20</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0817/1841.html">沈阳骐业粮食储备有限公司围墙建设工程(网上报名)</a></li><li><span>2017-08-16 15:50:24</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0816/1837.html">2016年茨榆坨镇宜居示范镇项目（道路排水改造工程）监理(二次公告)</a></li><li><span>2017-08-16 15:48:18</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0816/1836.html">2016年茨榆坨镇宜居示范镇项目（道路排水改造工程）施工(二次公告)</a></li><li><span>2017-08-11 14:59:07</span>[<b><a href='/Transaction_announcement/gongchengzhaobiao/'>工程招标</a></b>]<a href="/Transaction_announcement/gongchengzhaobiao/2017/0811/1833.html">辽中区2016年农村公路维修改造工程第三方检测项目</a></li>
+        </ul>
+        <div class="page_01">
+          <div class="page_01_box"> <li>首页</li>
+<li class="thisclass">1</li>
+<li><a href='list_20_2.html'>2</a></li>
+<li><a href='list_20_3.html'>3</a></li>
+<li><a href='list_20_4.html'>4</a></li>
+<li><a href='list_20_5.html'>5</a></li>
+<li><a href='list_20_6.html'>6</a></li>
+<li><a href='list_20_7.html'>7</a></li>
+<li><a href='list_20_8.html'>8</a></li>
+<li><a href='list_20_9.html'>9</a></li>
+<li><a href='list_20_10.html'>10</a></li>
+<li><a href='list_20_11.html'>11</a></li>
+<li><a href='list_20_2.html'>下一页</a></li>
+<li><a href='list_20_17.html'>末页</a></li>
+<li><select name='sldd' style='width:42px' onchange='location.href=this.options[this.selectedIndex].value;'>
+<option value='list_20_1.html' selected>1</option>
+<option value='list_20_2.html'>2</option>
+<option value='list_20_3.html'>3</option>
+<option value='list_20_4.html'>4</option>
+<option value='list_20_5.html'>5</option>
+<option value='list_20_6.html'>6</option>
+<option value='list_20_7.html'>7</option>
+<option value='list_20_8.html'>8</option>
+<option value='list_20_9.html'>9</option>
+<option value='list_20_10.html'>10</option>
+<option value='list_20_11.html'>11</option>
+<option value='list_20_12.html'>12</option>
+<option value='list_20_13.html'>13</option>
+<option value='list_20_14.html'>14</option>
+<option value='list_20_15.html'>15</option>
+<option value='list_20_16.html'>16</option>
+<option value='list_20_17.html'>17</option>
+</select></li>
+<li><span class="pageinfo">共 <strong>17</strong>页<strong>333</strong>条</span></li>
+ </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="fx">
+      <div class="right" style="padding-top:10px">
+        <!-- Baidu Button BEGIN -->
+        <div class="bdsharebuttonbox"><a class="bds_more" href="#" data-cmd="more"></a><a title="分享到QQ空间" class="bds_qzone" href="#" data-cmd="qzone"></a><a title="分享到新浪微博" class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博" class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网" class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信" class="bds_weixin" href="#" data-cmd="weixin"></a></div>
+        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+        <!-- Baidu Button END -->
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="footer_box"><br />
+
+   |&nbsp;&nbsp;<a href="/">首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/mechanism/'  rel='dropmenu1'>机构设置</a>&nbsp;&nbsp;| <a href='/procedure/'  rel='dropmenu6'>办事流程</a>&nbsp;&nbsp;| <a href='/policy/'  rel='dropmenu7'>政策法规</a>&nbsp;&nbsp;| <a href='/dynamic/'  rel='dropmenu8'>工作动态</a>&nbsp;&nbsp;| <a href='/Transaction_announcement/'  rel='dropmenu9'>交易公告</a>&nbsp;&nbsp;| <a href='/Successful_publicity/'  rel='dropmenu10'>中标公示</a>&nbsp;&nbsp;| <a href='/contact/'  rel='dropmenu11'>联系方式</a>&nbsp;&nbsp;|  <br />
+<br />    辽中县公共资源交易网（版权所有）&nbsp;&nbsp;&nbsp;&nbsp;<script language="javascript" type="text/javascript" src="http://js.users.51.la/18767219.js"></script>
+<noscript><a href="http://www.51.la/?18767219" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/18767219.asp" style="border:none" /></a></noscript><br />
+
+<div style="width:300px;margin:0 auto; padding:20px 0;">
+		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=21012202000005" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/templets/default/images/tubiao.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">辽公网安备 21012202000005号</p></a>
+		 	</div>
+
+
+
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div class="floating_ck">
+  <dl>
+    <dt>联系我们</dt>
+    <dd class="consult"> <span><a href="tencent://message/?uin=11016128&amp;Menu=yes">QQ咨询</a></span> </dd>
+    <dd class="words"> <span>在线留言</span>
+      <div class="floating_left floating_ewm">
+        <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+          <input type="hidden" name="action" value="post" />
+          <input type="hidden" name="diyid" value="1" />
+          <input type="hidden" name="do" value="2" />
+          <ul>
+            <li class="tijiao1"><span>标题</span>
+              <input type='text' name='biaoti' id='biaoti'  class='intxt' value='' />
+            </li>
+            <li class="tijiao2"><span>姓名</span>
+              <input type='text' name='xingming' id='xingming'  class='intxt' value='' />
+            </li>
+            <li class="tijiao8"><span>电话</span>
+              <input type='text' name='lianxi' id='lianxi'  class='intxt' value='' />
+            </li>
+            <li class="tijiao3"><span>正文</span>
+              <textarea name='zhengwen' id='zhengwen'></textarea>
+            </li>
+            <li class="tijiao4">
+              <input type="hidden" name="dede_fields" value="biaoti,text;xingming,text;lianxi,text;zhengwen,multitext" />
+            </li>
+            <li class="tijiao5">
+              <input type="hidden" name="dede_fieldshash" value="e4fd2338c83dfa2157bd319a45ca0911" />
+            </li>
+            <li class="tijiao6">
+              <input type="submit" name="submit" value="提 交" class='coolbg' />
+            </li>
+            <li class="tijiao7">
+              <input type="reset" name="reset" value="重 置" class='coolbg' />
+            </li>
+          </ul>
+        </form>
+      </div>
+    </dd>
+	 <dd class="qrcord">
+        	<span>扫一扫</span>
+            <div class="floating_left floating_ewm3">
+            	<i></i>
+          
+                <p class="qrcord_p02">官方网址</p>
+            </div>
+        </dd>
+
+  </dl>
+</div>
+
+
+<div class="floating_ck1">
+	<dl>
+    	<dt>举报投诉</dt>
+        <dd class="consult1">
+        	<span>电话</span>
+        	<div class="floating_left1">投诉及举报电话<br />024-27880303</div>
+        </dd>
+        <dd class="words1">
+        	<span>邮箱</span>
+            <div class="floating_left1 floating_ewm2">投诉及举报邮箱<br />wangzhiyuan1987@hotmail.com</div>
+        </dd>
+        
+        <dd class="qrcord1">
+        	<span>公众微信</span>
+            <div class="floating_left1 floating_ewm1">
+            	<i></i>
+            
+                <p class="qrcord_p02">公众微信账号</p>
+            </div>
+        </dd>
+        
+    </dl>
+</div>
+</body>
+</html>

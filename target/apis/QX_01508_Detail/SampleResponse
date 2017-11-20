@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>北京市通州区政府采购管理系统</title>
+<link href="/CMS/css/base.css" rel="stylesheet" type="text/css" />
+<link href="/CMS/css/pages.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="/view/js/jquery/jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$("table").attr("style", $("table").attr("style")+";table-layout:fixed;word-break:break-all;WORD-WRAP: break-word;width:900px");
+});
+</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="iframe">
+    <iframe src="/CMS/iframe/top.html" scrolling="no" frameborder="0" width="100%" height="205" ></iframe>
+  </div>
+  <div class="cont">
+    <div class="cont_cen">
+      <div class="cont_cen_bg">
+        <div class="cont_msg">您的位置:<span class="font_E80">首页 > 更正公告</span></div>
+      </div>
+      <div class="cont_cen_bor">
+	  <div class="cont_cen_news">
+	  <div class="cont_cen_nbor">
+	  <h1>通州区张家湾镇2016-2017年度农村地区“煤改气”项目村内道路恢复工程设计的招标公告</h1>
+	  <div class="cont_cen_nft">[发布时间  2017-11-20 11:05:23 发布者：  郭振有]</div>
+	  </div>
+	  <div class="cont_cen_ncon">
+	  <div style="margin: 0pt; line-height: 25pt; text-indent: 23.2pt"><span style="font-size: 12pt; letter-spacing: -0.2pt">现对本项目招标公告内容变更如下：</span></div>
+<div style="margin: 0pt; line-height: 25pt; text-indent: 23.2pt"><span style="font-size: 12pt; letter-spacing: -0.2pt">原项目名称：通州区张家湾镇201</span><span style="font-size: 12pt; letter-spacing: -0.2pt">7</span><span style="font-size: 12pt; letter-spacing: -0.2pt">-2017年度农村地区&ldquo;煤改气&rdquo;项目村内道路恢复工程设计项目</span></div>
+<div style="margin: 0pt; line-height: 25pt; text-indent: 23.2pt"><span style="font-size: 12pt; letter-spacing: -0.2pt">变更后项目名称：通州区张家湾镇201</span><span style="font-size: 12pt; letter-spacing: -0.2pt">6</span><span style="font-size: 12pt; letter-spacing: -0.2pt">-2017年度农村地区&ldquo;煤改气&rdquo;项目村内道路恢复工程设计项目</span></div>
+<div style="margin: 0pt; line-height: 25pt; text-indent: 23.2pt"><span style="font-size: 12pt; letter-spacing: -0.2pt">招标公告其他内容不变。</span></div>
+	  </div>
+	  </div>
+	  </div>
+    </div>
+  </div>
+  <div class="iframe">
+    <iframe src="/CMS/iframe/bottom.html" scrolling="auto" frameborder="0" width="950" height="225" ></iframe>
+  </div>
+</div>
+</body>
+</html>
