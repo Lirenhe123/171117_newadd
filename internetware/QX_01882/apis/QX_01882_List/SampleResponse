@@ -1,0 +1,413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>工程建设-盐山县政务服务管理办公室</title>
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/ >
+<link href="/template/gov_3/lanmu.css" type="text/css" rel="stylesheet" />
+<link href="/incs/public.css" type="text/css" rel="stylesheet" />
+<script src="/js/all.js" type="text/javascript"></script>
+
+</head>
+<body>
+<div class="page_style">
+<div class="menu_box">
+
+<div class="menu_box_style1_1">
+<ul>
+<li class="menu_box_style1_1_1"><a href=/></a></li>
+<li class="menu_box_style1_1_2"><img src="/upload/image/2017-10/%E7%BD%91%E7%AB%99%E6%A0%87.jpg" width="1000" height="169" alt="" /><br /></li>
+<li class="clear"></li>
+</ul>
+</div>
+
+  <div class="menu_box_style1_2" id="MainMenu"><ul>
+ 
+  <li class="menu_style_1" id="MainMenuItem" name="MainMenuItem"><a href='/index.aspx' class="menu_1"  id='Menu_1' target='_self'>首 页</a></li>
+ 
+  <li class="menu_style_1" id="MainMenuItem" name="MainMenuItem"><a href='/index.aspx?menuid=3&language=cn' class="menu_1"  id='Menu_3' target='_self'>职能介绍</a></li>
+ 
+  <li class="menu_style_1" id="MainMenuItem" name="MainMenuItem"><a href='/index.aspx?menuid=6&language=cn' class="menu_1"  id='Menu_6' target='_self'>工作动态</a></li>
+ 
+  <li class="menu_style_1" id="MainMenuItem" name="MainMenuItem"><a href='/index.aspx?menuid=4&type=article&lanmuid=76&language=cn' class="menu_1"  id='Menu_4' target='_self'>政策法规</a></li>
+ 
+  <li class="menu_style_1" id="MainMenuItem" name="MainMenuItem"><a href='/index.aspx?menuid=8&type=introduct&lanmuid=62&language=cn' class="menu_1"  id='Menu_8' target='_self'>办事指南</a></li>
+ 
+  <li class="menu_style_1" id="MainMenuItem" name="MainMenuItem"><a href='/index.aspx?menuid=19&language=cn' class="menu_1"  id='Menu_19' target='_self'>交易信息</a></li>
+ 
+  <li class="menu_style_1" id="MainMenuItem" name="MainMenuItem"><a href='/index.aspx?menuid=16&language=cn' class="menu_1"  id='Menu_16' target='_self'>网上监督</a></li>
+ 
+  </ul></div>
+ 
+<script type="text/javascript">
+<!--
+var IsPageHome="0";
+var Lanmu1_Id="19";
+var Current_MenuItem=document.getElementById("Menu_"+Lanmu1_Id);
+if(document.getElementById("MainMenuItem")!=null)
+{
+ var MenuItem_Objs=document.getElementsByName("MainMenuItem");
+ MenuItem_Objs[0].className="menu_style_1_first";
+ if (document.all){IEHover()}; //IE专用
+ if(Current_MenuItem!=null){Current_MenuItem.className="menu_current_1"}
+}
+
+
+
+-->
+</script>
+
+
+
+</div>
+<script language="javascript" type="text/javascript">
+document.write("<div style=\"position: absolute; top: -987px;left: -987px;\">")
+</script>
+</div>
+
+
+
+<script   type="text/javascript"> 
+<!--
+var Lanmu2_id="62";
+var Lanmu3_id="143";
+--> 
+</script>
+
+<style type="text/css">
+.banner_background{width:px;height:px;background:url() no-repeat 0 0;}
+</style> 
+<div class="banner_box" id="banner_box">
+<div class="banner_background"><table width="98%" align="center">
+    <tbody>
+        <tr>
+            <td width="58"><img alt="" src="/images/diy/time_icon.gif" /></td>
+            <td><script language="JavaScript">
+var week; 
+if(new Date().getDay()==0)     week=" 星期日"
+if(new Date().getDay()==1)     week=" 星期一"
+if(new Date().getDay()==2)     week=" 星期二" 
+if(new Date().getDay()==3)     week=" 星期三"
+if(new Date().getDay()==4)     week=" 星期四"
+if(new Date().getDay()==5)     week=" 星期五"
+if(new Date().getDay()==6)     week=" 星期六"
+document.write(new Date().getYear()+"年"+(new Date().getMonth()+1)+"月"+new Date().getDate()+"日"+week);   
+</script></td>
+            <td align="right"><script src="/include/searchbox.aspx?id=1" type="text/javascript"></script></td>
+        </tr>
+    </tbody>
+</table></div>
+</div>
+
+
+
+
+
+
+
+<div class="lanmu_box_style1" id="sublanmu_style1">
+<div class="lanmu_box_style1_left" id="sublanmu_style1_left">
+   
+<div id="Nav_62"  class="nav_box" style="">
+
+<div class="nav_title" style=""  onclick="ShowItem('Nav_Menu_62','#')"><span class="nav_sign" style="" >交易栏目列表</span></div>
+
+
+<div id="Nav_Menu_62" class="nav_menu" style="">
+<ul>
+
+     
+     
+     
+     <li id="Nav_menulist_143"  class="nav_menu_list" style=""><a href='/index.aspx?menuid=19&type=article&lanmuid=143&language=cn' class="nav_menu_href" target="_self" onclick="ShowItem('Nav_submenu_143','')">工程建设</a>
+      
+    </li>
+   
+     
+     
+     
+     <li id="Nav_menulist_142"  class="nav_menu_list" style=""><a href='/index.aspx?menuid=19&type=article&lanmuid=142&language=cn' class="nav_menu_href" target="_self" onclick="ShowItem('Nav_submenu_142','')">政府采购</a>
+      
+    </li>
+   
+     
+     
+     
+     <li id="Nav_menulist_153"  class="nav_menu_list" style=""><a href='/index.aspx?menuid=19&type=article&lanmuid=153&language=cn' class="nav_menu_href" target="_self" onclick="ShowItem('Nav_submenu_153','')">排污权交易</a>
+      
+    </li>
+   
+     
+     
+     
+     <li id="Nav_menulist_145"  class="nav_menu_list" style=""><a href='/index.aspx?menuid=19&type=article&lanmuid=145&language=cn' class="nav_menu_href" target="_self" onclick="ShowItem('Nav_submenu_145','')">土地交易</a>
+      
+    </li>
+   
+     
+     
+     
+     <li id="Nav_menulist_146"  class="nav_menu_list" style=""><a href='/index.aspx?menuid=19&type=article&lanmuid=146&language=cn' class="nav_menu_href" target="_self" onclick="ShowItem('Nav_submenu_146','')">结果公示</a>
+      
+    </li>
+   
+</ul>
+</div>
+</div>
+
+
+   
+   
+   
+   
+   
+   
+<div id="Nav_64" class="nav_box" style="">
+
+<div class="nav_title" style=""><span class="nav_sign" style="">交易信息快报</span></div>
+
+
+<div id="Nav_Conent_64" class="nav_list"   style="">
+
+
+     <ul id="Nav_Tj_64">
+    
+      </ul>
+    
+
+
+     <ul id="Nav_Normal_64">
+    
+    <li class="nav_list_style_1"  style="" title="盐山县2017年涉农整合资金精准扶贫项目招标公告">
+    <a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2308&language=cn" class="nav_list_title"  target="_self" style="">盐山县2017年涉农整合资金精准扶贫项目招标公告</a><span class="nav_list_date" style="display:none">&nbsp;[11-21]</span>
+    </li>
+   
+    <li class="nav_list_style_1"  style="" title="《盐山县志1987-2005》印制采购项目竞争性谈判公告">
+    <a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=142&infoid=2307&language=cn" class="nav_list_title"  target="_self" style="">《盐山县志1987-2005》印制采购项目竞争性谈判公告</a><span class="nav_list_date" style="display:none">&nbsp;[11-21]</span>
+    </li>
+   
+    <li class="nav_list_style_1"  style="" title="盐山县住房和城乡规划建设局《盐山县城乡总体规划（2013-2030）》修编 中标公告">
+    <a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=146&infoid=2305&language=cn" class="nav_list_title"  target="_self" style="">盐山县住房和城乡规划建设局《盐山县城乡总体规划（2013...</a><span class="nav_list_date" style="display:none">&nbsp;[11-17]</span>
+    </li>
+   
+    <li class="nav_list_style_1"  style="" title="盐山县公安消防大队消防个人装备及器材采购项目（二次） 竞争性谈判公告">
+    <a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=142&infoid=2304&language=cn" class="nav_list_title"  target="_self" style="">盐山县公安消防大队消防个人装备及器材采购项目（二次）...</a><span class="nav_list_date" style="display:none">&nbsp;[11-17]</span>
+    </li>
+   
+    <li class="nav_list_style_1"  style="" title="盐山兴林海绵加工排污权交易公告">
+    <a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=153&infoid=2303&language=cn" class="nav_list_title"  target="_self" style="">盐山兴林海绵加工排污权交易公告</a><span class="nav_list_date" style="display:none">&nbsp;[11-17]</span>
+    </li>
+   
+    <li class="nav_list_style_1"  style="" title="盐山县边务中学建设项目设计中标公示">
+    <a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=146&infoid=2302&language=cn" class="nav_list_title"  target="_self" style="">盐山县边务中学建设项目设计中标公示</a><span class="nav_list_date" style="display:none">&nbsp;[11-15]</span>
+    </li>
+   
+    <li class="nav_list_style_1"  style="" title="2017年盐山县涉农资金整合使用（车购税）村道改造项目监理 中 标 公 示">
+    <a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=146&infoid=2301&language=cn" class="nav_list_title"  target="_self" style="">2017年盐山县涉农资金整合使用（车购税）村道改造项目监...</a><span class="nav_list_date" style="display:none">&nbsp;[11-15]</span>
+    </li>
+   
+    <li class="nav_list_style_1"  style="" title="2017年盐山县涉农资金整合使用（车购税）村道改造项目施工 中 标 公 示">
+    <a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=146&infoid=2300&language=cn" class="nav_list_title"  target="_self" style="">2017年盐山县涉农资金整合使用（车购税）村道改造项目施...</a><span class="nav_list_date" style="display:none">&nbsp;[11-15]</span>
+    </li>
+   
+    <li class="nav_list_style_1"  style="" title="盐山县杨集乡明德小学餐厅招标公告">
+    <a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2299&language=cn" class="nav_list_title"  target="_self" style="">盐山县杨集乡明德小学餐厅招标公告</a><span class="nav_list_date" style="display:none">&nbsp;[11-15]</span>
+    </li>
+   
+    <li class="nav_list_style_1"  style="" title="盐山县孟店乡帽圈小学教学楼建设项目招标公告">
+    <a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2298&language=cn" class="nav_list_title"  target="_self" style="">盐山县孟店乡帽圈小学教学楼建设项目招标公告</a><span class="nav_list_date" style="display:none">&nbsp;[11-15]</span>
+    </li>
+   
+      </ul>
+    
+
+
+
+</div>
+</div>
+
+
+
+
+   
+   
+   
+   
+   
+</div>
+<div class="lanmu_box_style1_right" id="sublanmu_style1_right">
+
+
+
+
+
+<div class="uc_lanmu_box">
+<div class="uc_lanmu_site">
+<ul>
+<li class="uc_lanmu_site_1">当前位置：<a href='/index.aspx'>首页</a> &gt; <a href='#'>交易栏目列表</a> &gt <a href='/index.aspx?menuid=19&type=article&lanmuid=143&language=cn'>工程建设</a></li>
+<li class="uc_lanmu_site_2">工程建设</li>
+</ul>
+</div>
+<div class="uc_lanmu_content">
+<div id="Introduct_Content">&nbsp;</div>
+
+     <ul>
+    
+       <li class="article_style_1">
+       <span class="article_title"><a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2308&language=cn" target="_self"  style="">盐山县2017年涉农整合资金精准扶贫项目招标公告</a></span>
+       <span class="article_date" style="display:none">2017-11-21</span>
+       <span class="clear"></span></li>
+      
+       <li class="article_style_1">
+       <span class="article_title"><a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2299&language=cn" target="_self"  style="">盐山县杨集乡明德小学餐厅招标公告</a></span>
+       <span class="article_date" style="display:none">2017-11-15</span>
+       <span class="clear"></span></li>
+      
+       <li class="article_style_1">
+       <span class="article_title"><a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2298&language=cn" target="_self"  style="">盐山县孟店乡帽圈小学教学楼建设项目招标公告</a></span>
+       <span class="article_date" style="display:none">2017-11-15</span>
+       <span class="clear"></span></li>
+      
+       <li class="article_style_1">
+       <span class="article_title"><a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2293&language=cn" target="_self"  style="">韩集镇2016年扶贫资金结余项目</a></span>
+       <span class="article_date" style="display:none">2017-11-14</span>
+       <span class="clear"></span></li>
+      
+       <li class="article_style_1">
+       <span class="article_title"><a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2287&language=cn" target="_self"  style="">盐山县2015年第一批农村饮水安全项目结余资金项目（二...</a></span>
+       <span class="article_date" style="display:none">2017-11-13</span>
+       <span class="clear"></span></li>
+      
+       <li class="article_style_1">
+       <span class="article_title"><a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2286&language=cn" target="_self"  style="">韩集镇2016年扶贫资金结余项目变更公告</a></span>
+       <span class="article_date" style="display:none">2017-11-13</span>
+       <span class="clear"></span></li>
+      
+       <li class="article_style_1">
+       <span class="article_title"><a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2284&language=cn" target="_self"  style="">盐山县城区公交特许经营项目二次招标公告</a></span>
+       <span class="article_date" style="display:none">2017-11-10</span>
+       <span class="clear"></span></li>
+      
+       <li class="article_style_1">
+       <span class="article_title"><a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2281&language=cn" target="_self"  style="">韩集镇2016年扶贫资金结余项目招标公告</a></span>
+       <span class="article_date" style="display:none">2017-11-08</span>
+       <span class="clear"></span></li>
+      
+       <li class="article_style_1">
+       <span class="article_title"><a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2273&language=cn" target="_self"  style="">盐山县小营乡曾小营等七个村高标准农田建设项目 设计...</a></span>
+       <span class="article_date" style="display:none">2017-11-07</span>
+       <span class="clear"></span></li>
+      
+       <li class="article_style_1">
+       <span class="article_title"><a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2272&language=cn" target="_self"  style="">盐山县小营乡曾小营等七个村高标准农田建设项目 勘测...</a></span>
+       <span class="article_date" style="display:none">2017-11-07</span>
+       <span class="clear"></span></li>
+      
+       <li class="article_style_1">
+       <span class="article_title"><a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2280&language=cn" target="_self"  style="">盐山县2015年第一批农村饮水安全项目结余资金项目六标...</a></span>
+       <span class="article_date" style="display:none">2017-11-06</span>
+       <span class="clear"></span></li>
+      
+       <li class="article_style_1">
+       <span class="article_title"><a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2279&language=cn" target="_self"  style="">盐山县2015年第一批农村饮水安全项目结余资金项目五标...</a></span>
+       <span class="article_date" style="display:none">2017-11-06</span>
+       <span class="clear"></span></li>
+      
+       <li class="article_style_1">
+       <span class="article_title"><a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2278&language=cn" target="_self"  style="">盐山县2015年第一批农村饮水安全项目结余资金项目四标...</a></span>
+       <span class="article_date" style="display:none">2017-11-06</span>
+       <span class="clear"></span></li>
+      
+       <li class="article_style_1">
+       <span class="article_title"><a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2277&language=cn" target="_self"  style="">盐山县2015年第一批农村饮水安全项目结余资金项目三标...</a></span>
+       <span class="article_date" style="display:none">2017-11-06</span>
+       <span class="clear"></span></li>
+      
+       <li class="article_style_1">
+       <span class="article_title"><a href="/index.aspx?menuid=19&type=articleinfo&lanmuid=143&infoid=2276&language=cn" target="_self"  style="">盐山县2015年第一批农村饮水安全项目结余资金项目二标...</a></span>
+       <span class="article_date" style="display:none">2017-11-06</span>
+       <span class="clear"></span></li>
+      
+      </ul>
+    
+
+
+
+
+
+<div id="ctl01_ctl01_Page_Panel" class="uc_lanmu_page">
+	
+共194条记录&nbsp;
+当前页次：1/13&nbsp;
+<a id="P_First" href="/index.aspx?menuid=19&type=article&lanmuid=143&page=1&language=cn">首页</a>&nbsp;
+<a id="P_Prev"  href="/index.aspx?menuid=19&type=article&lanmuid=143&language=cn">上一页</a>&nbsp;
+<a id="P_Next"  href="/index.aspx?menuid=19&type=article&lanmuid=143&page=2&language=cn">下一页</a>&nbsp;
+<a id="P_Last"  href="/index.aspx?menuid=19&type=article&lanmuid=143&page=13&language=cn">尾页</a>&nbsp;
+转到：
+<select id="P_Page" onchange="location.href=this.options[this.selectedIndex].value">
+
+  <option value="/index.aspx?menuid=19&type=article&lanmuid=143&page=1&language=cn">1</option>
+
+  <option value="/index.aspx?menuid=19&type=article&lanmuid=143&page=2&language=cn">2</option>
+
+  <option value="/index.aspx?menuid=19&type=article&lanmuid=143&page=3&language=cn">3</option>
+
+  <option value="/index.aspx?menuid=19&type=article&lanmuid=143&page=4&language=cn">4</option>
+
+  <option value="/index.aspx?menuid=19&type=article&lanmuid=143&page=5&language=cn">5</option>
+
+  <option value="/index.aspx?menuid=19&type=article&lanmuid=143&page=6&language=cn">6</option>
+
+  <option value="/index.aspx?menuid=19&type=article&lanmuid=143&page=7&language=cn">7</option>
+
+  <option value="/index.aspx?menuid=19&type=article&lanmuid=143&page=8&language=cn">8</option>
+
+  <option value="/index.aspx?menuid=19&type=article&lanmuid=143&page=9&language=cn">9</option>
+
+  <option value="/index.aspx?menuid=19&type=article&lanmuid=143&page=10&language=cn">10</option>
+
+  <option value="/index.aspx?menuid=19&type=article&lanmuid=143&page=11&language=cn">11</option>
+
+  <option value="/index.aspx?menuid=19&type=article&lanmuid=143&page=12&language=cn">12</option>
+
+  <option value="/index.aspx?menuid=19&type=article&lanmuid=143&page=13&language=cn">13</option>
+
+</select>页
+<script type="text/javascript">Go_Page(13,1)</script>
+
+</div>
+</div>
+</div>
+</div>
+<div class="clear" id="sublanmu_style1_bottom"></div>
+</div>
+<script   type="text/javascript"> 
+<!-- 
+   var lanmu_nav_menu=document.getElementById("Nav_Menu_62");  
+   var   lanmu_nav_submenu=document.getElementById("Nav_submenu_143");    
+   if(lanmu_nav_menu!=null)
+    {
+      lanmu_nav_menu.style.display="";
+    }
+   if(lanmu_nav_submenu!=null)
+    {
+      lanmu_nav_submenu.style.display="";
+    }
+-->   
+</script>
+<div class="bottom_box"><table align="center">
+    <tbody>
+        <tr>
+            <td width="200" align="right"><a target="_blank" style="text-decoration: none; display: inline-block;" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13092502000051"><img width="70" alt="" border="0" style="text-decoration: none; display: inline-block;" src="http://www.beian.gov.cn/img/beianbgs.png" /> </a></td>
+            <td>
+            <p align="center">盐山县政务服务管理办公室 &nbsp;版权所有&nbsp;Copyright &copy; 2008-2012</p>
+            <p align="center">ICP备案号:冀ICP备09001557号冀公网安备 13092502000051号</p>
+            </td>
+            <td width="70"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/05/112/0181/60137538/CA051120181601375380002.js' type='text/javascript'%3E%3C/script%3E"));</script></td>
+            <td width="70">
+            <div id="jiu"><script id="_jiucuo_" sitecode='1309250004' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'>
+</script></div>
+            </td>
+        </tr>
+    </tbody>
+</table><script src="/include/count.aspx?referer="  type="text/javascript"></script></div></div></body></html>

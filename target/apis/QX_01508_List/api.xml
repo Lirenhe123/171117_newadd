@@ -77,6 +77,27 @@
     <request-content-type>application/x-www-form-urlencoded</request-content-type>
     <request-content-charset>UTF-8</request-content-charset>
   </request>
+  <!--
+  caigou
+  	listUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01508_List&type=1&range=20&start=   1*20";
+  	detailUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01508_Detail&iw_ir_1=";
+  	覆盖方法是用乘的方法
+  	中标成交
+  	listUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01508_List&type=2";
+  	detailUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01508_Detail&iw_ir_1=";
+  	
+  	更正公告
+  	listUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01508_List&type=3";
+  	detailUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01508_Detail&iw_ir_1=";
+  	
+  	其他公告
+  	listUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01508_List&type=4";
+  	detailUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01508_Detail&iw_ir_1=";
+  	
+  	采购合同公告
+  	listUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01508_List&type=H";
+  	detailUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01508_Detail&iw_ir_1=";
+    -->
   <processing-the-passedin-req-body>true</processing-the-passedin-req-body>
   <rsp-sample>
     <http-version>HTTP/1.1</http-version>

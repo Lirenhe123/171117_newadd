@@ -1,0 +1,463 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="gb2312">
+<head>
+<!--版权所有@完美设计 Powered By wMgov-->
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="Description" content="满城区公共资源交易网">
+<meta name="keywords" content="满城区公共资源交易网">
+<title>保定市满城区粮食局粮食仓储设备采购（二次）_招标公告_政府采购_满城区公共资源交易网</title>
+<LINK href="CSS/Default.css" rel="stylesheet">
+<LINK href="CSS/Sytle1.css" rel="stylesheet">
+<noscript><iframe scr="*"></iframe></noscript>
+<script language="JavaScript" type="text/JavaScript">
+function validateMode()
+{
+  if (!bTextMode) return true;
+  alert("请先取消查看HTML源代码，进入“编辑”状态，然后再使用系统编辑功能!");
+  message.focus();
+  return false;
+}
+function validateModea()
+{
+  if (!bTextMode) return true;
+  alert("请先取消查看HTML源代码!");
+  message.focus();
+  return false;
+}
+
+function sign()
+{if (!validateMode()) return;
+message.focus();
+
+var range =message.document.selection.createRange();
+str1="<font color='red'><b>|签收|</b>文件已经阅读</font>"
+   range.pasteHTML(str1);
+}
+
+function img_zoom(e, o)		//图片鼠标滚轮缩放
+{
+	var zoom = parseInt(o.style.zoom, 10) || 100;
+	zoom += event.wheelDelta / 12;
+	if (zoom > 0) o.style.zoom = zoom + '%';
+		return false;
+}
+</script>
+
+<script language=javascript>
+function user_login()
+{
+	document.UserLogin.UserName.focus();
+	return false;
+}
+</script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+	var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+	var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+	if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+
+<SCRIPT language=JavaScript>
+
+//========================= 设置字体大中小 start =============
+	function doZoom(size){
+		var zw_content = document.getElementById('zw_content');
+		if(!zw_content){
+			return;
+		}
+		var zw_contentChild = zw_content.childNodes;
+		zw_content.style.fontSize = size + 'px';
+		//再对zw_content div内的直接html节点设置fontSize属性
+		for(var i = 0; i < zw_contentChild.length; i++){
+			if(zw_contentChild[i].nodeType == 1){
+				zw_contentChild[i].style.fontSize = size + 'px';
+			}
+		}		
+	}
+//========================= 设置字体大中小 end =============
+
+</SCRIPT>
+
+<script language="javascript">
+<!--
+function changedata() {
+	if ( document.AddReview.none.checked ) {
+		document.AddReview.Author.value = "游客";
+	} 
+}
+function changedata1() {
+	if ( document.AddReview.none1.checked ) {
+		document.AddReview.email.value = "guest@wMgov.Cn";
+	} 
+}
+
+//-->
+</script>
+
+<script language=javascript>
+function CheckFormAddReview()	//检测评论发表栏填写项目是否为空
+{
+	if(document.AddReview.Author.value=="")
+	{
+		alert("请输入用户名！");
+		document.AddReview.Author.focus();
+		return false;
+	}
+	if(document.AddReview.email.value == "")
+	{
+		alert("请输入您的EMAIL！");
+		document.AddReview.email.focus();
+		return false;
+	}
+	if(document.AddReview.verifycode.value == "")
+	{
+		alert("请输入验证码！");
+		return false;
+	}
+	if(document.AddReview.content.value == "")
+	{
+		alert("请输入评论内容！");
+		return false;
+	}
+}
+</script>
+</head>
+
+	<SCRIPT language=JavaScript>
+	//双击滚屏代码
+	var currentpos,timer;
+	
+	function initialize()
+	{
+	timer=setInterval("scrollwindow()",50);
+	}
+	
+	function sc(){
+	clearInterval(timer);
+	}
+	
+	function scrollwindow()
+	{
+	currentpos=document.body.scrollTop;
+	window.scroll(0,++currentpos);
+	if (currentpos != document.body.scrollTop)
+		sc();
+	}
+	document.onmousedown=sc
+	document.ondblclick=initialize
+	</script>
+
+<body>
+<!--内容部分开始-->
+<div id="WM_Content">
+<SCRIPT language=javascript>
+<!--
+  function do_color(vobject,vvar)
+  { document.getElementById(vobject).style.color=vvar; }
+  function do_zooms(vobject,vvar)
+  { document.getElementById(vobject).style.fontsize=vvar+'px'; }
+-->
+</SCRIPT>
+
+<SCRIPT src="inc/slide.js"></SCRIPT>
+<SCRIPT src="inc/wM_wMcms.js"></SCRIPT>
+<link href="css/default.css" rel="stylesheet" type="text/css"/>
+<link href="css/Style1.css" rel="stylesheet" type="text/css"/>
+<noscript><iframe scr="*"></iframe></noscript>
+<script language=javascript>
+function CheckFormUserLogin()
+{
+	if(document.UserLogin.UserName.value=="")
+	{
+		alert("请输入用户名！");
+		document.UserLogin.UserName.focus();
+		return false;
+	}
+	if(document.UserLogin.Passwd.value == "")
+	{
+		alert("请输入密码！");
+		document.UserLogin.Passwd.focus();
+		return false;
+	}
+	if(document.UserLogin.verifycode.value == "")
+	{
+		alert("请输入验证码！");
+		document.UserLogin.verifycode.focus();
+		return false;
+	}
+}
+</script>
+<SCRIPT language="JavaScript" type="text/javascript">
+    // Begin morelink
+      function morelink(morelink)
+      {
+        url = 'MoreLink.asp?linktype=1';
+        window.open(url,morelink);
+      }
+    // End morelink-->
+ // Begin linkreg
+      function linkreg(linkreg)
+      {
+        url = 'LinkReg.asp';
+        window.open(url,linkreg);
+      }
+    // End linkreg-->
+// Begin vote
+      function vote(vote)
+      {
+        url = 'wMcms_Vote.asp?stype=view';
+        window.open(url,vote);
+      }
+    // End vote-->
+// Begin adduser
+      function adduser(adduser)
+      {
+        url = 'AddUser.asp';
+        window.open(url,adduser);
+      }
+    // End adduser-->
+// Begin getpwd
+      function getpwd(getpwd)
+      {
+        url = 'GetPwd.asp';
+        window.open(url,getpwd);
+      }
+    // End getpwd-->
+	
+</script>
+
+
+<div class="header">
+<div class="WmcmsGov_menu">
+<ul>
+
+</ul>
+
+<span class="float_right WmcmsGov_menu_link">
+<a href="http://www.mos.gov.cn/" target="_blank">中央纪委监察部网站</a>
+<a href="http://www.hebpr.cn/" target="_blank">河北省公共资源交易服务平台</a>
+<a href="http://www.mancheng.gov.cn/" target="_blank">满城县政府网</a>
+</span>
+</div>
+</div>
+<div class=banner>
+
+		<a href="http://www.mcjj.gov.cn">
+        <object codebase='http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0' 
+      height="165" width="1002" classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000'>
+          <param name="movie" value='images/top_flash.swf'>
+          <param name="quality" value="high">
+          <param name="wmode">
+          <embed src="photo/top.swf" quality=high 
+      pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" 
+      type="application/x-shockwave-flash" width="1002" height="165"> </embed>
+        </object>
+		</a>
+        
+</div>
+
+<!--主菜单开始-->
+<LINK href="CSS/wMcms_menu.css" rel=stylesheet>
+<SCRIPT language=javascript>
+function ResumeError() { 
+return true; 
+} 
+window.onerror = ResumeError; 
+function doClick(o){
+	 o.className="nav_current";
+	 var j;
+	 var id;
+	 var e;
+	 for(var i=1;i<=12;i++){
+	   id ="nav"+i;
+	   j = document.getElementById(id);
+	   e = document.getElementById("sub"+i);
+	   if(id != o.id){
+	   	 j.className="nav_link";
+	   	 e.style.display = "none";
+	   }else{
+			e.style.display = "block";
+	   }
+	 }
+	 }
+</SCRIPT>
+<div class="nav_main">
+<ul><LI><SPAN class='nav_current' id='nav1' onmouseover=javascript:doClick(this)><A class='f_nav' href=index.asp>首  页</A></SPAN></LI><li><SPAN class='nav_link' id='nav2' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_newsleader.asp?wMcms_typeid=30' id=menu2 title='机构介绍'>机构介绍</a></SPAN></li><LI><SPAN class='nav_link' id='nav3' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_news.asp?wMcms_typeid=31'>中心动态</a></SPAN></LI><LI><SPAN class='nav_link' id='nav4' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_Nobigclass.asp?wMcms_typeid=37'>交易信息</a></SPAN></LI><LI><SPAN class='nav_link' id='nav5' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_news.asp?wMcms_typeid=39'>工程建设</a></SPAN></LI><LI><SPAN class='nav_link' id='nav6' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_news.asp?wMcms_typeid=53'>政府采购</a></SPAN></LI><LI><SPAN class='nav_link' id='nav7' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_news.asp?wMcms_typeid=33'>产权交易</a></SPAN></LI><LI><SPAN class='nav_link' id='nav8' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_news.asp?wMcms_typeid=35'>国土交易</a></SPAN></LI><LI><SPAN class='nav_link' id='nav9' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_news.asp?wMcms_typeid=36'>办事指南</a></SPAN></LI><LI><SPAN class='nav_link' id='nav10' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_Nobigclass.asp?wMcms_typeid=42'>政策法规</a></SPAN></LI></ul></div><div class=nav_sub><div class='dis sub_box' id=sub1><ul><LI>今天是: <script language='javascript' src='inc/wnl.js'></script>&nbsp;&nbsp;<script src='inc/mini_v4.2.2009.js'></script>天气：<span id='Wealth'><script type='text/javascript'>MiniSite.Weather.print('Wealth');</script></span></LI></ul></div><div class='undis sub_box sub_box2' id='sub2'><ul><LI><a href='news_NosmallClass.asp?wMcms_typeid=30&wMcms_bigclassid=257'>领导之窗</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=30&wMcms_bigclassid=258'>机构设置</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=30&wMcms_bigclassid=259'>职能配置</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=30&wMcms_bigclassid=260'>辖管范围</a>&nbsp;|&nbsp;</LI></UL></div><div class='undis sub_box sub_box3' id='sub3'><ul><LI><a href='news_NosmallClass.asp?wMcms_typeid=31&wMcms_bigclassid=267'>中心简报</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=31&wMcms_bigclassid=268'>领导讲话</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=31&wMcms_bigclassid=269'>行业信息</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=31&wMcms_bigclassid=270'>他山之石</a>&nbsp;|&nbsp;</LI></UL></div><div class='undis sub_box sub_box4' id='sub4'><ul></UL></div><div class='undis sub_box sub_box5' id='sub5'><ul><LI><a href='news_NosmallClass.asp?wMcms_typeid=39&wMcms_bigclassid=435'>招标公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=39&wMcms_bigclassid=436'>流标公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=39&wMcms_bigclassid=437'>变更公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=39&wMcms_bigclassid=438'>中标公示</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=39&wMcms_bigclassid=444'>变更公示</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=39&wMcms_bigclassid=449'>废标公告</a>&nbsp;|&nbsp;</LI></UL></div><div class='undis sub_box sub_box6' id='sub6'><ul><LI><a href='news_NosmallClass.asp?wMcms_typeid=53&wMcms_bigclassid=441'>招标公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=53&wMcms_bigclassid=442'>流标公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=53&wMcms_bigclassid=443'>变更公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=53&wMcms_bigclassid=445'>中标公示</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=53&wMcms_bigclassid=446'>变更公示</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=53&wMcms_bigclassid=447'>废标公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=53&wMcms_bigclassid=448'>预中标公告</a>&nbsp;|&nbsp;</LI></UL></div><div class='undis sub_box sub_box7' id='sub7'><ul><LI><a href='news_NosmallClass.asp?wMcms_typeid=33&wMcms_bigclassid=298'>转让公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=33&wMcms_bigclassid=299'>成交公示</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=33&wMcms_bigclassid=450'>流拍公告</a>&nbsp;|&nbsp;</LI></UL></div><div class='undis sub_box sub_box8' id='sub8'><ul><LI><a href='news_NosmallClass.asp?wMcms_typeid=35&wMcms_bigclassid=308'>出让公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=35&wMcms_bigclassid=309'>成交公示</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=35&wMcms_bigclassid=451'>流拍公告</a>&nbsp;|&nbsp;</LI></UL></div><div class='undis sub_box sub_box9' id='sub9'><ul><LI><a href='news_NosmallClass.asp?wMcms_typeid=36&wMcms_bigclassid=418'>服务指南</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=36&wMcms_bigclassid=419'>业务流程</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=36&wMcms_bigclassid=439'>操作流程</a>&nbsp;|&nbsp;</LI></UL></div><div class='undis sub_box sub_box10' id='sub10'><ul></UL></div>
+</div>
+<!--主菜单结束-->
+
+<!-- ----------------------------1、新加签收功能代码开始－－签收信息提示开始 -------------------->
+
+<!-- 签收信息提示结束 ------------------------------------------>
+
+
+
+
+
+
+<!--中间内容部分开始-->
+<div id="WM_Cnt_center">
+<!--左边部分开始-->
+
+<div class="WM_Cnt_Left float_left">
+
+
+<!--正文部分开始-->
+<DIV class=WM_Content_Left>
+<!--位置导航部分开始-->
+<div class="position">
+<img src="images/lm_dot01.gif" width="11" height="11">&nbsp;&nbsp;您的位置&nbsp;&nbsp;<a href="./" >首页</a> >> 政府采购
+        >> 招标公告
+        >> 正文
+</div>
+<!--位置导航部分结束-->
+<div class=WM_News_Title><font color="">保定市满城区粮食局粮食仓储设备采购（二次）</font></div>
+
+
+        <div class=art_info> 来源： 
+          
+          | 日期：2017年11月14日
+          </div>
+<div id=zw_content>
+      <P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">采购项目名称：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">保定市满城区粮食局粮食仓储设备采购（二次）<SPAN lang=EN-US><?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">采购项目编号</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-bidi-font-weight: bold">：<SPAN lang=EN-US>HFZB-2017-086<o:p></o:p></SPAN></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">采购人名称：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-bidi-font-weight: bold">保定市满城区粮食局<B><SPAN lang=EN-US><o:p></o:p></SPAN></B></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">采购人地址：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-bidi-font-weight: bold">保定市满城区中山东路<SPAN lang=EN-US>55</SPAN>号</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US><o:p></o:p></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">采购人联系方式：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">刘凯<SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN></SPAN>联系电话：<SPAN lang=EN-US>0312-7071199<o:p></o:p></SPAN></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">采购代理机构全称：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-bidi-font-weight: bold">河北汉丰造价师事务所有限公司<B><SPAN lang=EN-US><o:p></o:p></SPAN></B></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">采购代理机构地址：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">石家庄市长安区中山东路<SPAN lang=EN-US>466</SPAN>号新世纪钻石广场<SPAN lang=EN-US>B</SPAN>座<SPAN lang=EN-US>15</SPAN>层<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">采购代理机构联系方式：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-bidi-font-weight: bold">宋双娟<SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN></SPAN>联系电话：<SPAN lang=EN-US>0311-80980022<SPAN style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN>15175763307<o:p></o:p></SPAN></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">采购方式：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-bidi-font-weight: bold">竞争性谈判<B><SPAN lang=EN-US><o:p></o:p></SPAN></B></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">采购数量：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">一批<SPAN style="BACKGROUND: lime; mso-highlight: lime" lang=EN-US><o:p></o:p></SPAN></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">采购内容<SPAN lang=EN-US>:</SPAN></SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">购置厢式货车<SPAN lang=EN-US>1</SPAN>辆、微型面包货车<SPAN lang=EN-US>1</SPAN>辆、叉车<SPAN lang=EN-US>1</SPAN>台、托盘<SPAN lang=EN-US>100</SPAN>个，中标人完成设备供货、安装及维保期内的维修保养等工作。<B><SPAN lang=EN-US><o:p></o:p></SPAN></B></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">预算金额：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体" lang=EN-US>375000.00</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">元<B style="mso-bidi-font-weight: normal"><SPAN lang=EN-US><o:p></o:p></SPAN></B></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt; tab-stops: 324.0pt" class=MsoNormal><FONT color=#000000><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">采购用途：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">满足工作需求<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">项目实施地点：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">采购人指定的地点<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">供货安装周期：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-bidi-font-weight: bold" lang=EN-US>45</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">天<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">项目性质、技术要求：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">详见竞争性谈判文件<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体"><FONT color=#000000>投标人的资格要求：<SPAN lang=EN-US><o:p></o:p></SPAN></FONT></SPAN></B></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US>1</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">、符合《中华人民共和国政府采购法》第二十二条规定的资格条件，具有供货、安装能力和良好售后服务体系的生产厂家或代理商； <SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US>2</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">、具有拟投主要产品（</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">厢式货车、微型面包货车</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">）的<SPAN lang=EN-US>3C</SPAN>产品认证证书（代理商提供复印件）；<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></FONT></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US>3</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">、</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">检察机关出具的无行贿犯罪档案查询结果告知函。<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></FONT></P><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"><FONT color=#000000>报名持以下资料原件及逐页加盖公章的复印件一套（资料不全或不符合要求者，不予受理）：法定代表人授权委托书及授权代理人有效身份证件、营业执照副本、税务登记证副本、组织机构代码证副本（已执行“三证合一”的供应商可提供新版营业执照副本）、<SPAN lang=EN-US>3C</SPAN>证书（<SPAN style="mso-font-kerning: 1.0pt">厢式货车、微型面包货车</SPAN>）（代理商提供<SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">复印件）、<SPAN lang=EN-US>2016</SPAN>年度财务审计报告、近三个月依法缴纳税收的相关证明、近三个月依法缴纳社会保障金的相关证明、参加政府采购活动前三年内在经营活动中没有重大违法记录承诺书。<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">注：投标单位报名前，须先在“河北省公共资源交易服务平台”（</SPAN></B><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt; mso-no-proof: yes" lang=EN-US><?xml:namespace prefix = v ns = "urn:schemas-microsoft-com:vml" /><v:shapetype id=_x0000_t75 stroked="f" filled="f" path="m@4@5l@4@11@9@11@9@5xe" o:preferrelative="t" o:spt="75" coordsize="21600,21600"> <v:stroke joinstyle="miter"></v:stroke><v:formulas><v:f eqn="if lineDrawn pixelLineWidth 0"></v:f><v:f eqn="sum @0 1 0"></v:f><v:f eqn="sum 0 0 @1"></v:f><v:f eqn="prod @2 1 2"></v:f><v:f eqn="prod @3 21600 pixelWidth"></v:f><v:f eqn="prod @3 21600 pixelHeight"></v:f><v:f eqn="sum @0 0 1"></v:f><v:f eqn="prod @6 1 2"></v:f><v:f eqn="prod @7 21600 pixelWidth"></v:f><v:f eqn="sum @8 21600 0"></v:f><v:f eqn="prod @7 21600 pixelHeight"></v:f><v:f eqn="sum @10 21600 0"></v:f></v:formulas><v:path o:connecttype="rect" gradientshapeok="t" o:extrusionok="f"></v:path><o:lock aspectratio="t" v:ext="edit"></o:lock></v:shapetype><v:shape style="WIDTH: 15pt; HEIGHT: 11.25pt; VISIBILITY: visible; mso-wrap-style: square" id=图片_x0020_1 alt="IMG_256" type="#_x0000_t75" o:spid="_x0000_i1025"><v:imagedata o:href="file:///C:\Users\ADMINI~1\AppData\Local\Temp\%25W@GJ$ACOF(TYDYECOKVDYB.png" src="file:///C:\Users\Administrator\AppData\Local\Temp\msohtmlclip1\01\clip_image001.png"></v:imagedata></v:shape></SPAN></B><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US>http://www.hebpr.cn/</SPAN></B><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">）进行注册并审核通过，如已完成注册的无需再次注册。若因投标单位原因报名不成功并影响后续投标，后果自负。注册完成后需现场报名，若有疑问请与代理公司联系。<SPAN lang=EN-US>&nbsp;&nbsp;&nbsp;</SPAN></SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">竞争性谈判文件发售时间：<SPAN lang=EN-US>2017</SPAN>年<U><SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>11<SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN></U>月<U><SPAN lang=EN-US> 15<SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN></U>日<SPAN lang=EN-US>---2017</SPAN>年<U><SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>11<SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN></U>月<U><SPAN lang=EN-US> 17<SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN></U>日（双休日、节假日除外）上午<SPAN lang=EN-US>8:30</SPAN>—<SPAN lang=EN-US>12:00</SPAN>，下午<SPAN lang=EN-US>13:30</SPAN>—<SPAN lang=EN-US>17:30</SPAN>（北京时间，下同）<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">竞争性谈判文件发售地点：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">保定市满城区公共资源交易中心一楼（满城区育才南街<SPAN lang=EN-US>610</SPAN>号）<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">竞争性谈判文件发售方式：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">文本发售<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">竞争性谈判文件售价</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">：<SPAN lang=EN-US>200.00</SPAN>元人民币<SPAN lang=EN-US>/</SPAN>套，售后不退<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">投标截止时间：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US>2017</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">年<U><SPAN lang=EN-US> 11<SPAN style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN></SPAN></U>月<U><SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>24<SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN></U>日<U><SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>9:30<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp; </SPAN></SPAN></U>时</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体" lang=EN-US><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体">开标时间</SPAN></B><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US>2017</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">年<U><SPAN lang=EN-US> 11<SPAN style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN></SPAN></U>月<U><SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>24<SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN></U>日<U><SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>9:30<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp; </SPAN></SPAN></U>时<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">开标地点：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">保定市满城区公共资源交易中心四楼第一开标室（满城区育才南街<SPAN lang=EN-US>610</SPAN>号）<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">评标方法和标准：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">最低评标价法，详见竞争性谈判文件<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">项目联系人：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-bidi-font-weight: bold">宋双娟</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">联系方式：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-bidi-font-weight: bold" lang=EN-US>0311-80980022<SPAN style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN>15175763307</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">传真电话：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-bidi-font-weight: bold" lang=EN-US>0311-80980011<o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">质疑电话：</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-bidi-font-weight: bold" lang=EN-US>0311-80980022</SPAN><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US><o:p></o:p></SPAN></B></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">本公告发布媒体</SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">：中国政府采购网、河北省政府采购网、保定市满城区公共资源交易网、河北省公共资源交易服务平台</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体" lang=EN-US><o:p></o:p></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">备注：</SPAN></B><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">项目编号</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体; mso-bidi-font-weight: bold" lang=EN-US>HFZB-2017-086</SPAN><A name=_GoBack></A></P></FONT></SPAN>
+                <br>
+ 
+
+          <div class=editor><strong>编辑：</strong>ggzyzx</div>
+          
+</div>
+
+<div class="about_news">
+
+<!------签收功能新加代码开始------------------------>
+		
+<!-----签收部分新加代码结束---------------------------------------------->         
+
+</div>
+
+<!--评论部分开始-->
+
+<!--评论部分结束-->
+
+</DIV>
+<!--正文部分结束-->
+</div>
+
+<!--左边部分结束-->
+<!--右边部分开始-->
+<div class="WM_Cnt_Right float_right">
+      <div class="WM_n_right lianmu_bg">
+<H3>热门内容</H3>
+<DIV>
+<ul class="list">
+
+<li><span class="float_right">[9135]</span>·<a href="wMcms_govShowArticle.asp?/2506.html" title="保定市满城区公安局/保定市满城区城市管理行政执法局天网覆盖工程及数字化城市管理系统建设项目二次 更正公告" target="_blank"> <font color=""> 保定市满城区公安局/保定市满城区城市管理行政执法局天网覆盖工程及数字化城市管理系统建设项目二次 更正公告 </font> </a></li>
+
+<li><span class="float_right">[9087]</span>·<a href="wMcms_govShowArticle.asp?/2444.html" title="保定市满城区公安局/保定市满城区城市管理行政执法局天网覆盖工程及数字化城市管理系统建设项目3、4标段 更正公告" target="_blank"> <font color=""> 保定市满城区公安局/保定市满城区城市管理行政执法局天网覆盖工程及数字化城市管理系统建设项目3、4标段 更正公告 </font> </a></li>
+
+<li><span class="float_right">[8499]</span>·<a href="wMcms_govShowArticle.asp?/2558.html" title="保定市满城区土地级别与基准地价更新项目废标公告" target="_blank"> <font color=""> 保定市满城区土地级别与基准地价更新项目废标公告 </font> </a></li>
+
+<li><span class="float_right">[8463]</span>·<a href="wMcms_govShowArticle.asp?/2527.html" title="满城区卫计局机关卫计局医疗设备采购项目（二次）废标公告" target="_blank"> <font color=""> 满城区卫计局机关卫计局医疗设备采购项目（二次）废标公告 </font> </a></li>
+
+<li><span class="float_right">[8454]</span>·<a href="wMcms_govShowArticle.asp?/2595.html" title="保定市满城区环境保护局智慧环保监控管理系统废标公告" target="_blank"> <font color=""> 保定市满城区环境保护局智慧环保监控管理系统废标公告 </font> </a></li>
+
+<li><span class="float_right">[8437]</span>·<a href="wMcms_govShowArticle.asp?/2576.html" title="保定市满城区林业局关于河北省2016年度现代果品产业建设补助项目建设材料采购((二次）废标公告" target="_blank"> <font color=""> 保定市满城区林业局关于河北省2016年度现代果品产业建设补助项目建设材料采购((二次）废标公告 </font> </a></li>
+
+<li><span class="float_right">[8408]</span>·<a href="wMcms_govShowArticle.asp?/2528.html" title="2015年严格水资源管理项目废标公告" target="_blank"> <font color=""> 2015年严格水资源管理项目废标公告 </font> </a></li>
+
+<li><span class="float_right">[8405]</span>·<a href="wMcms_govShowArticle.asp?/2591.html" title="2015年严格水资源管理项目二次废标公告" target="_blank"> <font color=""> 2015年严格水资源管理项目二次废标公告 </font> </a></li>
+
+<li><span class="float_right">[8396]</span>·<a href="wMcms_govShowArticle.asp?/2665.html" title="满城区环保局智慧监控管理系统更正公告" target="_blank"> <font color=""> 满城区环保局智慧监控管理系统更正公告 </font> </a></li>
+
+<li><span class="float_right">[8384]</span>·<a href="wMcms_govShowArticle.asp?/2525.html" title="保定市满城区林业局关于河北省2016年度现代果品产业建设补助项目建设材料废标公告" target="_blank"> <font color=""> 保定市满城区林业局关于河北省2016年度现代果品产业建设补助项目建设材料废标公告 </font> </a></li>
+
+<li><span class="float_right">[8383]</span>·<a href="wMcms_govShowArticle.asp?/2666.html" title="农业局病死猪回收点维修建设项目更正公告" target="_blank"> <font color=""> 农业局病死猪回收点维修建设项目更正公告 </font> </a></li>
+
+<li><span class="float_right">[8378]</span>·<a href="wMcms_govShowArticle.asp?/2512.html" title="保定市满城区人民政府信访局群众工作中心装修采购项目流标公告" target="_blank"> <font color=""> 保定市满城区人民政府信访局群众工作中心装修采购项目流标公告 </font> </a></li>
+
+<li><span class="float_right">[8351]</span>·<a href="wMcms_govShowArticle.asp?/2601.html" title="2015年严格水资源管理项目三次废标公告" target="_blank"> <font color=""> 2015年严格水资源管理项目三次废标公告 </font> </a></li>
+
+<li><span class="float_right">[8351]</span>·<a href="wMcms_govShowArticle.asp?/2596.html" title="满城区环保局十三五环境保护规划废标公告" target="_blank"> <font color=""> 满城区环保局十三五环境保护规划废标公告 </font> </a></li>
+
+<li><span class="float_right">[8258]</span>·<a href="wMcms_govShowArticle.asp?/2672.html" title="保定市满城区水利局2015年严格水资源管理项目废标公告" target="_blank"> <font color=""> 保定市满城区水利局2015年严格水资源管理项目废标公告 </font> </a></li>
+
+<li><span class="float_right">[8170]</span>·<a href="wMcms_govShowArticle.asp?/2511.html" title="经济开发区污水管网建设项目流标公告" target="_blank"> <font color=""> 经济开发区污水管网建设项目流标公告 </font> </a></li>
+	
+</ul>
+</div>
+
+</div>
+
+<!--右边部分结束-->
+
+</div>
+<div class=clear_float></div>
+<!--中间内容部分结束-->
+<LINK href="CSS/Sytle1.css" rel="stylesheet">
+
+
+<div id=footer>
+<div class="foot_nav white_tit"></div>
+<div class="foot_navmenu">
+<a href='wMcms_Special.asp' target='_blank'> 【专题报道】 </a>－<a href='wMcms_PhotoNews.asp'  target='_blank'> 【图片新闻 】</a>－<a href='wMcms_map.asp'  target='_blank'> 【网站地图 】</a>－<a href='wmcms_userlogin.asp' target='_blank'> 【用户登录 】</a>－<a href='wMcms_Statistics.asp' target='_blank'> 【投稿统计 】</a>
+</div>
+
+<div class=foot_info>
+Copyright 2013-2015  All Rights Reserved<br />
+版权所有： <a href="#" target="_blank" >满城区公共资源交易网</a> 2013-2015 <br>
+地址：河北省满城区育才南街610号 邮编：072150 <br>
+电话：0312-7039715   传真：0312-7039712&nbsp;邮箱: <a href="mailto:mcjyzx@126.com" >mcjyzx@126.com</a>&nbsp;QQ: 183159568<a href="tencent://message/?uin=&amp;Site=满城县公共资源交易网管理系统&amp;Menu=yes" ></a><br />
+页面执行时间：109.375毫秒
+冀ICP备13022504号-2<a href="login.asp" target="_blank" >[后台管理]</a>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257069482'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1257069482%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><br>
+<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/05/109/0125/41511087/CA051090125415110870000.js' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+</div>
+
+
+ 
+</div>
+
+<!--内容部分结束-->
+</body>
+</html>

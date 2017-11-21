@@ -1,0 +1,582 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="gb2312">
+<head>
+<meta http-equiv="Content-Type" content="">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="Description" content="满城区公共资源交易网">
+<meta name="keywords" content="满城区公共资源交易网">
+<title>招标公告__政府采购__满城区公共资源交易网</title>
+<!--LINK href=CSS/Default.css rel=stylesheet-->
+<!--LINK href="CSS/wMcms_News.css" rel="stylesheet"-->
+</head>
+<body>
+<!--内容部分开始-->
+<div id="WM_Content">
+
+<SCRIPT src="inc/slide.js"></SCRIPT>
+<SCRIPT src="inc/wM_wMcms.js"></SCRIPT>
+<link href="css/default.css" rel="stylesheet" type="text/css"/>
+<link href="css/Style1.css" rel="stylesheet" type="text/css"/>
+<noscript><iframe scr="*"></iframe></noscript>
+<script language=javascript>
+function CheckFormUserLogin()
+{
+	if(document.UserLogin.UserName.value=="")
+	{
+		alert("请输入用户名！");
+		document.UserLogin.UserName.focus();
+		return false;
+	}
+	if(document.UserLogin.Passwd.value == "")
+	{
+		alert("请输入密码！");
+		document.UserLogin.Passwd.focus();
+		return false;
+	}
+	if(document.UserLogin.verifycode.value == "")
+	{
+		alert("请输入验证码！");
+		document.UserLogin.verifycode.focus();
+		return false;
+	}
+}
+</script>
+<SCRIPT language="JavaScript" type="text/javascript">
+    // Begin morelink
+      function morelink(morelink)
+      {
+        url = 'MoreLink.asp?linktype=1';
+        window.open(url,morelink);
+      }
+    // End morelink-->
+ // Begin linkreg
+      function linkreg(linkreg)
+      {
+        url = 'LinkReg.asp';
+        window.open(url,linkreg);
+      }
+    // End linkreg-->
+// Begin vote
+      function vote(vote)
+      {
+        url = 'wMcms_Vote.asp?stype=view';
+        window.open(url,vote);
+      }
+    // End vote-->
+// Begin adduser
+      function adduser(adduser)
+      {
+        url = 'AddUser.asp';
+        window.open(url,adduser);
+      }
+    // End adduser-->
+// Begin getpwd
+      function getpwd(getpwd)
+      {
+        url = 'GetPwd.asp';
+        window.open(url,getpwd);
+      }
+    // End getpwd-->
+	
+</script>
+
+
+<div class="header">
+<div class="WmcmsGov_menu">
+<ul>
+
+</ul>
+
+<span class="float_right WmcmsGov_menu_link">
+<a href="http://www.mos.gov.cn/" target="_blank">中央纪委监察部网站</a>
+<a href="http://www.hebpr.cn/" target="_blank">河北省公共资源交易服务平台</a>
+<a href="http://www.mancheng.gov.cn/" target="_blank">满城县政府网</a>
+</span>
+</div>
+</div>
+<div class=banner>
+
+		<a href="http://www.mcjj.gov.cn">
+        <object codebase='http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0' 
+      height="165" width="1002" classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000'>
+          <param name="movie" value='images/top_flash.swf'>
+          <param name="quality" value="high">
+          <param name="wmode">
+          <embed src="photo/top.swf" quality=high 
+      pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" 
+      type="application/x-shockwave-flash" width="1002" height="165"> </embed>
+        </object>
+		</a>
+        
+</div>
+
+<!--主菜单开始-->
+<LINK href="CSS/wMcms_menu.css" rel=stylesheet>
+<SCRIPT language=javascript>
+function ResumeError() { 
+return true; 
+} 
+window.onerror = ResumeError; 
+function doClick(o){
+	 o.className="nav_current";
+	 var j;
+	 var id;
+	 var e;
+	 for(var i=1;i<=12;i++){
+	   id ="nav"+i;
+	   j = document.getElementById(id);
+	   e = document.getElementById("sub"+i);
+	   if(id != o.id){
+	   	 j.className="nav_link";
+	   	 e.style.display = "none";
+	   }else{
+			e.style.display = "block";
+	   }
+	 }
+	 }
+</SCRIPT>
+<div class="nav_main">
+<ul><LI><SPAN class='nav_current' id='nav1' onmouseover=javascript:doClick(this)><A class='f_nav' href=index.asp>首  页</A></SPAN></LI><li><SPAN class='nav_link' id='nav2' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_newsleader.asp?wMcms_typeid=30' id=menu2 title='机构介绍'>机构介绍</a></SPAN></li><LI><SPAN class='nav_link' id='nav3' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_news.asp?wMcms_typeid=31'>中心动态</a></SPAN></LI><LI><SPAN class='nav_link' id='nav4' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_Nobigclass.asp?wMcms_typeid=37'>交易信息</a></SPAN></LI><LI><SPAN class='nav_link' id='nav5' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_news.asp?wMcms_typeid=39'>工程建设</a></SPAN></LI><LI><SPAN class='nav_link' id='nav6' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_news.asp?wMcms_typeid=53'>政府采购</a></SPAN></LI><LI><SPAN class='nav_link' id='nav7' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_news.asp?wMcms_typeid=33'>产权交易</a></SPAN></LI><LI><SPAN class='nav_link' id='nav8' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_news.asp?wMcms_typeid=35'>国土交易</a></SPAN></LI><LI><SPAN class='nav_link' id='nav9' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_news.asp?wMcms_typeid=36'>办事指南</a></SPAN></LI><LI><SPAN class='nav_link' id='nav10' onmouseover=javascript:doClick(this)><a class='f_nav' href='wMcms_Nobigclass.asp?wMcms_typeid=42'>政策法规</a></SPAN></LI></ul></div><div class=nav_sub><div class='dis sub_box' id=sub1><ul><LI>今天是: <script language='javascript' src='inc/wnl.js'></script>&nbsp;&nbsp;<script src='inc/mini_v4.2.2009.js'></script>天气：<span id='Wealth'><script type='text/javascript'>MiniSite.Weather.print('Wealth');</script></span></LI></ul></div><div class='undis sub_box sub_box2' id='sub2'><ul><LI><a href='news_NosmallClass.asp?wMcms_typeid=30&wMcms_bigclassid=257'>领导之窗</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=30&wMcms_bigclassid=258'>机构设置</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=30&wMcms_bigclassid=259'>职能配置</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=30&wMcms_bigclassid=260'>辖管范围</a>&nbsp;|&nbsp;</LI></UL></div><div class='undis sub_box sub_box3' id='sub3'><ul><LI><a href='news_NosmallClass.asp?wMcms_typeid=31&wMcms_bigclassid=267'>中心简报</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=31&wMcms_bigclassid=268'>领导讲话</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=31&wMcms_bigclassid=269'>行业信息</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=31&wMcms_bigclassid=270'>他山之石</a>&nbsp;|&nbsp;</LI></UL></div><div class='undis sub_box sub_box4' id='sub4'><ul></UL></div><div class='undis sub_box sub_box5' id='sub5'><ul><LI><a href='news_NosmallClass.asp?wMcms_typeid=39&wMcms_bigclassid=435'>招标公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=39&wMcms_bigclassid=436'>流标公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=39&wMcms_bigclassid=437'>变更公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=39&wMcms_bigclassid=438'>中标公示</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=39&wMcms_bigclassid=444'>变更公示</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=39&wMcms_bigclassid=449'>废标公告</a>&nbsp;|&nbsp;</LI></UL></div><div class='undis sub_box sub_box6' id='sub6'><ul><LI><a href='news_NosmallClass.asp?wMcms_typeid=53&wMcms_bigclassid=441'>招标公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=53&wMcms_bigclassid=442'>流标公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=53&wMcms_bigclassid=443'>变更公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=53&wMcms_bigclassid=445'>中标公示</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=53&wMcms_bigclassid=446'>变更公示</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=53&wMcms_bigclassid=447'>废标公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=53&wMcms_bigclassid=448'>预中标公告</a>&nbsp;|&nbsp;</LI></UL></div><div class='undis sub_box sub_box7' id='sub7'><ul><LI><a href='news_NosmallClass.asp?wMcms_typeid=33&wMcms_bigclassid=298'>转让公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=33&wMcms_bigclassid=299'>成交公示</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=33&wMcms_bigclassid=450'>流拍公告</a>&nbsp;|&nbsp;</LI></UL></div><div class='undis sub_box sub_box8' id='sub8'><ul><LI><a href='news_NosmallClass.asp?wMcms_typeid=35&wMcms_bigclassid=308'>出让公告</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=35&wMcms_bigclassid=309'>成交公示</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=35&wMcms_bigclassid=451'>流拍公告</a>&nbsp;|&nbsp;</LI></UL></div><div class='undis sub_box sub_box9' id='sub9'><ul><LI><a href='news_NosmallClass.asp?wMcms_typeid=36&wMcms_bigclassid=418'>服务指南</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=36&wMcms_bigclassid=419'>业务流程</a>&nbsp;|&nbsp;</LI><LI><a href='news_NosmallClass.asp?wMcms_typeid=36&wMcms_bigclassid=439'>操作流程</a>&nbsp;|&nbsp;</LI></UL></div><div class='undis sub_box sub_box10' id='sub10'><ul></UL></div>
+</div>
+<!--主菜单结束-->
+
+<!-- ----------------------------1、新加签收功能代码开始－－签收信息提示开始 -------------------->
+
+<!-- 签收信息提示结束 ------------------------------------------>
+
+
+
+
+<!--中间内容部分开始-->
+<div id="noSmall_center">
+<!--左边部分开始-->
+<div class="nosmall_left float_left">
+<div class="new_art lianmu_bg">
+<H3>最新更新</H3>
+<DIV class=new_art_list>
+<ul class=list>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3208.html" title="保定市满城区粮食局粮食仓储设备采购（二次）" target="_blank"> <font color=""> 保定市满城区粮食局粮食仓储设备采购（二次.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3192.html" title="保定市满城区林业局林业有害防控体系建设设备购置" target="_blank"> <font color=""> 保定市满城区林业局林业有害防控体系建设设.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3190.html" title="保定市满城区区委办公楼风机盘管采购安装项目竞争性磋商公告" target="_blank"> <font color=""> 保定市满城区区委办公楼风机盘管采购安装项.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3176.html" title="保定市满城区2017年度山洪灾害防治项目招标公告" target="_blank"> <font color=""> 保定市满城区2017年度山洪灾害防治项目招标.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3174.html" title="保定市满城区粮食局粮食仓储设备采购招标公告" target="_blank"> <font color=""> 保定市满城区粮食局粮食仓储设备采购招标公.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3168.html" title="保定市满城区人力资源和社会保障局关于实行职业培训项目二次竞争性磋商招标公告" target="_blank"> <font color=""> 保定市满城区人力资源和社会保障局关于实行.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3152.html" title="保定市满城区公安局购置两场建设装备（二次）招标公告" target="_blank"> <font color=""> 保定市满城区公安局购置两场建设装备（二次.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3148.html" title="满城区城乡环卫一体化项目招标公告" target="_blank"> <font color=""> 满城区城乡环卫一体化项目招标公告 </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3134.html" title="保定市满城区公安局购置两场建设装备招标公告" target="_blank"> <font color=""> 保定市满城区公安局购置两场建设装备招标公.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3132.html" title="保定市满城区人民医院环保设备采购项目采购招标公告" target="_blank"> <font color=""> 保定市满城区人民医院环保设备采购项目采购.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3131.html" title="保定市满城区公安局交通管理大队交通安全标志牌建设项目招标公告" target="_blank"> <font color=""> 保定市满城区公安局交通管理大队交通安全标.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3130.html" title="保定市满城区公安局交通管理大队固定测速式卡口项目招标公告" target="_blank"> <font color=""> 保定市满城区公安局交通管理大队固定测速式.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3126.html" title="保定市满城区多规合一信息平台建设项目（二次）招标公告" target="_blank"> <font color=""> 保定市满城区多规合一信息平台建设项目（二.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3125.html" title="保定市满城区人力资源和社会保障局关于实行职业培训项目竞争性磋商招标公告" target="_blank"> <font color=""> 保定市满城区人力资源和社会保障局关于实行.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3116.html" title="保定市满城区文化广电新闻出版局文体活动器材及音响设备采购招标公告" target="_blank"> <font color=""> 保定市满城区文化广电新闻出版局文体活动器.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3114.html" title="中山宾馆更新残值评估招标公告" target="_blank"> <font color=""> 中山宾馆更新残值评估招标公告 </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3107.html" title="保定市满城区人民政府办公室家具采购项目招标公告" target="_blank"> <font color=""> 保定市满城区人民政府办公室家具采购项目招.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3104.html" title="保定市满城区城市管理行政执法局城市管理执法制式服装和标志标识招标公告" target="_blank"> <font color=""> 保定市满城区城市管理行政执法局城市管理执.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3062.html" title="满城区国土资源局不动产统一登记项目二次招标公告" target="_blank"> <font color=""> 满城区国土资源局不动产统一登记项目二次招.. </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3059.html" title="满城区城市供热专项规划项目招标公告" target="_blank"> <font color=""> 满城区城市供热专项规划项目招标公告 </font> </a>
+</li>
+
+<li>
+·<a href="wMcms_govShowArticle.asp?/3058.html" title="满城区公安局2016年中央转移支付款购置业务装备项目招标公告" target="_blank"> <font color=""> 满城区公安局2016年中央转移支付款购置业务.. </font> </a>
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+<!--左边部分结束-->
+
+<!--右边部分开始-->
+<div class="small_right float_right">
+
+<!--位置导航部分开始-->
+<div class="position">
+<img src="images/lm_dot01.gif" width="11" height="11">&nbsp;&nbsp;您的位置&nbsp;&nbsp;<a href="./" >首页</a> >> 政府采购 >>招标公告 >>列表
+</div>
+<!--位置导航部分结束-->
+
+<!--列表部分开始-->
+<div class=class_listcnt>
+
+<div class="class_list1 lm_class_bg">
+<H4>招标公告</H4>
+<!--无大类文章区开始-->
+
+<ul class=list>
+
+
+<li><span>(11.14)</span>
+·<a href="wMcms_govShowArticle.asp?/3208.html" title="保定市满城区粮食局粮食仓储设备采购（二次）" target="_blank"> <l><font color=""> 保定市满城区粮食局粮食仓储设备采购（二次）</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(11.10)</span>
+·<a href="wMcms_govShowArticle.asp?/3192.html" title="保定市满城区林业局林业有害防控体系建设设备购置" target="_blank"> <l><font color=""> 保定市满城区林业局林业有害防控体系建设设备购置</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(11.7)</span>
+·<a href="wMcms_govShowArticle.asp?/3190.html" title="保定市满城区区委办公楼风机盘管采购安装项目竞争性磋商公告" target="_blank"> <l><font color=""> 保定市满城区区委办公楼风机盘管采购安装项目竞争性磋商公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(10.30)</span>
+·<a href="wMcms_govShowArticle.asp?/3176.html" title="保定市满城区2017年度山洪灾害防治项目招标公告" target="_blank"> <l><font color=""> 保定市满城区2017年度山洪灾害防治项目招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(10.27)</span>
+·<a href="wMcms_govShowArticle.asp?/3174.html" title="保定市满城区粮食局粮食仓储设备采购招标公告" target="_blank"> <l><font color=""> 保定市满城区粮食局粮食仓储设备采购招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(10.17)</span>
+·<a href="wMcms_govShowArticle.asp?/3168.html" title="保定市满城区人力资源和社会保障局关于实行职业培训项目二次竞争性磋商招标公告" target="_blank"> <l><font color=""> 保定市满城区人力资源和社会保障局关于实行职业培训项目二次竞争性磋商招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(9.28)</span>
+·<a href="wMcms_govShowArticle.asp?/3152.html" title="保定市满城区公安局购置两场建设装备（二次）招标公告" target="_blank"> <l><font color=""> 保定市满城区公安局购置两场建设装备（二次）招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(9.26)</span>
+·<a href="wMcms_govShowArticle.asp?/3148.html" title="满城区城乡环卫一体化项目招标公告" target="_blank"> <l><font color=""> 满城区城乡环卫一体化项目招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(9.13)</span>
+·<a href="wMcms_govShowArticle.asp?/3134.html" title="保定市满城区公安局购置两场建设装备招标公告" target="_blank"> <l><font color=""> 保定市满城区公安局购置两场建设装备招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(9.12)</span>
+·<a href="wMcms_govShowArticle.asp?/3132.html" title="保定市满城区人民医院环保设备采购项目采购招标公告" target="_blank"> <l><font color=""> 保定市满城区人民医院环保设备采购项目采购招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(9.12)</span>
+·<a href="wMcms_govShowArticle.asp?/3131.html" title="保定市满城区公安局交通管理大队交通安全标志牌建设项目招标公告" target="_blank"> <l><font color=""> 保定市满城区公安局交通管理大队交通安全标志牌建设项目招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(9.12)</span>
+·<a href="wMcms_govShowArticle.asp?/3130.html" title="保定市满城区公安局交通管理大队固定测速式卡口项目招标公告" target="_blank"> <l><font color=""> 保定市满城区公安局交通管理大队固定测速式卡口项目招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(9.4)</span>
+·<a href="wMcms_govShowArticle.asp?/3126.html" title="保定市满城区多规合一信息平台建设项目（二次）招标公告" target="_blank"> <l><font color=""> 保定市满城区多规合一信息平台建设项目（二次）招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(8.30)</span>
+·<a href="wMcms_govShowArticle.asp?/3125.html" title="保定市满城区人力资源和社会保障局关于实行职业培训项目竞争性磋商招标公告" target="_blank"> <l><font color=""> 保定市满城区人力资源和社会保障局关于实行职业培训项目竞争性磋商招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(8.24)</span>
+·<a href="wMcms_govShowArticle.asp?/3116.html" title="保定市满城区文化广电新闻出版局文体活动器材及音响设备采购招标公告" target="_blank"> <l><font color=""> 保定市满城区文化广电新闻出版局文体活动器材及音响设备采购招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(8.22)</span>
+·<a href="wMcms_govShowArticle.asp?/3114.html" title="中山宾馆更新残值评估招标公告" target="_blank"> <l><font color=""> 中山宾馆更新残值评估招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(8.17)</span>
+·<a href="wMcms_govShowArticle.asp?/3107.html" title="保定市满城区人民政府办公室家具采购项目招标公告" target="_blank"> <l><font color=""> 保定市满城区人民政府办公室家具采购项目招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(8.14)</span>
+·<a href="wMcms_govShowArticle.asp?/3104.html" title="保定市满城区城市管理行政执法局城市管理执法制式服装和标志标识招标公告" target="_blank"> <l><font color=""> 保定市满城区城市管理行政执法局城市管理执法制式服装和标志标识招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(7.17)</span>
+·<a href="wMcms_govShowArticle.asp?/3062.html" title="满城区国土资源局不动产统一登记项目二次招标公告" target="_blank"> <l><font color=""> 满城区国土资源局不动产统一登记项目二次招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(7.10)</span>
+·<a href="wMcms_govShowArticle.asp?/3059.html" title="满城区城市供热专项规划项目招标公告" target="_blank"> <l><font color=""> 满城区城市供热专项规划项目招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(7.10)</span>
+·<a href="wMcms_govShowArticle.asp?/3058.html" title="满城区公安局2016年中央转移支付款购置业务装备项目招标公告" target="_blank"> <l><font color=""> 满城区公安局2016年中央转移支付款购置业务装备项目招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(7.3)</span>
+·<a href="wMcms_govShowArticle.asp?/3049.html" title="满城区教育局幼儿园设施设备采购二次招标公告" target="_blank"> <l><font color=""> 满城区教育局幼儿园设施设备采购二次招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(7.3)</span>
+·<a href="wMcms_govShowArticle.asp?/3047.html" title="保定市满城区人力资源和社会保障局、保定市满城区财政局社保基金财政专户（二次）" target="_blank"> <l><font color=""> 保定市满城区人力资源和社会保障局、保定市满城区财政局社保基金财政专户（二次）</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(6.29)</span>
+·<a href="wMcms_govShowArticle.asp?/3044.html" title="中共保定市满城区委办公楼、常委楼中央空调系统采购项目招标公告" target="_blank"> <l><font color=""> 中共保定市满城区委办公楼、常委楼中央空调系统采购项目招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(6.29)</span>
+·<a href="wMcms_govShowArticle.asp?/3043.html" title="保定市满城区人民政府办公楼中央空调采购项目招标公告" target="_blank"> <l><font color=""> 保定市满城区人民政府办公楼中央空调采购项目招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(6.12)</span>
+·<a href="wMcms_govShowArticle.asp?/3023.html" title="保定市满城区地方税务局台式电脑设备采购招标公告" target="_blank"> <l><font color=""> 保定市满城区地方税务局台式电脑设备采购招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(6.1)</span>
+·<a href="wMcms_govShowArticle.asp?/3011.html" title="保定市满城区人力资源和社会保障局、保定市满城区财政局社保基金财政专户磋商公告" target="_blank"> <l><font color=""> 保定市满城区人力资源和社会保障局、保定市满城区财政局社保基金财政专户磋商公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(5.18)</span>
+·<a href="wMcms_govShowArticle.asp?/2997.html" title="满城区国土资源局不动产统一登记项目招标公告" target="_blank"> <l><font color=""> 满城区国土资源局不动产统一登记项目招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(5.17)</span>
+·<a href="wMcms_govShowArticle.asp?/2995.html" title="保定市满城区国土资源局不动产登记信息管理基础平台系统、平台运行支持硬件、办公大厅硬件采购招标公告" target="_blank"> <l><font color=""> 保定市满城区国土资源局不动产登记信息管理基础平台系统、平台运行支持硬件、办公..</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+
+<li><span>(5.10)</span>
+·<a href="wMcms_govShowArticle.asp?/2986.html" title="保定市满城区公安局交通管理大队固定测速式卡口项目招标公告" target="_blank"> <l><font color=""> 保定市满城区公安局交通管理大队固定测速式卡口项目招标公告</font></l></a>
+                    <!--标题后评论提示-->
+                    
+                    <!--标题后评论提示-->
+                     
+</li>
+
+<li class="list_pages">
+共 314 条，当前第 1/11 页，每页 30 条
+            <B>[1]</B> <a href='NosmallClass.asp?wMcms_typeid=53&wMcms_BigClassID=441&page=2'>[2]</a> <a href='NosmallClass.asp?wMcms_typeid=53&wMcms_BigClassID=441&page=3'>[3]</a> <a href='NosmallClass.asp?wMcms_typeid=53&wMcms_BigClassID=441&page=4'>[4]</a> <a href='NosmallClass.asp?wMcms_typeid=53&wMcms_BigClassID=441&page=5'>[5]</a> <a href='NosmallClass.asp?wMcms_typeid=53&wMcms_BigClassID=441&page=6'>[6]</a> <a href='NosmallClass.asp?wMcms_typeid=53&wMcms_BigClassID=441&page=7'>[7]</a> <a href='NosmallClass.asp?wMcms_typeid=53&wMcms_BigClassID=441&page=8'>[8]</a> <a href='NosmallClass.asp?wMcms_typeid=53&wMcms_BigClassID=441&page=9'>[9]</a> <a href='NosmallClass.asp?wMcms_typeid=53&wMcms_BigClassID=441&page=10'>[10]</a> <a href='NosmallClass.asp?wMcms_typeid=53&wMcms_BigClassID=441&page=2' title='第2页'>下一页</A> <A href='NosmallClass.asp?wMcms_typeid=53&wMcms_BigClassID=441&page=11' title='第11页'>页尾</A> <a href='NosmallClass.asp?wMcms_typeid=53&wMcms_BigClassID=441&page=11' title='下10页'>下一翻页</a>
+</li>
+</ul>
+
+</div>
+<!--小类文章区结束-->
+</div>
+<!--列表部分结束-->
+</div>
+<!--右边部分结束-->
+<div class=clear_float></div><!--清除浮动属性-->
+</div>
+<!--中间内容部分结束-->
+
+
+<LINK href="CSS/Sytle1.css" rel="stylesheet">
+
+
+<div id=footer>
+<div class="foot_nav white_tit"></div>
+<div class="foot_navmenu">
+<a href='wMcms_Special.asp' target='_blank'> 【专题报道】 </a>－<a href='wMcms_PhotoNews.asp'  target='_blank'> 【图片新闻 】</a>－<a href='wMcms_map.asp'  target='_blank'> 【网站地图 】</a>－<a href='wmcms_userlogin.asp' target='_blank'> 【用户登录 】</a>－<a href='wMcms_Statistics.asp' target='_blank'> 【投稿统计 】</a>
+</div>
+
+<div class=foot_info>
+Copyright 2013-2015  All Rights Reserved<br />
+版权所有： <a href="#" target="_blank" >满城区公共资源交易网</a> 2013-2015 <br>
+地址：河北省满城区育才南街610号 邮编：072150 <br>
+电话：0312-7039715   传真：0312-7039712&nbsp;邮箱: <a href="mailto:mcjyzx@126.com" >mcjyzx@126.com</a>&nbsp;QQ: 183159568<a href="tencent://message/?uin=&amp;Site=满城县公共资源交易网管理系统&amp;Menu=yes" ></a><br />
+页面执行时间：109.375毫秒
+冀ICP备13022504号-2<a href="login.asp" target="_blank" >[后台管理]</a>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257069482'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1257069482%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><br>
+<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/05/109/0125/41511087/CA051090125415110870000.js' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+</div>
+
+
+
+</div>
+<!--内容部分结束-->
+</body>
+</html>

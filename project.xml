@@ -49,6 +49,22 @@
         <api>QX_01507_Detail</api>
         <api>QX_01508_List</api>
         <api>QX_01508_Detail</api>
+        <api>QX_02436_List</api>
+        <api>QX_02436_Detail</api>
+        <api>QX_02436_DetailCombine</api>
+        <api>QX_01861_List</api>
+        <api>QX_01861_Detail</api>
+        <api>QX_02441_List</api>
+        <api>QX_04046_List</api>
+        <api>QX_04046_Detail</api>
+        <api>QX_01882_List</api>
+        <api>QX_01882_Detail</api>
+        <api>QX_01873_1_List</api>
+        <api>QX_01873_1_Detail</api>
+        <api>QX_01869_1_List</api>
+        <api>QX_01869_1_Detail</api>
+        <api>QX_02448_List</api>
+        <api>QX_02448_Detail</api>
     </ordered-apis>
     <api-rsphandlers>
         <api-rsphandler>
@@ -150,6 +166,86 @@
             <api>QX_01508_Detail</api>
             <rsphandler>QX_01508.QX_01508_Detail</rsphandler>
             <apipath>\internetware\QX_01508\apis\QX_01508_Detail</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_02436_List</api>
+            <rsphandler>QX_02436.QX_02436_List</rsphandler>
+            <apipath>\internetware\QX_02436\apis\QX_02436_List</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_02436_Detail</api>
+            <rsphandler>QX_02436.QX_02436_Detail</rsphandler>
+            <apipath>\internetware\QX_02436\apis\QX_02436_Detail</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_02436_DetailCombine</api>
+            <rsphandler>QX_02436.QX_02436_DetailCombine</rsphandler>
+            <apipath>\internetware\QX_02436\apis\QX_02436_DetailCombine</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_01861_List</api>
+            <rsphandler>QX_01861.QX_01861_List</rsphandler>
+            <apipath>\internetware\QX_01861\apis\QX_01861_List</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_01861_Detail</api>
+            <rsphandler>QX_01861.QX_01861_Detail</rsphandler>
+            <apipath>\internetware\QX_01861\apis\QX_01861_Detail</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_02441_List</api>
+            <rsphandler>QX_02441.QX_02441_List</rsphandler>
+            <apipath>\internetware\QX_02441\apis\QX_02441_List</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_04046_List</api>
+            <rsphandler>QX_04046.QX_04046_List</rsphandler>
+            <apipath>\internetware\QX_04046\apis\QX_04046_List</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_04046_Detail</api>
+            <rsphandler>QX_04046.QX_04046_Detail</rsphandler>
+            <apipath>\internetware\QX_04046\apis\QX_04046_Detail</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_01882_List</api>
+            <rsphandler>QX_01882.QX_01882_List</rsphandler>
+            <apipath>\internetware\QX_01882\apis\QX_01882_List</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_01882_Detail</api>
+            <rsphandler>QX_01882.QX_01882_Detail</rsphandler>
+            <apipath>\internetware\QX_01882\apis\QX_01882_Detail</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_01873_1_List</api>
+            <rsphandler>QX_01873_1.QX_01873_1_List</rsphandler>
+            <apipath>\internetware\QX_01873_1\apis\QX_01873_1_List</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_01873_1_Detail</api>
+            <rsphandler>QX_01873_1.QX_01873_1_Detail</rsphandler>
+            <apipath>\internetware\QX_01873_1\apis\QX_01873_1_Detail</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_01869_1_List</api>
+            <rsphandler>QX_01869_1.QX_01869_1_List</rsphandler>
+            <apipath>\internetware\QX_01869_1\apis\QX_01869_1_List</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_01869_1_Detail</api>
+            <rsphandler>QX_01869_1.QX_01869_1_Detail</rsphandler>
+            <apipath>\internetware\QX_01869_1\apis\QX_01869_1_Detail</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_02448_List</api>
+            <rsphandler>QX_02448.QX_02448_List</rsphandler>
+            <apipath>\internetware\QX_02448\apis\QX_02448_List</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_02448_Detail</api>
+            <rsphandler>QX_02448.QX_02448_Detail</rsphandler>
+            <apipath>\internetware\QX_02448\apis\QX_02448_Detail</apipath>
         </api-rsphandler>
     </api-rsphandlers>
     <request-preprocessor></request-preprocessor>

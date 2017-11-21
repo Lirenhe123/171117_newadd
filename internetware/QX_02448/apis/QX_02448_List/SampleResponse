@@ -1,0 +1,253 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<style type="text/css">
+
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: "微软雅黑" "宋体"; BACKGROUND: url(images/bodybg.jpg) #f4f9fc repeat-x; COLOR: #000; FONT-SIZE: 12px; PADDING-TOP: 0px
+}.F14 {
+	FONT-SIZE: 14px
+}
+
+</style>
+
+
+	
+
+
+
+
+
+<HEAD><TITLE>宣化区公共资源交易中心</TITLE>
+
+
+
+
+<LINK rel=stylesheet type=text/css href="images/global.css">
+<LINK rel=stylesheet type=text/css href="images/index.css">
+<SCRIPT type=text/javascript 
+src="images/SpryTabbedPanels.js"></SCRIPT>
+<LINK rel=stylesheet type=text/css href="images/SpryTabbedPanels.css">
+<SCRIPT type=text/javascript src="images/jquery.js"></SCRIPT>
+
+</HEAD>
+<BODY><!--顶部Begin-->
+<DIV class="Center W1000 WhiteBg">
+<DIV style="HEIGHT: 235px; width:1000px"  >
+<iframe scrolling="no" src="head.html" width="100%" height="235" frameborder="0"></iframe>
+</DIV><!--位置导航Begin-->
+<DIV class=Weizhi>您现在正在浏览：<A href="index.asp">首页</A> >> <A title=交易信息 
+                  href="list.asp?typeid=100">交易信息</A>
+				  
+				  
+				  
+				  >>  
+                  
+				  <A title="政府采购" href="list.asp?typeid=100&bigclassid=220">政府采购</A>
+				  
+				  
+				  </A></DIV><!--位置导航End--></DIV>
+<DIV class="Center W980 WhiteBg Padding10">
+<DIV class="W206 Left"><!--栏目导航Begin-->
+<div class="TitleW766 BorderBlueNoBottom">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<strong style="font-size:14px">交易信息</strong></div>
+<DIV style="MIN-HEIGHT: 160px" class="BorderBlueLR Padding5 Lmdh">
+
+
+
+                        <tr>
+                          <td background=images/zwgk_xxian04.gif height=1></td>
+                        </tr>
+                        <tr>
+                          <td valign=bottom height=40 align="left">
+                              <a 
+                        href="list.asp?typeid=100&bigclassid=219">建设工程</a>
+                                                        </td>
+                        </tr>
+                        
+                        <tr>
+                          <td background=images/zwgk_xxian04.gif height=1></td>
+                        </tr>
+                        <tr>
+                          <td valign=bottom height=40 align="left">
+                              <a 
+                        href="list.asp?typeid=100&bigclassid=220"><font  color="#FF0000">政府采购</font></a>
+                                                        </td>
+                        </tr>
+                        
+                        <tr>
+                          <td background=images/zwgk_xxian04.gif height=1></td>
+                        </tr>
+                        <tr>
+                          <td valign=bottom height=40 align="left">
+                              <a 
+                        href="list.asp?typeid=100&bigclassid=221">产权交易</a>
+                                                        </td>
+                        </tr>
+                        
+                        <tr>
+                          <td background=images/zwgk_xxian04.gif height=1></td>
+                        </tr>
+                        <tr>
+                          <td valign=bottom height=40 align="left">
+                              <a 
+                        href="list.asp?typeid=100&bigclassid=237">土地交易</a>
+                                                        </td>
+                        </tr>
+                        
+</DIV>
+
+<DIV class=W206Bottom></DIV><!--栏目导航End--><!--最新信息Begin-->
+<div class="Blue TitleW206_02 Top8 BorderBlueNoBottom"><strong style="font-size:14px">最新信息</strong></div>
+<DIV style="HEIGHT: 208px" class="BorderBlueLR Padding5">
+<DIV class=List2>
+<UL>
+  
+  
+  <LI><A title=黑龙江公共资源交易电子平台全面启动互联网远程开标 href="detail.asp?newsid=4776" 
+  target=_blank>黑龙江公共资源交易电子平台全面启动互…</A><SPAN class=Gray> [11-13]</SPAN></LI>
+   
+  
+  <LI><A title=重拳出击整治违建，柳川河下游河道内违法建筑被依法拆除 href="detail.asp?newsid=4773" 
+  target=_blank>重拳出击整治违建，柳川河下游河道内违…</A><SPAN class=Gray> [11-13]</SPAN></LI>
+   
+  
+  <LI><A title=区委常委、常务副区长冯仲君赴中实集团对接国际健康养生文化小镇主题项目 href="detail.asp?newsid=4751" 
+  target=_blank>区委常委、常务副区长冯仲君赴中实集团…</A><SPAN class=Gray> [11-6]</SPAN></LI>
+   
+  
+  <LI><A title=水利部海委督导我区2016年度京津风沙源治理工程 href="detail.asp?newsid=4732" 
+  target=_blank>水利部海委督导我区2016年度京津风沙源…</A><SPAN class=Gray> [10-30]</SPAN></LI>
+   
+  
+  <LI><A title=《北京市公共资源交易监督管理办法》出台 href="detail.asp?newsid=4704" 
+  target=_blank>《北京市公共资源交易监督管理办法》出…</A><SPAN class=Gray> [10-17]</SPAN></LI>
+   
+  
+  </UL></DIV></DIV>
+<DIV class=W206Bottom></DIV><!--最新信息End--></DIV><!--中间的信息列表Begin-->
+<DIV class="Right W766">
+<DIV class="TitleW379 BorderBlueNoBottom">
+<div class="Left Left8 W130 TxtCenter White">
+<strong style="font-size:14px">
+政府采购
+
+</strong>
+</div></DIV>
+<DIV style="HEIGHT: 480px" class="BorderBlueNoTop Padding8">
+<DIV class=List1>
+<UL>
+     
+  
+  
+  <LI><SPAN class=Right>2017-11-21</SPAN><IMG src="images/Ico01.gif">
+  <A title=张家口市宣化区地方税务局土地增值税清算审核第三方入围政府采购项目（二次）成交公告  href="detail.asp?newsid=4806" target="_blank">张家口市宣化区地方税务局土地增值税清算审核第三方入围政府采购项…</A></LI>
+  
+    
+  
+  
+  <LI><SPAN class=Right>2017-11-21</SPAN><IMG src="images/Ico01.gif">
+  <A title=宣化区道路标线工程项目变更公告  href="detail.asp?newsid=4801" target="_blank">宣化区道路标线工程项目变更公告</A></LI>
+  
+    
+  
+  
+  <LI><SPAN class=Right>2017-11-20</SPAN><IMG src="images/Ico01.gif">
+  <A title=宣化区道路标线工程项目竞争性磋商公告  href="detail.asp?newsid=4800" target="_blank">宣化区道路标线工程项目竞争性磋商公告</A></LI>
+  
+    
+  
+  
+  <LI><SPAN class=Right>2017-11-20</SPAN><IMG src="images/Ico01.gif">
+  <A title=宣化区侯家庙乡集中供热工程项目更正公告  href="detail.asp?newsid=4799" target="_blank">宣化区侯家庙乡集中供热工程项目更正公告</A></LI>
+  
+    
+  
+  
+  <LI><SPAN class=Right>2017-11-20</SPAN><IMG src="images/Ico01.gif">
+  <A title=宣化区机关事务管理局区政府与乡镇会议系统中标公告  href="detail.asp?newsid=4797" target="_blank">宣化区机关事务管理局区政府与乡镇会议系统中标公告</A></LI>
+  
+    
+  
+  
+  <LI><SPAN class=Right>2017-11-20</SPAN><IMG src="images/Ico01.gif">
+  <A title=中国人民解放军96625部队窗帘采购安装项目招标公告  href="detail.asp?newsid=4796" target="_blank">中国人民解放军96625部队窗帘采购安装项目招标公告</A></LI>
+  
+    
+  
+  
+  <LI><SPAN class=Right>2017-11-17</SPAN><IMG src="images/Ico01.gif">
+  <A title=国土资源局宣化区土地整治规划实施评估与修改调整工作经费中标公告  href="detail.asp?newsid=4793" target="_blank">国土资源局宣化区土地整治规划实施评估与修改调整工作经费中标公告</A></LI>
+  
+    
+  
+  
+  <LI><SPAN class=Right>2017-11-17</SPAN><IMG src="images/Ico01.gif">
+  <A title=张家口市宣化区塔儿村乡光伏发电项目中标公告  href="detail.asp?newsid=4792" target="_blank">张家口市宣化区塔儿村乡光伏发电项目中标公告</A></LI>
+  
+    
+  
+  
+  <LI><SPAN class=Right>2017-11-16</SPAN><IMG src="images/Ico01.gif">
+  <A title=宣化区侯家庙乡集中供热工程项目招标公告  href="detail.asp?newsid=4783" target="_blank">宣化区侯家庙乡集中供热工程项目招标公告</A></LI>
+  
+    
+  
+  
+  <LI><SPAN class=Right>2017-11-15</SPAN><IMG src="images/Ico01.gif">
+  <A title=宣化区公共卫生支付方式改革((二期)政府采购项目废标公告  href="detail.asp?newsid=4782" target="_blank">宣化区公共卫生支付方式改革((二期)政府采购项目废标公告</A></LI>
+  
+    
+  
+  
+  <LI><SPAN class=Right>2017-11-15</SPAN><IMG src="images/Ico01.gif">
+  <A title=宣化区公共卫生支付方式改革((二期)政府采购项目二次竞争性谈判公告  href="detail.asp?newsid=4781" target="_blank">宣化区公共卫生支付方式改革((二期)政府采购项目二次竞争性谈判公…</A></LI>
+  
+    
+  
+  
+  <LI><SPAN class=Right>2017-11-14</SPAN><IMG src="images/Ico01.gif">
+  <A title=宣化区环境卫生管理处环卫设施项目更正公告  href="detail.asp?newsid=4778" target="_blank">宣化区环境卫生管理处环卫设施项目更正公告</A></LI>
+  
+    
+  
+  
+  <LI><SPAN class=Right>2017-11-9</SPAN><IMG src="images/Ico01.gif">
+  <A title=宣化科技职业学院东校区1.2.3#楼外墙粉刷工程政府采购项目中标公告  href="detail.asp?newsid=4768" target="_blank">宣化科技职业学院东校区1.2.3#楼外墙粉刷工程政府采购项目中标公告</A></LI>
+  
+    
+  
+  
+  <LI><SPAN class=Right>2017-11-9</SPAN><IMG src="images/Ico01.gif">
+  <A title=张家口市宣化区国土资源局易地扶贫搬迁测绘政府采购项目中标公告  href="detail.asp?newsid=4767" target="_blank">张家口市宣化区国土资源局易地扶贫搬迁测绘政府采购项目中标公告</A></LI>
+  
+    
+  
+  
+  <LI><SPAN class=Right>2017-11-8</SPAN><IMG src="images/Ico01.gif">
+  <A title=宣化区公共卫生支付方式改革((二期)政府采购项目竞争性谈判公告  href="detail.asp?newsid=4765" target="_blank">宣化区公共卫生支付方式改革((二期)政府采购项目竞争性谈判公告</A></LI>
+  
+  
+  
+  </UL></DIV>
+</DIV>
+  
+  <DIV class=TxtCenter>
+  
+  <div style="height:8px"></div>
+  <div> 
+			 共<B><SPAN 
+            style="COLOR: #0033FF"> 1380</SPAN></B> 条，当前第<B><SPAN 
+            style=" color:#0033FF"> 1/92 </SPAN></B>页，每页 15 条
+              <B>[1]</B> <a class=black href='list.asp?typeid=100&bigclassid=220&page=2'>[2]</a> <a class=black href='list.asp?typeid=100&bigclassid=220&page=3'>[3]</a> <a class=black href='list.asp?typeid=100&bigclassid=220&page=4'>[4]</a> <a class=black href='list.asp?typeid=100&bigclassid=220&page=5'>[5]</a> <a class=black href='list.asp?typeid=100&bigclassid=220&page=6'>[6]</a> <a class=black href='list.asp?typeid=100&bigclassid=220&page=7'>[7]</a> <a class=black href='list.asp?typeid=100&bigclassid=220&page=8'>[8]</a> <a class=black href='list.asp?typeid=100&bigclassid=220&page=9'>[9]</a> <a class=black href='list.asp?typeid=100&bigclassid=220&page=10'>[10]</a> <a class=black href='list.asp?typeid=100&bigclassid=220&page=11'>[11]</a> <a class=black href='list.asp?typeid=100&bigclassid=220&page=12'>[12]</a> <a class=black href='list.asp?typeid=100&bigclassid=220&page=13'>[13]</a> <a class=black href='list.asp?typeid=100&bigclassid=220&page=14'>[14]</a> <a class=black href='list.asp?typeid=100&bigclassid=220&page=15'>[15]</a> <a class=black href='list.asp?typeid=100&bigclassid=220&page=2' title='第2页'>下一页</A> <A class=black href='list.asp?typeid=100&bigclassid=220&page=92' title='第92页'>页尾</A> <a class=black href='list.asp?typeid=100&bigclassid=220&page=16' title='下15页'>下一翻页</a>   
+			
+			
+			
+			
+			
+			  </div></DIV>
+
+
+</DIV><!--中间的信息列表End-->
+<DIV class=Clear></DIV><!--网站底部Begin-->
+<iframe scrolling="no" src="foot.html" width="100%" height="90" frameborder="0"></iframe><!--网站底部Begin--></DIV></BODY></HTML>
