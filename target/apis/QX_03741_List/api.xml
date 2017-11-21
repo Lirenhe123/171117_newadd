@@ -49,7 +49,7 @@
       </param>
       <param>
         <name>col</name>
-        <value>�����ɹ�.�б���Ϣ</value>
+        <value>%d5%fe%b8%ae%b2%c9%b9%ba.%d5%d0%b1%ea%d0%c5%cf%a2</value>
       </param>
       <param>
         <name>pageNum</name>
@@ -59,8 +59,8 @@
     <request-uri-replacement-pattern></request-uri-replacement-pattern>
     <request-content/>
     <!-- 
-    	listUrl="";
-    	detailUrl="";
+    	listUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_03741_List&page=list.jsp&col=%d5%fe%b8%ae%b2%c9%b9%ba.%d5%d0%b1%ea%d0%c5%cf%a2&pageNum=";
+    	detailUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_03741_Detail&";
     	
      -->
     <request-content-type>application/x-www-form-urlencoded</request-content-type>
@@ -97,5 +97,5 @@
   </rsp-sample>
   <rsp-content-invariable>false</rsp-content-invariable>
   <rsp-content-decoding-charset>GBK</rsp-content-decoding-charset>
-  <api-type>natural</api-type>
+  <api-type>artificial</api-type>
 </api>

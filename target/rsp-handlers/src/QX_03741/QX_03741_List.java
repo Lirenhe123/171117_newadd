@@ -1,17 +1,23 @@
 package QX_03741;
 import java.io.IOException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.io.IOUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import cn.internetware.phone.extension.reqrsp.IwRequest;
+import cn.internetware.phone.extension.reqrsp.IwResponse;
+import cn.internetware.phone.extension.reqrsp.impl.DefaultIwResponse;
+import cn.internetware.phone.extension.reqrsp.impl.TxtReqRspHandler;
 import cn.internetware.phone.extension.response.RspState;
 import cn.internetware.phone.extension.response.TxtRspObject;
 import cn.internetware.phone.extension.response.impl.TxtBaseResponse;
-import cn.internetware.phone.extension.response.impl.TxtRspHandler;
 import cn.internetware.utils.IO;
 
 
@@ -20,9 +26,53 @@ import cn.internetware.utils.IO;
  * @author User
  *
  */
-public class QX_03741_List extends TxtRspHandler {
+public class QX_03741_List extends TxtReqRspHandler {
 	private static RspState rsp = RspState.Login;
 
+	@Override
+	public IwResponse sendIwRequest(IwRequest iwReq) {
+		System.out.println("asdjkfADFALSDFLASLFasdflalsdfl");
+		IwResponse iwRsp=null;
+		final int TIMEOUT_IN_MS=100000;
+		try {
+			String host=iwReq.getHost();
+			String path=iwReq.getRequestPath();
+			
+			String page=iwReq.getRequestPathParam("page");
+			String col=iwReq.getRequestPathParam("col");
+			String pageNum=iwReq.getRequestPathParam("pageNum");
+			
+			System.out.println(col);
+			
+			path="http://"+host+path+"?"+"page="+page+"&"+"col="+col+"&"+"pageNum="+pageNum;
+			System.out.println(path);
+			
+			
+			byte[] resBytes=null;
+			
+			URLConnection conn=new URL(path).openConnection();
+			conn.setConnectTimeout(TIMEOUT_IN_MS);
+			conn.setReadTimeout(TIMEOUT_IN_MS);
+			resBytes=IOUtils.toByteArray(conn);
+			while(resBytes.length<10000){
+				int i=0;
+				resBytes=IOUtils.toByteArray(conn);
+				if(i==10000){
+					System.out.println("can get resource from url");
+					break;
+				}
+			}
+			
+			String result=new String(resBytes,"GBK");
+//			System.out.println(result);
+			
+			iwRsp=new DefaultIwResponse(null, result.getBytes("GBK"), null, 0, "ok");
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return iwRsp;
+	}
 	public class Response extends TxtBaseResponse {
 		List<BranchNew> list = new ArrayList<BranchNew>();
 		String pageCount;
@@ -50,7 +100,6 @@ public class QX_03741_List extends TxtRspHandler {
 		if (rspState == rsp) {
 			try {
 				Document document = Jsoup.parse(originTxtRspContent);
-				System.out.println(document);
 				// listAndPage
 				Element listAndPage=null;
 				Element parentOfStake=null;
@@ -66,7 +115,7 @@ public class QX_03741_List extends TxtRspHandler {
 						}
 					}
 				}
-System.out.println(stakesOfListAndPage);
+//System.out.println(stakesOfListAndPage);
 				// 解析List
 				Element divWithRows = parentOfStake;
 //System.out.println(divWithRows);
@@ -103,9 +152,9 @@ System.out.println(stakesOfListAndPage);
 					bn.id = id;
 					bn.title = title;
 					//-----------------------------------------------------
-					System.out.println(bn.date);
-					System.out.println(bn.id);
-					System.out.println(bn.title);
+//					System.out.println(bn.date);
+//					System.out.println(bn.id);
+//					System.out.println(bn.title);
 					response.list.add(bn);
 				}
 
@@ -139,6 +188,8 @@ System.out.println(stakesOfListAndPage);
 			e.printStackTrace();
 		}
 	}
+
+	
 }
 
 

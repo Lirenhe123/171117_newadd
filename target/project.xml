@@ -51,7 +51,6 @@
         <api>QX_01508_Detail</api>
         <api>QX_02436_List</api>
         <api>QX_02436_Detail</api>
-        <api>QX_02436_DetailCombine</api>
         <api>QX_01861_List</api>
         <api>QX_01861_Detail</api>
         <api>QX_02441_List</api>
@@ -176,11 +175,6 @@
             <api>QX_02436_Detail</api>
             <rsphandler>QX_02436.QX_02436_Detail</rsphandler>
             <apipath>\internetware\QX_02436\apis\QX_02436_Detail</apipath>
-        </api-rsphandler>
-        <api-rsphandler>
-            <api>QX_02436_DetailCombine</api>
-            <rsphandler>QX_02436.QX_02436_DetailCombine</rsphandler>
-            <apipath>\internetware\QX_02436\apis\QX_02436_DetailCombine</apipath>
         </api-rsphandler>
         <api-rsphandler>
             <api>QX_01861_List</api>

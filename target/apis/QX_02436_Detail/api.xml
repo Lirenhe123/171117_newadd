@@ -1,6 +1,6 @@
 <api>
-  <id>QX_02436_Detail</id>
-  <alias-name>QX_02436_Detail</alias-name>
+  <id>QX_02436_DetailCombine</id>
+  <alias-name>QX_02436_DetailCombine</alias-name>
   <request>
     <scheme>http</scheme>
     <http-version>HTTP/1.1</http-version>
@@ -49,14 +49,14 @@
       </header>
     </headers>
     <scheme-host-in-uri>true</scheme-host-in-uri>
-    <request-path>/wMcms_govShowArticle.asp</request-path>
+    <request-path>/wMcms_govShowArticle.asp?id=/3208.html</request-path>
     <params>
-      <param>
-        <name>iw-bp-1</name>
+      <!-- <param>
+        <name>id</name>
         <value>/3208.html</value>
-      </param>
+      </param> -->
     </params>
-    <request-uri-replacement-pattern></request-uri-replacement-pattern>
+    <request-uri-replacement-pattern><![CDATA[(.*)]]></request-uri-replacement-pattern>
     <request-content/>
     <request-content-type>application/x-www-form-urlencoded</request-content-type>
     <request-content-charset>UTF-8</request-content-charset>
@@ -95,6 +95,6 @@
     <content-type>TXT</content-type>
   </rsp-sample>
   <rsp-content-invariable>false</rsp-content-invariable>
-  <rsp-content-decoding-charset>GBK</rsp-content-decoding-charset>
-  <api-type>natural</api-type>
+  <rsp-content-decoding-charset>UTF-8</rsp-content-decoding-charset>
+  <api-type>artificial</api-type>
 </api>

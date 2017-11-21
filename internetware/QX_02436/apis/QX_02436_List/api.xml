@@ -56,6 +56,12 @@
         <value>1</value>
       </param>
     </params>
+    <!--  
+    	listUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_02436_List&wMcms_typeid=53&wMcms_BigClassID=441&page=";
+    	detailUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_02436_Detail&iw_ir_1=";
+    
+    
+    -->
     <request-uri-replacement-pattern></request-uri-replacement-pattern>
     <request-content/>
     <request-content-type>application/x-www-form-urlencoded</request-content-type>

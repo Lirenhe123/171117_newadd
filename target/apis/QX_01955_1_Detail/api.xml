@@ -71,6 +71,6 @@
     <content-type>TXT</content-type>
   </rsp-sample>
   <rsp-content-invariable>false</rsp-content-invariable>
-  <rsp-content-decoding-charset>UTF-8</rsp-content-decoding-charset>
-  <api-type>natural</api-type>
+  <rsp-content-decoding-charset>GBK</rsp-content-decoding-charset>
+  <api-type>artificial</api-type>
 </api>

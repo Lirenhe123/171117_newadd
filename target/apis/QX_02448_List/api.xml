@@ -58,6 +58,16 @@
     </params>
     <request-uri-replacement-pattern></request-uri-replacement-pattern>
     <request-content/>
+    <!--
+    02448:
+    
+    listUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_02448_List&typeid=100&bigclassid=220&page=";
+    DetailUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_02448_Detail&";
+    
+    listUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_02448_List&typeid=100&bigclassid=219&page=";
+    DetailUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_02448_Detail&";
+    
+      -->
     <request-content-type>application/x-www-form-urlencoded</request-content-type>
     <request-content-charset>UTF-8</request-content-charset>
   </request>

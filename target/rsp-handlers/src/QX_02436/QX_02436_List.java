@@ -70,6 +70,9 @@ public class QX_02436_List extends TxtRspHandler {
 					if (id.startsWith("http")) {
 						id = id.substring("http://www.ggzyzx.com".length(), id.length());
 					}
+					StringBuffer id_buffer=new StringBuffer(id);
+					id_buffer=id_buffer.insert(id.indexOf("?")+1, "id=");
+					id="/"+id_buffer.toString();
 					String title = aTag.attr("title");
 					if (title == null || title.equals("null") || title.equals("")) {
 						title = aTag.text().trim();
@@ -79,8 +82,8 @@ public class QX_02436_List extends TxtRspHandler {
 					bn.id = id;
 					bn.title = title;
 					// -----------------------------------------------------
-					// System.out.println(bn.id);
-					// System.out.println(bn.title);
+//					 System.out.println(bn.id);
+//					 System.out.println(bn.title);
 					response.list.add(bn);
 				}
 
@@ -93,7 +96,7 @@ public class QX_02436_List extends TxtRspHandler {
 					page = allFatherTagOfPage.text().replaceAll("\\s*", "").replaceAll("(.*)/(\\d+)(.*)", "$2");
 				}
 				response.pageCount = page;
-				// System.out.println(response.pageCount);
+//				 System.out.println(response.pageCount);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
