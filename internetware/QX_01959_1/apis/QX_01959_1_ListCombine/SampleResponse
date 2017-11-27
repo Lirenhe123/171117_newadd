@@ -1,0 +1,152 @@
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	海城市公共资源交易网
+</title><link type="text/css" href="../css/SecondRight.css" rel="Stylesheet" /></head>
+<body>
+    <form name="form1" method="post" action="BulletinList.aspx?ProType=11&amp;AfficheType=584&amp;Class=16&amp;ModuleID=17" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2NDg2NTQ2MzMPZBYCAgMPZBYGZg9kFgICAQ8QDxYCHgdFbmFibGVkaGQQFQYM5pi+56S65YWo6YOoBuaWveW3pQbnm5HnkIYG5YuY5a+fBuiuvuiuoQblhbbku5YVBgEwAjE2AjE3AjE4AjE5AjIwFCsDBmdnZ2dnZxYBAgFkAgEPZBYCAgEPDxYCHgRUZXh0BQzmoIfmrrXnvJblj7dkZAIFDzwrAA0CAA8WDh4LXyFEYXRhQm91bmRnHgtSZWNvcmRDb3VudALuBx4KRGF0YU1lbWJlcgUGdGFibGUxHgpEQkNvbm5OYW1lBQRNYWluHgtfIUl0ZW1Db3VudALuBx4KUGFnZXNDb3VudAJEHgZTcWxTdHIF5gRzZWxlY3QgJ0J1bGxldGluQnJvd3NlLmFzcHg/aWQ9JytjYXN0KGEuaWQgYXMgdmFyY2hhcikgUGFnZSwnWycgKyBzLmNvZGVuYW1lICsgJ10nICsgdC50ZW5kZXJuYW1lIHByb25hbWUsIHMuQ29kZU5hbWUgYXMgIFByb1R5cGVTdHIsYS5UZW5kZXJJRCxpc251bGwodC5UZW5kZXJObyxhLlRpdGxlKSBhcyBUZW5kZXJObyx0LlRlbmRlck5hbWUsYS5UaXRsZSx0LmlkIGFzIFByb1N1YklEICx0LlByb1N1YlR5cGUscy5jb2RlbmFtZSxhLnB1Ymxpc2hzdGFydHRpbWUsYS5wdWJsaXNoZW5kdGltZSx0LlNpZ25TdGFydFRpbWUsdC5TaWduRW5kVGltZSBmcm9tIFByb2plY3RBZmZpY2hlIGEgbGVmdCBqb2luIENvbnN0cnVjdGlvblRlbmRlciB0IG9uIHQuSUQ9YS5UZW5kZXJJRCBsZWZ0IGpvaW4gdF9TeXN0ZW1Db2RlIHMgb24gIHQuUHJvU3ViVHlwZT1zLklEIGFuZCBzLkNvZGVUeXBlPSfpobnnm67liIbnsbsnIHdoZXJlIGEuUHVibGlzaFN0YXJ0VGltZTw9Z2V0ZGF0ZSgpIGFuZCBhLklzUHVibGlzaGVkPTU1OCBhbmQgYS5wcm90eXBlPScxMScgYW5kIGEuQWZmaWNoZVR5cGU9JzU4NCcgYW5kIHQuUHJvU3ViVHlwZT0xNiBvcmRlciBieSBhLnB1Ymxpc2hzdGFydHRpbWUg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" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="647D19FF" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWEwLkzsSSDwLf0OmcDALA0JGfDALA0I2fDALA0MmcDALA0MWcDALB0KmfDAKMmrOrDgK6jbnkDALm7MiGDgL57MiGDgL47MiGDgKM54rGBgLf0qzqCALKi8egAgKi5N6DBgKOiYLwDgKCiqEDAsWAneQIwS4zhhEmyLZMLphZsLs+vrkKUtw=" />
+</div>
+    <div id="PageMainRight">
+        <div id="MainTitle" class="Title">
+            当前位置：<span>首页 > 建设工程  > 招标公告</span>
+        </div>
+        <div id="MainSearch" class="Search">
+            <span id="spxmfl">项目分类<select name="ddlClass" id="ddlClass" disabled="disabled">
+	<option value="0">显示全部</option>
+	<option selected="selected" value="16">施工</option>
+	<option value="17">监理</option>
+	<option value="18">勘察</option>
+	<option value="19">设计</option>
+	<option value="20">其他</option>
+
+</select>
+            </span><span id="spbxbh">
+                <span id="lblTenderNo">标段编号</span>
+                <input name="txtTenderNo" type="text" id="txtTenderNo" style="width:80px;" />
+            </span><span id="spbxmc">
+                <span id="lblTenderName">标题</span>
+                <input name="txtTenderName" type="text" id="txtTenderName" style="width:100px;" />
+            </span>
+            <span id="spzt">
+                <span id="Label1">状态</span>
+                <select name="ddlState" id="ddlState">
+	<option selected="selected" value="0">全部</option>
+	<option value="1">当前发布</option>
+	<option value="2">报名截至</option>
+
+</select>
+            </span>
+            <input type="submit" name="Button1" value="查 询" id="Button1" class="Button" />
+        </div>
+        <div class="ContentList">
+            <div>
+	<table class="GridView" cellspacing="0" rules="all" border="1" id="grdBulletin" style="border-collapse:collapse;">
+		<tr class="Row">
+			<td class="CategoryColumn">[ <span>施工</span> ]</td><td align="left" style="width:2%;white-space:nowrap;"><a href="BulletinBrowse.aspx?id=9542" target="_blank">HCGC20170178-1</a></td><td class="DispLimitColumn">
+                            <div>
+                                <span id="grdBulletin_ctl02_GLabel1" title="海城经济开发区总投资额3000万元以下且设计费50万元以下市政工程设计企业名录库项目">海城经济开发区总投资额3000万元以下且设计费50万元以下市政工程设计企业名录库项目</span>
+                            </div>
+                        </td><td class="DateColumn">2017-09-30</td>
+		</tr><tr class="Row">
+			<td class="CategoryColumn">[ <span>施工</span> ]</td><td align="left" style="width:2%;white-space:nowrap;"><a href="BulletinBrowse.aspx?id=9541" target="_blank">HCGC20170179-1</a></td><td class="DispLimitColumn">
+                            <div>
+                                <span id="grdBulletin_ctl03_GLabel1" title="海城经济开发区总投资额3000万元以下且设计费50万元以下建筑工程设计企业名录库项目">海城经济开发区总投资额3000万元以下且设计费50万元以下建筑工程设计企业名录库项目</span>
+                            </div>
+                        </td><td class="DateColumn">2017-09-30</td>
+		</tr><tr class="Row">
+			<td class="CategoryColumn">[ <span>施工</span> ]</td><td align="left" style="width:2%;white-space:nowrap;"><a href="BulletinBrowse.aspx?id=9545" target="_blank">HCGC20170180-1</a></td><td class="DispLimitColumn">
+                            <div>
+                                <span id="grdBulletin_ctl04_GLabel1" title="海城经济开发区总投资额3000万元以下且监理费50万元以下的房屋建筑工程及市政工程监理企业名录库项目">海城经济开发区总投资额3000万元以下且监理费50万元以下的房屋建筑工程及市政工程监理企业名录库项目</span>
+                            </div>
+                        </td><td class="DateColumn">2017-09-30</td>
+		</tr><tr class="Row">
+			<td class="CategoryColumn">[ <span>施工</span> ]</td><td align="left" style="width:2%;white-space:nowrap;"><a href="BulletinBrowse.aspx?id=9546" target="_blank">HCGC20170181-1</a></td><td class="DispLimitColumn">
+                            <div>
+                                <span id="grdBulletin_ctl05_GLabel1" title="辽宁西柳服装市场升级改造项目--消防改造工程设计施工总承包(二次入场）">辽宁西柳服装市场升级改造项目--消防改造工程设计施工总承包(二次入场）</span>
+                            </div>
+                        </td><td class="DateColumn">2017-09-30</td>
+		</tr><tr class="Row">
+			<td class="CategoryColumn">[ <span>施工</span> ]</td><td align="left" style="width:2%;white-space:nowrap;"><a href="BulletinBrowse.aspx?id=9512" target="_blank">HCGC20170169-1</a></td><td class="DispLimitColumn">
+                            <div>
+                                <span id="grdBulletin_ctl06_GLabel1" title="哈大高铁（海城段）东四管理区二大堡级配碎石拌合站临时用地土地复垦项目监理工程">哈大高铁（海城段）东四管理区二大堡级配碎石拌合站临时用地土地复垦项目监理工程</span>
+                            </div>
+                        </td><td class="DateColumn">2017-09-28</td>
+		</tr><tr class="Row">
+			<td class="CategoryColumn">[ <span>施工</span> ]</td><td align="left" style="width:2%;white-space:nowrap;"><a href="BulletinBrowse.aspx?id=9513" target="_blank">HCGC20170170-1</a></td><td class="DispLimitColumn">
+                            <div>
+                                <span id="grdBulletin_ctl07_GLabel1" title="海城市2017年农村公路新改建工程东韩线">海城市2017年农村公路新改建工程东韩线</span>
+                            </div>
+                        </td><td class="DateColumn">2017-09-28</td>
+		</tr><tr class="Row">
+			<td class="CategoryColumn">[ <span>施工</span> ]</td><td align="left" style="width:2%;white-space:nowrap;"><a href="BulletinBrowse.aspx?id=9514" target="_blank">HCGC20170171-1</a></td><td class="DispLimitColumn">
+                            <div>
+                                <span id="grdBulletin_ctl08_GLabel1" title="资料-海城市2017年农村公路新改建工程前三线">资料-海城市2017年农村公路新改建工程前三线</span>
+                            </div>
+                        </td><td class="DateColumn">2017-09-28</td>
+		</tr><tr class="Row">
+			<td class="CategoryColumn">[ <span>施工</span> ]</td><td align="left" style="width:2%;white-space:nowrap;"><a href="BulletinBrowse.aspx?id=9511" target="_blank">HCGC20170168-1</a></td><td class="DispLimitColumn">
+                            <div>
+                                <span id="grdBulletin_ctl09_GLabel1" title="哈大高铁（海城段）东四管理区二大堡级配碎石拌合站临时用地土地复垦项目  二次入场">哈大高铁（海城段）东四管理区二大堡级配碎石拌合站临时用地土地复垦项目  二次入场</span>
+                            </div>
+                        </td><td class="DateColumn">2017-09-28</td>
+		</tr><tr class="Row">
+			<td class="CategoryColumn">[ <span>施工</span> ]</td><td align="left" style="width:2%;white-space:nowrap;"><a href="BulletinBrowse.aspx?id=9504" target="_blank">HCGC20170165-1</a></td><td class="DispLimitColumn">
+                            <div>
+                                <span id="grdBulletin_ctl10_GLabel1" title="腾鳌污水处理厂一期改造项目EPC总承包">腾鳌污水处理厂一期改造项目EPC总承包</span>
+                            </div>
+                        </td><td class="DateColumn">2017-09-26</td>
+		</tr><tr class="Row">
+			<td class="CategoryColumn">[ <span>施工</span> ]</td><td align="left" style="width:2%;white-space:nowrap;"><a href="BulletinBrowse.aspx?id=9506" target="_blank">HCGC20170167-1</a></td><td class="DispLimitColumn">
+                            <div>
+                                <span id="grdBulletin_ctl11_GLabel1" title="海城市海西新城整体城镇化开发区部分道路监理工程">海城市海西新城整体城镇化开发区部分道路监理工程</span>
+                            </div>
+                        </td><td class="DateColumn">2017-09-26</td>
+		</tr><tr class="Row">
+			<td class="CategoryColumn">[ <span>施工</span> ]</td><td align="left" style="width:2%;white-space:nowrap;"><a href="BulletinBrowse.aspx?id=9490" target="_blank">HCGC20170163-1</a></td><td class="DispLimitColumn">
+                            <div>
+                                <span id="grdBulletin_ctl12_GLabel1" title="海城市农高区农业教育科技研发中心反扣冷棚温室工程">海城市农高区农业教育科技研发中心反扣冷棚温室工程</span>
+                            </div>
+                        </td><td class="DateColumn">2017-09-26</td>
+		</tr><tr class="Row">
+			<td class="CategoryColumn">[ <span>施工</span> ]</td><td align="left" style="width:2%;white-space:nowrap;"><a href="BulletinBrowse.aspx?id=9502" target="_blank">HCGC20170164-1</a></td><td class="DispLimitColumn">
+                            <div>
+                                <span id="grdBulletin_ctl13_GLabel1" title="海城市食品检验检测中心建设项目（土建部分）">海城市食品检验检测中心建设项目（土建部分）</span>
+                            </div>
+                        </td><td class="DateColumn">2017-09-22</td>
+		</tr><tr class="Row">
+			<td class="CategoryColumn">[ <span>施工</span> ]</td><td align="left" style="width:2%;white-space:nowrap;"><a href="BulletinBrowse.aspx?id=9477" target="_blank">HCGC20170162-1</a></td><td class="DispLimitColumn">
+                            <div>
+                                <span id="grdBulletin_ctl14_GLabel1" title="开发区能源装备制造产业园排水工程(二次入场)">开发区能源装备制造产业园排水工程(二次入场)</span>
+                            </div>
+                        </td><td class="DateColumn">2017-09-20</td>
+		</tr><tr class="Row">
+			<td class="CategoryColumn">[ <span>施工</span> ]</td><td align="left" style="width:2%;white-space:nowrap;"><a href="BulletinBrowse.aspx?id=9475" target="_blank">HCGC20170161-1</a></td><td class="DispLimitColumn">
+                            <div>
+                                <span id="grdBulletin_ctl15_GLabel1" title="西四镇响水村高标准温室蔬菜种植基地项目配套工程">西四镇响水村高标准温室蔬菜种植基地项目配套工程</span>
+                            </div>
+                        </td><td class="DateColumn">2017-09-19</td>
+		</tr><tr class="Row">
+			<td class="CategoryColumn">[ <span>施工</span> ]</td><td align="left" style="width:2%;white-space:nowrap;"><a href="BulletinBrowse.aspx?id=9465" target="_blank">HCGC20170160-1</a></td><td class="DispLimitColumn">
+                            <div>
+                                <span id="grdBulletin_ctl16_GLabel1" title="海城市中心医院综合病房楼建设项目室内装饰设计">海城市中心医院综合病房楼建设项目室内装饰设计</span>
+                            </div>
+                        </td><td class="DateColumn">2017-09-15</td>
+		</tr><tr class="RowPager">
+			<td class="RowPager" colspan="4" colspan="4"><div class="RowPager">第&nbsp;2&nbsp;/&nbsp;68&nbsp;页&nbsp;&nbsp;共&nbsp;1006&nbsp;条&nbsp;&nbsp;<input type="submit" name="grdBulletin$ctl18$BtnFirst" value="首页" id="grdBulletin_ctl18_BtnFirst" class="PagerButton" />&nbsp;<input type="submit" name="grdBulletin$ctl18$BtnPrevious" value="上页" id="grdBulletin_ctl18_BtnPrevious" class="PagerButton" />&nbsp;<input type="submit" name="grdBulletin$ctl18$BtnNext" value="下页" id="grdBulletin_ctl18_BtnNext" class="PagerButton" />&nbsp;<input type="submit" name="grdBulletin$ctl18$BtnLast" value="末页" id="grdBulletin_ctl18_BtnLast" class="PagerButton" />&nbsp;&nbsp;转至:&nbsp;<input name="grdBulletin$ctl18$NumGoto" type="text" value="2" id="grdBulletin_ctl18_NumGoto" OnKeyDown="javascript: if (event.keyCode==13) {document.all.grdBulletin_ctl18_BtnGoto.focus(); event.keyCode=13; return true; }" style="border-width:1px;border-style:solid;width:30px;" />&nbsp;页&nbsp;<input type="submit" name="grdBulletin$ctl18$BtnGoto" value="Go" id="grdBulletin_ctl18_BtnGoto" class="PagerButton" /></div></td>
+		</tr>
+	</table>
+</div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

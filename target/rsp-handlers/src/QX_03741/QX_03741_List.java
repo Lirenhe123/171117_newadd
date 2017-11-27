@@ -19,6 +19,8 @@ import cn.internetware.phone.extension.response.RspState;
 import cn.internetware.phone.extension.response.TxtRspObject;
 import cn.internetware.phone.extension.response.impl.TxtBaseResponse;
 import cn.internetware.utils.IO;
+import flex.messaging.util.URLDecoder;
+import flex.messaging.util.URLEncoder;
 
 
 /**
@@ -31,7 +33,9 @@ public class QX_03741_List extends TxtReqRspHandler {
 
 	@Override
 	public IwResponse sendIwRequest(IwRequest iwReq) {
-		System.out.println("asdjkfADFALSDFLASLFasdflalsdfl");
+		
+		System.out.println("aklsdlflkasldfladf");
+		
 		IwResponse iwRsp=null;
 		final int TIMEOUT_IN_MS=100000;
 		try {
@@ -42,9 +46,12 @@ public class QX_03741_List extends TxtReqRspHandler {
 			String col=iwReq.getRequestPathParam("col");
 			String pageNum=iwReq.getRequestPathParam("pageNum");
 			
-			System.out.println(col);
+			String s = URLDecoder.decode(col, "gbk");
+			System.out.println("s＝" + s);
+			String Es = URLEncoder.encode(s, "gbk");
+			System.out.println("Es=" + Es);
 			
-			path="http://"+host+path+"?"+"page="+page+"&"+"col="+col+"&"+"pageNum="+pageNum;
+			path="http://"+host+path+"?"+"page="+page+"&"+"col="+Es+"&"+"pageNum="+pageNum;
 			System.out.println(path);
 			
 			

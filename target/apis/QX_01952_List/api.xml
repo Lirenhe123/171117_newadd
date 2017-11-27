@@ -49,7 +49,7 @@
     listUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01952_List&iw_ir_1=/Transaction_announcement/gongchengzhaobiao/list_20_";
     detailUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01952_Detail&iw_ir_1=";
     
-    listUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01952_List&iw_ir_1=/Successful_publicity/gongchengzhaobiao/list_24_&";
+    listUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01952_List&iw_ir_1=/Successful_publicity/gongchengzhaobiao/list_24_";
     detailUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01952_Detail&iw_ir_1=";
     
     01952-1：

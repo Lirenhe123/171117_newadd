@@ -39,8 +39,8 @@
         <api>QX_02204_Detail</api>
         <api>QX_02515_List</api>
         <api>QX_02515_Detail</api>
-        <api>QX_04057_List</api>
-        <api>QX_04057_Detail</api>
+        <api>QX_04057_1_List</api>
+        <api>QX_04057_1_Detail</api>
         <api>QX_03728_List</api>
         <api>QX_03728_Detail</api>
         <api>QX_03741_List</api>
@@ -64,6 +64,10 @@
         <api>QX_01869_1_Detail</api>
         <api>QX_02448_List</api>
         <api>QX_02448_Detail</api>
+        <api>QX_01959_1_List</api>
+        <api>QX_01959_1_Params</api>
+        <api>QX_01959_1_ListCombine</api>
+        <api>QX_01959_1_Detail</api>
     </ordered-apis>
     <api-rsphandlers>
         <api-rsphandler>
@@ -117,14 +121,14 @@
             <apipath>\internetware\QX_02515\apis\QX_02515_Detail</apipath>
         </api-rsphandler>
         <api-rsphandler>
-            <api>QX_04057_List</api>
-            <rsphandler>QX_04057.QX_04057_List</rsphandler>
-            <apipath>\internetware\QX_04057\apis\QX_04057_List</apipath>
+            <api>QX_04057_1_List</api>
+            <rsphandler>QX_04057_1.QX_04057_1_List</rsphandler>
+            <apipath>\internetware\QX_04057_1\apis\QX_04057_1_List</apipath>
         </api-rsphandler>
         <api-rsphandler>
-            <api>QX_04057_Detail</api>
-            <rsphandler>QX_04057.QX_04057_Detail</rsphandler>
-            <apipath>\internetware\QX_04057\apis\QX_04057_Detail</apipath>
+            <api>QX_04057_1_Detail</api>
+            <rsphandler>QX_04057_1.QX_04057_1_Detail</rsphandler>
+            <apipath>\internetware\QX_04057_1\apis\QX_04057_1_Detail</apipath>
         </api-rsphandler>
         <api-rsphandler>
             <api>QX_03728_List</api>
@@ -240,6 +244,26 @@
             <api>QX_02448_Detail</api>
             <rsphandler>QX_02448.QX_02448_Detail</rsphandler>
             <apipath>\internetware\QX_02448\apis\QX_02448_Detail</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_01959_1_List</api>
+            <rsphandler>QX_01959_1.QX_01959_1_List</rsphandler>
+            <apipath>\internetware\QX_01959_1\apis\QX_01959_1_List</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_01959_1_Params</api>
+            <rsphandler>QX_01959_1.QX_01959_1_Params</rsphandler>
+            <apipath>\internetware\QX_01959_1\apis\QX_01959_1_Params</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_01959_1_ListCombine</api>
+            <rsphandler>QX_01959_1.QX_01959_1_ListCombine</rsphandler>
+            <apipath>\internetware\QX_01959_1\apis\QX_01959_1_ListCombine</apipath>
+        </api-rsphandler>
+        <api-rsphandler>
+            <api>QX_01959_1_Detail</api>
+            <rsphandler>QX_01959_1.QX_01959_1_Detail</rsphandler>
+            <apipath>\internetware\QX_01959_1\apis\QX_01959_1_Detail</apipath>
         </api-rsphandler>
     </api-rsphandlers>
     <request-preprocessor></request-preprocessor>

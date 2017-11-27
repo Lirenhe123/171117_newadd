@@ -1,6 +1,6 @@
 <api>
-  <id>QX_02436_DetailCombine</id>
-  <alias-name>QX_02436_DetailCombine</alias-name>
+  <id>QX_02436_Detail</id>
+  <alias-name>QX_02436_Detail</alias-name>
   <request>
     <scheme>http</scheme>
     <http-version>HTTP/1.1</http-version>

@@ -65,16 +65,18 @@ public class QX_01869_1_List extends TxtRspHandler {
 					JSONObject rowObject=rowObjectsArray.getJSONObject(i);
 					String title=(String)rowObject.get("itemname");
 					String id=(String)rowObject.get("md5id");
-					/*String date_str=(String)rowObject.get("sellstime");
+					String date_str=(String)rowObject.get("sellstime");
 					//resolve date
 					DateFormat format1=new SimpleDateFormat("yyyy-MM-dd");
-					date_str=format1.format(new Date(Long.parseLong(date_str)));*/
+					date_str=format1.format(new Date(Long.parseLong(date_str)*1000));
 //					System.out.println(title);
 //					System.out.println(id);
+//					System.out.println(date_str);
 					
 					BranchNew bn=new BranchNew();
 					bn.id=id;
 					bn.title=title;
+					bn.date=date_str;
 					response.list.add(bn);
 					
 				}

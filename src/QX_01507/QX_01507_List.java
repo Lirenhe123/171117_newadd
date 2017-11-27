@@ -87,7 +87,6 @@ public class QX_01507_List extends TxtRspHandler {
 					}
 					title=title.substring(title.indexOf("·")+1,title.length())
 							.replaceAll("[\u00a0\u1680\u180e\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff\\s+]", "");
-					
 					// matchesTitle()
 					Element date = row.select("span[id=newss]").last();
 					String date_str = null;

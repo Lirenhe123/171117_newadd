@@ -81,6 +81,7 @@ public class QX_02436_List extends TxtRspHandler {
 					BranchNew bn = new BranchNew();
 					bn.id = id;
 					bn.title = title;
+					
 					// -----------------------------------------------------
 //					 System.out.println(bn.id);
 //					 System.out.println(bn.title);

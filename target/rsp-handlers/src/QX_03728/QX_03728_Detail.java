@@ -19,6 +19,7 @@ public class QX_03728_Detail extends TxtRspHandler {
 
 	public class Response extends TxtBaseResponse {
 		String content;
+		String date;
 	}
 
 	@Override
@@ -54,6 +55,14 @@ public class QX_03728_Detail extends TxtRspHandler {
 						style.remove();
 					}
 				}
+				
+				Element date_html=titleAndContent.select("div[class=msgbar]").first();
+				String date_str=null;
+				if(date_html!=null){
+					date_str=date_html.text();
+					date_str=date_str.replaceAll("(.*)(20\\d{2}-\\d{2}-\\d{2})(.*)", "$2");
+				}
+				response.date=date_str;
 				
 				Element removeOne=titleAndContent.select("div[class=msgbar]").first();
 				if(removeOne!=null){

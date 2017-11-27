@@ -1,0 +1,571 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link type="text/css" href="../css/GeneralPage.css" rel="Stylesheet" />
+
+    <script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+
+    <script type="text/javascript" src="../js/General.js"></script>
+
+    <script type="text/javascript" src="../js/TopMenuControl.js"></script>
+    
+  
+
+    
+    <link type="text/css" href="../css/Third.css" rel="Stylesheet" />
+    <link href="../css/ButtonStyle.css" rel="stylesheet" type="text/css" />
+    <script src="../js/layer/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="../js/layer/layer.min.js" type="text/javascript"></script>
+    <script src="../js/General.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    function openwin() {
+    var url="BMDPrint.aspx?AfficheID="+$("#" + 'ctl00_ContentPlaceHolder1_AfficheID').val()+"&LoginName="+$("#" + 'ctl00_ContentPlaceHolder1_WebUserName').val();
+    var a = document.createElement("a");
+    a.setAttribute("href", url);
+    a.setAttribute("target", "_blank");
+    a.setAttribute("id", "openwin");
+    document.body.appendChild(a);
+    a.click();
+}
+    </script>
+    <style type="text/css">
+        #PageMain .Content .AfficheContent *  
+        {
+            font-size:14pt;
+        }
+        
+    </style>
+
+
+    <script type="text/javascript">
+        $(document).ready(function()
+        {
+            $("#Links select").change(function() { window.open(this.value, "_blank"); });
+        });
+    </script>
+
+<title>
+	海城市析木新城养老服务中心消防改造项目
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="BulletinBrowse.aspx?id=9698" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE4Mjk2NDUwMzIPZBYCZg9kFgICAw9kFgoCAQ8WAh4JaW5uZXJodG1sBcAFPHVsPiANCjxsaSBjbGFzcz0nZmlyc3QnPjxhIGhyZWY9Jy4uL01vZHVsZS9Nb2R1bGVWaWV3LmFzcHg/TW9kdWxlSUQ9MTYnPummlumhtTwvYT48L2xpPiANCjxsaT48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTEnPuaUv+etluazleinhDwvYT48L2xpPiANCjxsaT48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTQnPuS4reW/g+WKqOaAgTwvYT48L2xpPiANCjxsaT48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTcnPuS4reW/g+S7i+e7jTwvYT48L2xpPiANCjxsaT48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTE3Jz7lu7rorr7lt6XnqIs8L2E+PC9saT4gDQo8bGk+PGEgaHJlZj0nLi4vTW9kdWxlL01vZHVsZVZpZXcuYXNweD9Nb2R1bGVJRD0xOCc+5pS/5bqc6YeH6LStPC9hPjwvbGk+IA0KPGxpPjxhIGhyZWY9Jy4uL01vZHVsZS9Nb2R1bGVWaWV3LmFzcHg/TW9kdWxlSUQ9MTknPuWcn+WcsOS6pOaYkzwvYT48L2xpPiANCjxsaT48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTIwJz7kuqfmnYPkuqTmmJM8L2E+PC9saT4gDQo8bGk+PGEgaHJlZj0nLi4vTW9kdWxlL01vZHVsZVZpZXcuYXNweD9Nb2R1bGVJRD0xMic+572R5LiK5pyN5YqhPC9hPjwvbGk+IA0KPC91bD4gDQpkAgMPFgIfAAWOGDx1bD4gDQo8L3VsPiANCjx1bD4gDQo8bGkgY2xhc3M9J2ZpcnN0Jz48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTEmVmlld0lEPTInPuaUv+etluaWh+S7tjwvYT48L2xpPiANCjxsaT48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTEmVmlld0lEPTMnPuazleW+i+azleinhDwvYT48L2xpPiANCjwvdWw+IA0KPHVsPiANCjxsaSBjbGFzcz0nZmlyc3QnPjxhIGhyZWY9Jy4uL01vZHVsZS9Nb2R1bGVWaWV3LmFzcHg/TW9kdWxlSUQ9NCZWaWV3SUQ9NSc+5paw6Ze75Yqo5oCBPC9hPjwvbGk+IA0KPGxpPjxhIGhyZWY9Jy4uL01vZHVsZS9Nb2R1bGVWaWV3LmFzcHg/TW9kdWxlSUQ9NCZWaWV3SUQ9Nic+5YWs5ZGK6YCa55+lPC9hPjwvbGk+IA0KPC91bD4gDQo8dWw+IA0KPGxpIGNsYXNzPSdmaXJzdCc+PGEgaHJlZj0nLi4vTW9kdWxlL01vZHVsZVZpZXcuYXNweD9Nb2R1bGVJRD03JlZpZXdJRD04Jz7kuK3lv4PnroDku4s8L2E+PC9saT4gDQo8bGk+PGEgaHJlZj0nLi4vTW9kdWxlL01vZHVsZVZpZXcuYXNweD9Nb2R1bGVJRD03JlZpZXdJRD0xNDQnPuS6pOaYk+a1geeoizwvYT48L2xpPiANCjxsaT48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTcmVmlld0lEPTE0NSc+5Lqk5piT5Yi25bqmPC9hPjwvbGk+IA0KPGxpPjxhIGhyZWY9Jy4uL01vZHVsZS9Nb2R1bGVWaWV3LmFzcHg/TW9kdWxlSUQ9NyZWaWV3SUQ9MTEnPuiBlOezu+aWueW8jzwvYT48L2xpPiANCjwvdWw+IA0KPHVsPiANCjxsaSBjbGFzcz0nZmlyc3QnPjxhIGhyZWY9Jy4uL01vZHVsZS9Nb2R1bGVWaWV3LmFzcHg/TW9kdWxlSUQ9MTcmVmlld0lEPTIyJz7lip7kuovmjIfljZc8L2E+PC9saT4gDQo8bGk+PGEgaHJlZj0nLi4vTW9kdWxlL01vZHVsZVZpZXcuYXNweD9Nb2R1bGVJRD0xNyZWaWV3SUQ9MjMnPui1hOaWmeS4i+i9vTwvYT48L2xpPiANCjxsaT48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTE3JlZpZXdJRD0yNCc+5oub5qCH5YWs5ZGKPC9hPjwvbGk+IA0KPGxpPjxhIGhyZWY9Jy4uL01vZHVsZS9Nb2R1bGVWaWV3LmFzcHg/TW9kdWxlSUQ9MTcmVmlld0lEPTI1Jz7nvZHkuIrmiqXlkI08L2E+PC9saT4gDQo8bGk+PGEgaHJlZj0nLi4vTW9kdWxlL01vZHVsZVZpZXcuYXNweD9Nb2R1bGVJRD0xNyZWaWV3SUQ9MjYnPuabtOato+etlOeWkTwvYT48L2xpPiANCjxsaT48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTE3JlZpZXdJRD0yOCc+5byA5qCH6K6w5b2VPC9hPjwvbGk+IA0KPGxpPjxhIGhyZWY9Jy4uL01vZHVsZS9Nb2R1bGVWaWV3LmFzcHg/TW9kdWxlSUQ9MTcmVmlld0lEPTI5Jz7kuK3moIflhaznpLo8L2E+PC9saT4gDQo8bGk+PGEgaHJlZj0nLi4vTW9kdWxlL01vZHVsZVZpZXcuYXNweD9Nb2R1bGVJRD0xNyZWaWV3SUQ9MTQzJz7kuK3moIfnu5Pmnpw8L2E+PC9saT4gDQo8L3VsPiANCjx1bD4gDQo8bGkgY2xhc3M9J2ZpcnN0Jz48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTE4JlZpZXdJRD0zMyc+5Yqe5LqL5oyH5Y2XPC9hPjwvbGk+IA0KPGxpPjxhIGhyZWY9Jy4uL01vZHVsZS9Nb2R1bGVWaWV3LmFzcHg/TW9kdWxlSUQ9MTgmVmlld0lEPTM2Jz7ph4fotK3lhazlkYo8L2E+PC9saT4gDQo8bGk+PGEgaHJlZj0nLi4vTW9kdWxlL01vZHVsZVZpZXcuYXNweD9Nb2R1bGVJRD0xOCZWaWV3SUQ9MzcnPue9keS4iuaKpeWQjTwvYT48L2xpPiANCjxsaT48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTE4JlZpZXdJRD0zOCc+5pu05q2j562U55aRPC9hPjwvbGk+IA0KPGxpPjxhIGhyZWY9Jy4uL01vZHVsZS9Nb2R1bGVWaWV3LmFzcHg/TW9kdWxlSUQ9MTgmVmlld0lEPTQwJz7kuK3moIflhaznpLo8L2E+PC9saT4gDQo8L3VsPiANCjx1bD4gDQo8bGkgY2xhc3M9J2ZpcnN0Jz48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTE5JlZpZXdJRD00Myc+5Yqe5LqL5oyH5Y2XPC9hPjwvbGk+IA0KPGxpPjxhIGhyZWY9Jy4uL01vZHVsZS9Nb2R1bGVWaWV3LmFzcHg/TW9kdWxlSUQ9MTkmVmlld0lEPTQ1Jz7lnLDlnZflhazlkYo8L2E+PC9saT4gDQo8bGk+PGEgaHJlZj0nLi4vTW9kdWxlL01vZHVsZVZpZXcuYXNweD9Nb2R1bGVJRD0xOSZWaWV3SUQ9NDYnPue9keS4iuaKpeWQjTwvYT48L2xpPiANCjxsaT48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTE5JlZpZXdJRD00OSc+5Lit5qCH5YWs56S6PC9hPjwvbGk+IA0KPC91bD4gDQo8dWw+IA0KPGxpIGNsYXNzPSdmaXJzdCc+PGEgaHJlZj0nLi4vTW9kdWxlL01vZHVsZVZpZXcuYXNweD9Nb2R1bGVJRD0yMCZWaWV3SUQ9NTEnPuWKnuS6i+aMh+WNlzwvYT48L2xpPiANCjxsaT48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTIwJlZpZXdJRD01Mic+6LWE5paZ5LiL6L29PC9hPjwvbGk+IA0KPGxpPjxhIGhyZWY9Jy4uL01vZHVsZS9Nb2R1bGVWaWV3LmFzcHg/TW9kdWxlSUQ9MjAmVmlld0lEPTUzJz7kuqfmnYPlhazlkYo8L2E+PC9saT4gDQo8bGk+PGEgaHJlZj0nLi4vTW9kdWxlL01vZHVsZVZpZXcuYXNweD9Nb2R1bGVJRD0yMCZWaWV3SUQ9NTQnPue9keS4iuaKpeWQjTwvYT48L2xpPiANCjwvdWw+IA0KPHVsPiANCjxsaSBjbGFzcz0nZmlyc3QnPjxhIGhyZWY9Jy4uL01vZHVsZS9Nb2R1bGVWaWV3LmFzcHg/TW9kdWxlSUQ9MTImVmlld0lEPTc4Jz7mipXor4nlkqjor6I8L2E+PC9saT4gDQo8bGk+PGEgaHJlZj0nLi4vTW9kdWxlL01vZHVsZVZpZXcuYXNweD9Nb2R1bGVJRD0xMiZWaWV3SUQ9MTUnPue9keS4iuaKpeWQjTwvYT48L2xpPiANCjxsaT48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTEyJlZpZXdJRD0xNjcnPue9keS4iuazqOWGjDwvYT48L2xpPiANCjxsaT48YSBocmVmPScuLi9Nb2R1bGUvTW9kdWxlVmlldy5hc3B4P01vZHVsZUlEPTEyJlZpZXdJRD0xNjgnPue9keS4iuW3suaKpeWQjemhueebrjwvYT48L2xpPiANCjwvdWw+IA0KZAIFDw8WAh4EVGV4dAUS5oKo5bCa5pyq55m76ZmG44CCZGQCBw8PFgIfAQUgMjAxN+W5tDEx5pyIMjLml6UmbmJzcDvmmJ/mnJ/kuIlkZAIJD2QWCGYPZBYIAgEPDxYCHwEFBDY0NTNkZAIDDw8WAh8BBQIxMWRkAgUPDxYCHwEFBDk2OThkZAILDw8WAh4HRW5hYmxlZGhkZAIBDw8WAh8BBQ5IQ0dDMjAxNzAyMDAtMWRkAgIPDxYCHwEFOea1t+WfjuW4guaekOacqOaWsOWfjuWFu+iAgeacjeWKoeS4reW/g+a2iOmYsuaUuemAoOmhueebrmRkAgMPDxYCHwFlZGRkmTgCD3vrTL/5DaxeXIDqOeunxek=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4ADDFFAC" />
+</div>
+    <div id="PageArea">
+        <div id="PageTop">
+            <div id="TopWelcome">
+                <div id="Welcome">
+                    欢迎访问海城市公共资源交易网！</div>
+                <div id="Command">
+                    <a class="first" onclick="SetHome()">设为首页</a>
+                    <a onclick="AddFavorite()">加入收藏</a>
+                    <a href="/Module/ModuleView.aspx?ModuleID=7&ViewID=11">联系我们</a>
+                </div>
+            </div>
+            <div id="TopFlash">
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,22,0"
+                    width="961" height="166">
+                    <param name="movie" value="../swf/top.swf" />
+                    <param name="quality" value="high" />
+                    <embed src="../swf/top.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer"
+                        type="application/x-shockwave-flash" width="961" height="166"></embed>
+                </object>
+            </div>
+            <div id="ctl00_TopMenu" class="TopMenu"><ul> 
+<li class='first'><a href='../Module/ModuleView.aspx?ModuleID=16'>首页</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=1'>政策法规</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=4'>中心动态</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=7'>中心介绍</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=17'>建设工程</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=18'>政府采购</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=19'>土地交易</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=20'>产权交易</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=12'>网上服务</a></li> 
+</ul> 
+</div>
+            <div id="ctl00_TopSubMenu" class="TopSubMenu"><ul> 
+</ul> 
+<ul> 
+<li class='first'><a href='../Module/ModuleView.aspx?ModuleID=1&ViewID=2'>政策文件</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=1&ViewID=3'>法律法规</a></li> 
+</ul> 
+<ul> 
+<li class='first'><a href='../Module/ModuleView.aspx?ModuleID=4&ViewID=5'>新闻动态</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=4&ViewID=6'>公告通知</a></li> 
+</ul> 
+<ul> 
+<li class='first'><a href='../Module/ModuleView.aspx?ModuleID=7&ViewID=8'>中心简介</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=7&ViewID=144'>交易流程</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=7&ViewID=145'>交易制度</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=7&ViewID=11'>联系方式</a></li> 
+</ul> 
+<ul> 
+<li class='first'><a href='../Module/ModuleView.aspx?ModuleID=17&ViewID=22'>办事指南</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=17&ViewID=23'>资料下载</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=17&ViewID=24'>招标公告</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=17&ViewID=25'>网上报名</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=17&ViewID=26'>更正答疑</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=17&ViewID=28'>开标记录</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=17&ViewID=29'>中标公示</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=17&ViewID=143'>中标结果</a></li> 
+</ul> 
+<ul> 
+<li class='first'><a href='../Module/ModuleView.aspx?ModuleID=18&ViewID=33'>办事指南</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=18&ViewID=36'>采购公告</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=18&ViewID=37'>网上报名</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=18&ViewID=38'>更正答疑</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=18&ViewID=40'>中标公示</a></li> 
+</ul> 
+<ul> 
+<li class='first'><a href='../Module/ModuleView.aspx?ModuleID=19&ViewID=43'>办事指南</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=19&ViewID=45'>地块公告</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=19&ViewID=46'>网上报名</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=19&ViewID=49'>中标公示</a></li> 
+</ul> 
+<ul> 
+<li class='first'><a href='../Module/ModuleView.aspx?ModuleID=20&ViewID=51'>办事指南</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=20&ViewID=52'>资料下载</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=20&ViewID=53'>产权公告</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=20&ViewID=54'>网上报名</a></li> 
+</ul> 
+<ul> 
+<li class='first'><a href='../Module/ModuleView.aspx?ModuleID=12&ViewID=78'>投诉咨询</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=12&ViewID=15'>网上报名</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=12&ViewID=167'>网上注册</a></li> 
+<li><a href='../Module/ModuleView.aspx?ModuleID=12&ViewID=168'>网上已报名项目</a></li> 
+</ul> 
+</div>
+            <div id="TopInfo">
+                <span id="ctl00_TopInfoLeft" class="TopInfoLeft">您尚未登陆。</span>
+                <span id="ctl00_TopInfoRight" class="TopInfoRight">2017年11月22日&nbsp;星期三</span>
+            </div>
+        </div>
+        
+        
+    
+    <div id="PageMain">
+        <div id="MainTitle" class="Title">
+            <div class="Right">
+            当前位置：<span>首页 > 建设工程  > 招标公告</span></div>
+        </div>
+        <div class="Content">
+            
+            <div style="display: none" class="AfficheTitle">
+                <span>
+                    海城市析木新城养老服务中心消防改造项目</span>
+            </div>
+            
+            <div class="AfficheContent">
+                <span style=" font-size:20px;">
+                    <html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=x-cp20936">
+<meta name=Generator content="Microsoft Word 11 (filtered)">
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:Calibri;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	layout-grid-mode:char;
+	border:none;
+	padding:0cm;
+	font-size:9.0pt;
+	font-family:Calibri;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:Calibri;}
+ /* Page Definitions */
+ @page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 2.0cm 72.0pt 2.0cm;
+	layout-grid:15.6pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=ZH-CN style='text-justify-trim:punctuation'>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal style='margin-right:-.75pt;text-indent:35.0pt;line-height:
+150%'><span style='font-size:14.0pt;line-height:150%;font-family:宋体'>海城市析木新城养老服务中心消防改造项目</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>已由析经发【<span
+lang=EN-US>2017</span>】<span lang=EN-US>25</span>号文件批准建设，招标人为海城市析木新城养老服务中心，工程建设资金已落实，该项目已具备招标条件，现通过公开招标择优选择具备资格条件的法人单位，现将有关事宜公告如下：</span></p>
+
+<p class=MsoNormal style='margin-right:-.75pt;text-indent:35.0pt;line-height:
+150%'><span lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:
+宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:宋体'>一<span lang=EN-US>.</span>项目概况：</span></p>
+
+<p class=MsoNormal style='text-indent:14.0pt;line-height:150%'><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:宋体'>1.</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>项目名称：海城市析木新城养老服务中心消防改造项目</span></p>
+
+<p class=MsoNormal style='text-indent:14.0pt;line-height:150%'><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:宋体'>2.</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>招标单位：海城市析木新城养老服务中心</span></p>
+
+<p class=MsoNormal style='margin-right:-.75pt;text-indent:14.0pt;line-height:
+150%'><span lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:
+宋体'>3.</span><span style='font-size:14.0pt;line-height:150%;font-family:宋体'>建设地点：海城市岔沟镇</span></p>
+
+<p class=MsoNormal style='margin-left:97.95pt;text-indent:-84.0pt;line-height:
+150%'><span lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:
+宋体'>4.</span><span style='font-size:14.0pt;line-height:150%;font-family:宋体'>工程规模及内容：投资额<span
+lang=EN-US>116</span>万元，包括改造喷淋系统、水系统、火灾报警系统。</span></p>
+
+<p class=MsoNormal style='text-indent:14.0pt;line-height:150%'><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:宋体'>5.</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>资金来源：中央资金<span
+lang=EN-US>+</span>地方财政性资金</span></p>
+
+<p class=MsoNormal style='margin-left:14.05pt;line-height:150%'><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:宋体'>6.</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>工期要求：<span lang=EN-US>2017</span>年<span lang=EN-US>12</span>月<span lang=EN-US>20</span>日开工至<span lang=EN-US>2018</span>年<span lang=EN-US>2</span>月<span lang=EN-US>18</span>日竣工，计划工期<span
+lang=EN-US>60</span>日历天。</span></p>
+
+<p class=MsoNormal style='margin-left:28.05pt;text-indent:-14.0pt;line-height:
+150%'><span lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:
+宋体'>7.</span><span style='font-size:14.0pt;line-height:150%;font-family:宋体'>招标范围：施工图纸范围内的全部施工内容</span></p>
+
+<p class=MsoNormal style='margin-left:28.05pt;text-indent:-14.0pt;line-height:
+150%'><span lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:
+宋体'>8.</span><span style='font-size:14.0pt;line-height:150%;font-family:宋体'>投标保证金：壹万元</span></p>
+
+<p class=MsoNormal style='margin-left:28.05pt;text-indent:-14.0pt;line-height:
+150%'><span lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:
+宋体'>9.</span><span style='font-size:14.0pt;line-height:150%;font-family:宋体'>招标方式：资格后审</span></p>
+
+<p class=MsoNormal style='margin-left:28.05pt;text-indent:-14.0pt;line-height:
+150%'><span lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:
+宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:宋体'>二<span lang=EN-US>.</span>投标人资格要求：</span></p>
+
+<p class=MsoNormal style='margin-right:-.75pt;line-height:150%'><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:宋体'>&nbsp; 1</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>、具有独立法人资格；<span
+lang=EN-US>2</span>、消防设施工程专业承包二级（含二级）以上资质；<span lang=EN-US> 3</span>、机电工程二级<span
+lang=EN-US>(</span>含<span lang=EN-US>)</span>以上注册建造师及<span lang=EN-US>B</span>证；<span
+lang=EN-US>4</span>、具有建设行政主管部门核发的安全生产许可证；<span lang=EN-US>5</span>、委托代理人应具有与投标人签订的一年以上（含一年）的劳动合同或经人社部门认定盖章的社会养老保险关系证明；<span
+lang=EN-US>6</span>、企业无行贿犯罪记录。</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:宋体'>三<span lang=EN-US>.</span>投标报名：</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-size:
+14.0pt;line-height:150%;font-family:宋体'>&nbsp; 1.</span><span lang=EN-US
+style='font-size:14.0pt;line-height:150%;font-family:宋体'> </span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>报名方式：有意参加投标的投标单位，通过网上报名的方式进行报名并打印回执单，报名网站名称为海城市公共资源交易网（</span><span
+lang=EN-US style='line-height:150%;font-family:宋体'><a
+href="http://www.hcggzy.com"><span style='line-height:150%;color:windowtext;
+text-decoration:none'>www.hcsggzy.com</span></a></span><span style='line-height:
+150%;font-family:宋体'>）</span><span style='font-size:14.0pt;line-height:150%;
+font-family:宋体'>。</span></p>
+
+<p class=MsoNormal style='margin-left:14.05pt;text-indent:0cm;line-height:150%'><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:宋体'>2.</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>报名时间：详见辽宁省招标投标监管网。</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:宋体'>四<span lang=EN-US>.</span>招标文件的获取：</span></p>
+
+<p class=MsoNormal style='margin-left:14.05pt;line-height:150%'><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:宋体'>1.</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>获取时间：</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>详见辽宁省招标投标监管网</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>。</span></p>
+
+<p class=MsoNormal style='margin-left:14.05pt;line-height:150%'><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:宋体'>2.</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>获取方式：投标人持报名回执单到招标代理机构购买招标文件。</span></p>
+
+<p class=MsoNormal style='text-indent:14.0pt;line-height:150%'><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:宋体'>3.</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>招标文件费用：<span
+lang=EN-US>500</span>元<span lang=EN-US>/</span>标段，售后不退不换。</span></p>
+
+<p class=MsoNormal style='margin-right:21.0pt;text-indent:14.0pt;line-height:
+150%;punctuation-trim:leading'><span lang=EN-US style='font-size:14.0pt;
+line-height:150%;font-family:宋体'>4.</span><span style='font-size:14.0pt;
+line-height:150%;font-family:宋体'>交纳方式：现金缴纳 </span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-size:
+14.0pt;line-height:150%;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:宋体'>五<span lang=EN-US>.</span>开标时间及地点：</span></p>
+
+<p class=MsoNormal style='margin-left:14.05pt;line-height:150%'><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:宋体'>1.</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>投标文件递交的截至时间</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>详见辽宁省招标投标监管网</span><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:宋体'>(</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>具体开标时间以招标文件为准<span
+lang=EN-US>)</span>请各投标单位将投标文件递交到海城市公共资源交易中心。</span></p>
+
+<p class=MsoNormal style='text-indent:14.0pt;line-height:150%'><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:宋体'>2</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>．逾期送达或未送达到指定地点的投标文件，招标人不予受理。</span></p>
+
+<p class=MsoNormal style='text-indent:14.0pt;line-height:150%'><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:宋体'>3.</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>投标截止时间与开标时间是否有变化，请关注本次招标答疑中的相关信息。</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-size:
+14.0pt;line-height:150%;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:宋体'>六<span lang=EN-US>.</span>发布招标公告的媒介：</span></p>
+
+<p class=MsoNormal style='margin-left:14.05pt;text-indent:28.0pt;line-height:
+150%'><span style='font-size:14.0pt;line-height:150%;font-family:宋体'>本招标公告已在辽宁省招标投标监管网上发布，同时在海城市公共资源交易网上发布。</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-size:
+14.0pt;line-height:150%;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:14.0pt;line-height:150%'><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>七<span lang=EN-US>.</span>联系方式：</span></p>
+
+<p class=MsoNormal style='text-indent:14.0pt'><span style='font-size:14.0pt;
+font-family:宋体'>招标人：</span><span style='font-size:14.0pt;font-family:宋体'>海城市析木新城养老服务中心</span></p>
+
+<p class=MsoNormal style='text-indent:14.0pt;line-height:150%'><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>地址：</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>海城市岔沟镇</span></p>
+
+<p class=MsoNormal style='text-indent:14.0pt;line-height:150%'><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>联系人：</span><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>许成旭</span></p>
+
+<p class=MsoNormal style='text-indent:14.0pt;line-height:150%'><span
+style='font-size:14.0pt;line-height:150%;font-family:宋体'>电话：<span lang=EN-US>13604122785</span></span></p>
+
+<p class=MsoNormal style='margin-right:-.85pt;text-indent:14.0pt;line-height:
+150%'><span style='font-size:14.0pt;line-height:150%;font-family:宋体'>招标代理：辽宁富隆工程管理咨询服务有限公司</span></p>
+
+<p class=MsoNormal style='margin-right:-.85pt;text-indent:14.0pt;line-height:
+150%'><span style='font-size:14.0pt;line-height:150%;font-family:宋体'>开 户 行：中国邮政储蓄银行顺城支行</span></p>
+
+<p class=MsoNormal style='margin-right:-.85pt;text-indent:14.0pt;line-height:
+150%'><span style='font-size:14.0pt;line-height:150%;font-family:宋体'>帐<span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span>号：<span lang=EN-US>921000010014918895</span></span></p>
+
+<p class=MsoNormal style='margin-right:-.85pt;text-indent:14.0pt;line-height:
+150%'><span style='font-size:14.0pt;line-height:150%;font-family:宋体'>地<span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span>址：海城市经济开发区唯美品格小区南门</span></p>
+
+<p class=MsoNormal style='margin-right:-.85pt;text-indent:14.0pt;line-height:
+150%'><span style='font-size:14.0pt;line-height:150%;font-family:宋体'>邮<span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span>编：<span lang=EN-US>114200</span></span></p>
+
+<p class=MsoNormal style='margin-right:-.85pt;text-indent:14.0pt;line-height:
+150%'><span style='font-size:14.0pt;line-height:150%;font-family:宋体'>电<span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span>话：<span lang=EN-US>0412-3206066&nbsp;
+15242881907</span></span></p>
+
+<p class=MsoNormal style='margin-right:-.85pt;text-indent:14.0pt;line-height:
+150%'><span style='font-size:14.0pt;line-height:150%;font-family:宋体'>联 系 人：李苗苗</span></p>
+
+<p class=MsoNormal style='margin-right:21.0pt;text-indent:14.0pt;line-height:
+150%;punctuation-trim:leading'><span style='font-size:14.0pt;line-height:150%;
+font-family:宋体'>交易部门：海城市公共资源交易中心</span></p>
+
+<p class=MsoNormal style='margin-right:21.0pt;text-indent:14.0pt;line-height:
+150%;punctuation-trim:leading'><span style='font-size:14.0pt;line-height:150%;
+font-family:宋体'>开户行：中国建设银行股份有限公司海城支行</span></p>
+
+<p class=MsoNormal style='margin-right:21.0pt;text-indent:14.0pt;line-height:
+150%;punctuation-trim:leading'><span style='font-size:14.0pt;line-height:150%;
+font-family:宋体'>账户：<span lang=EN-US>21001630703052503770</span></span></p>
+
+<p class=MsoNormal style='margin-right:21.0pt;text-indent:14.0pt;line-height:
+150%;punctuation-trim:leading'><span style='font-size:14.0pt;line-height:150%;
+font-family:宋体'>地址：海城经济开发区兴海大街<span lang=EN-US>234</span>号</span></p>
+
+<p class=MsoNormal style='margin-right:21.0pt;text-indent:14.0pt;line-height:
+150%;punctuation-trim:leading'><span style='font-size:14.0pt;line-height:150%;
+font-family:宋体'>联系人：李海君</span></p>
+
+<p class=MsoNormal style='margin-right:21.0pt;text-indent:14.0pt;line-height:
+150%;punctuation-trim:leading'><span style='font-size:14.0pt;line-height:150%;
+font-family:宋体'>联系电话：<span lang=EN-US>0412-3618023</span></span></p>
+
+<p class=MsoNormal style='margin-right:49.0pt;text-indent:98.0pt;punctuation-trim:
+leading'><span lang=EN-US style='font-size:14.0pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:29.9pt;text-indent:182.0pt;punctuation-trim:
+leading'><span style='font-size:14.0pt;font-family:宋体'>辽宁富隆工程管理咨询服务有限公司</span></p>
+
+<p class=MsoNormal align=center style='margin-right:49.0pt;text-align:center;
+punctuation-trim:leading'><span lang=EN-US style='font-size:14.0pt;font-family:
+宋体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>2017</u><span lang=EN-US><span lang=EN-US>年<u> 11</u></span></span><span lang=EN-US><span
+ lang=EN-US>月<u> 2</u></span></span><u>1</u></span><span style='font-size:14.0pt;
+font-family:宋体'>日</span></p>
+
+</div>
+
+</body>
+
+</html>
+
+                </span>
+            </div>
+            
+            <div>
+                <div class='AfficheAccessory'>
+        <div class='AccessoryTitle'>
+            相关附件：</div>
+        <ul><li><a href='../uploadNoticeFile/131557000139092089.jpg'>合同6.JPG</a></li><li><a href='../uploadNoticeFile/131557000184332168.jpg'>合同5.JPG</a></li><li><a href='../uploadNoticeFile/131557000226296242.jpg'>合同4.JPG</a></li><li><a href='../uploadNoticeFile/131557000275904329.jpg'>合同3.JPG</a></li><li><a href='../uploadNoticeFile/131557000317868403.jpg'>合同2.JPG</a></li><li><a href='../uploadNoticeFile/131557000367008489.jpg'>合同1.JPG</a></li><li><a href='../uploadNoticeFile/131557000429876600.jpg'>公告尾页.JPG</a></li> </ul></div>
+            </div>
+             
+           
+        </div>
+    </div>
+
+    <div class="Hidden">
+        <span id="ctl00_ContentPlaceHolder1_DB_TenderNo">HCGC20170200-1</span>
+        <span id="ctl00_ContentPlaceHolder1_DB_TenderName">海城市析木新城养老服务中心消防改造项目</span>
+        <span id="ctl00_ContentPlaceHolder1_DB_BidDeposit"></span>
+        <span id="ctl00_ContentPlaceHolder1_DB_EnterpriseName"></span>
+    </div>
+    
+    <div class="Hidden" id="ff" style="padding:30px 20px;text-align:center;width:360px;">
+    
+        <input type="button" value="个人网银缴存" class="stylebutton button-red" onclick="redirectTo(1);" />
+        <br />
+        <br />
+        <input type="button" value="企业网银缴存" class="stylebutton button-green" onclick="redirectTo(2);" />
+        
+    </div>
+    
+    
+    <script>
+
+        function show() {
+
+            layerHtmlPage2(ff);
+        }
+    
+        function redirectTo(type) 
+        {
+            //跳转到建行网银支付页面代码
+            var ORDERID = '201711220923248571';
+            var PAYMENT = $("#" + 'ctl00_ContentPlaceHolder1_DB_BidDeposit').html();
+            var PROJECTNO = $("#" + 'ctl00_ContentPlaceHolder1_DB_TenderNo').html();
+            var PROINFO = $("#" + 'ctl00_ContentPlaceHolder1_DB_TenderName').html();
+            var REGINFO = $("#" + 'ctl00_ContentPlaceHolder1_DB_EnterpriseName').html();
+
+            if (parseFloat(PAYMENT) <= 0) {
+                alert("此项目不需要缴存投标保证金！");
+                return;
+            }
+
+            var url = "BulletinBrowse.aspx/SaveOrderID";
+            execJqueryJsonAjax(url, "{orderId:\"" + ORDERID + "\",projectno:\""+PROJECTNO+"\"}", function(res) {
+
+                if (res.d != "") {
+                    alert(res.d);
+                    return;
+                }
+                var redirectUrl = "http://www.hcsggzy.com/IBank/Redirect.aspx?ORDERID="
+                                            + ORDERID + "&PAYMENT=" + PAYMENT + "&PROJECTNO=" + PROJECTNO + "&PROINFO=" + escape(PROINFO) + "&REGINFO=" + escape(REGINFO) + "&type=" + type;
+                window.open(redirectUrl);
+
+            }, null);
+        }
+    </script>
+
+        
+        <div id="PageBottom">
+            <div id="Links">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td>
+                            <span>友情链接</span>
+                        </td>
+                        <td width="22%">
+                            <select id="select1">
+                                <option>辽宁政府网站链接</option>
+                                <option value="http://www.liaoning.gov.cn/">辽宁省人民政府</option>
+                                <option value="http://www.anshan.gov.cn/">鞍山市人民政府</option>
+                                <option value="http://www.haicheng.gov.cn/">海城市人民政府</option>
+                            </select>
+                        </td>
+                        <td width="22%">
+                            <select id="select2">
+                                <option>辽宁纪委网站链接</option>
+                                <option value="http://www.lnsjjjc.gov.cn/">辽宁省纪委</option>
+                                <option value="http://www.asjj.gov.cn/ljzl/dhomemore.asp?typeid=27&borderid=179">鞍山市纪委</option>
+                                <option value="http://www.hcjjw.gov.cn/">海城市纪委</option>
+
+                                
+                            </select>
+                        </td>
+                        <td width="22%">
+                            <select id="select3">
+                                <option>海城本地网站链接</option>
+                                <option value="http://www.haicheng.gov.cn/">海城市人民政府</option>
+                                <option value="http://www.hcjjw.gov.cn/">海城市纪委</option>
+                            </select>
+                        </td>
+                        <td width="22%">
+                            <select id="select4">
+                                <option>其他网站链接</option>
+                                <option value="http://www.sina.com.cn/">新浪</option>
+                                <option value="http://www.163.com/">网易</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="Footer">
+                推荐IE7.0 或 IE8.0浏览器，1024x768以上分辨率<br />
+                主办单位：海城市公共资源交易中心&nbsp;&nbsp;&nbsp;&nbsp;技术支持：杭州建易建设信息技术有限公司<br />
+                网络实名：海城市公共资源交易网 
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

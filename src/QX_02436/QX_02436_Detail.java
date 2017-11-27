@@ -35,7 +35,7 @@ public class QX_02436_Detail extends TxtReqRspHandler {
 		
 		path="http://"+host+path+"?"+id;
 		
-//		System.out.println("path:"+path);
+		System.out.println("path:"+path);
 		final  int TIMEOUT_IN_MS = 100000;
 		String result = "";
 		byte[] retBytes = new byte[0];
@@ -173,7 +173,7 @@ public class QX_02436_Detail extends TxtReqRspHandler {
 				if(date_html!=null){
 					date_html_str=date_html.text().replaceAll("[\\s+]", "");
 					
-					System.out.println(date_html_str);
+//					System.out.println(date_html_str);
 					
 					String regex="(.*)(20\\d{2})(.{1})(\\d+)(.{1})(\\d+)(.*)";
 					Pattern pattern=Pattern.compile(regex);
@@ -185,12 +185,19 @@ public class QX_02436_Detail extends TxtReqRspHandler {
 						year=matcher.group(2);
 						month=matcher.group(4);
 						day=matcher.group(6);
+						if(month.length()<2){
+							month="0"+month;
+						}
+						if(day.length()<2){
+							day="0"+day;
+						}
 					}
 					date_html_str=year+"-"+month+"-"+day;
+					
 				}
 				response.date=date_html_str;
 				
-				System.out.println(date_html_str);
+//				System.out.println(date_html_str);
 				
 				
 				Element removeOne=titleAndContent.select("div[class=position]").first();

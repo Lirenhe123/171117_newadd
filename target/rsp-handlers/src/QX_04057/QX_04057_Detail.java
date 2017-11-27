@@ -27,10 +27,18 @@ public class QX_04057_Detail extends TxtRspHandler{
 
 	@Override
 	protected TxtRspObject processTxtRspContent(RspState arg0, String arg1) {
+//		System.out.println(arg1);
 		Response response =  new Response();
 		try{
 			Document doc =Jsoup.parse(arg1);
 			String title =doc.select("font#titlezoom").html().trim();
+			if(title==null||title.equals("null")){
+				title=doc.select("font[id=titlezoom]").text().trim();
+			}
+			
+			System.out.println("asdlflasldflasdllasdfl"+title
+					);
+			
 			String content =doc.select("td.hui14").html();
 			Document html=Jsoup.parse(content);
 			if(html.select("a[href]").size()>0){
@@ -48,6 +56,7 @@ public class QX_04057_Detail extends TxtRspHandler{
 				content=html.html();
 			}
 			response.title=title;
+			
 			response.content="<div>"+title+"</div>"+content;
 		}catch(Exception e){
 			e.printStackTrace();

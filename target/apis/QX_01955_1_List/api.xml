@@ -60,6 +60,15 @@
         <value>81616</value>
       </param>
     </params>
+    <!-- 01955-1
+    	listUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01955_1_List&COLLCC=3290777803&id=1337481&title=%B9%A4%B3%CC%D5%D0%B1%EA&did=81616&page=";
+    	detailUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01955_1_Detail&iw_ir_1=";
+    	
+    	
+    	 01955-1
+    	listUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01955_1_List&COLLCC=3290777803&id=81639&title=%D5%FE%B8%AE%B2%C9%B9%BA&did=81616&page=";
+    	detailUrl="http://127.0.0.1:1627/?iw-apikey=123&iw-cmd=QX_01955_1_Detail&iw_ir_1=";
+     -->
     <request-uri-replacement-pattern></request-uri-replacement-pattern>
     <request-content/>
     <request-content-type>application/x-www-form-urlencoded</request-content-type>

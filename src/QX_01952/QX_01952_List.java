@@ -46,6 +46,9 @@ public class QX_01952_List extends TxtRspHandler {
 
 	@Override
 	protected TxtRspObject processTxtRspContent(RspState rspState, String originTxtRspContent) {
+		System.out.println(originTxtRspContent);
+		
+		
 		Response response = new Response();
 		if (rspState == rsp) {
 			try {

@@ -8,6 +8,9 @@ import java.util.List;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import cn.internetware.phone.extension.reqrsp.IwRequest;
+import cn.internetware.phone.extension.reqrsp.IwResponse;
+import cn.internetware.phone.extension.reqrsp.impl.TxtReqRspHandler;
 import cn.internetware.phone.extension.response.RspState;
 import cn.internetware.phone.extension.response.TxtRspObject;
 import cn.internetware.phone.extension.response.impl.TxtBaseResponse;
@@ -44,6 +47,8 @@ public class QX_02441_List extends TxtRspHandler {
 	@Override
 	protected TxtRspObject processTxtRspContent(RspState rspState,
 			String originTxtRspContent) {
+		System.out.println("lsflaslLASDLFALSDFLASDL:"+originTxtRspContent);
+		
 		Response response = new Response();
 		if (rspState == RspState.Login) {
 			try {
@@ -95,4 +100,21 @@ public class QX_02441_List extends TxtRspHandler {
 			e.printStackTrace();
 		}
 	}
+
+	/*@Override
+	public IwResponse sendIwRequest(IwRequest arg0) {
+		String host=arg0.getHost();
+		String path=arg0.getRequestPath();
+		String sym=arg0.getRequestContentParam("sym");
+		String type=arg0.getRequestContentParam("type");
+		
+		
+		System.out.println("host:"+host);
+		System.out.println("path:"+path);
+		System.out.println("sym:"+sym);
+		System.out.println("type:"+type);
+		
+		
+		return null;
+	}*/
 }
